@@ -5,7 +5,7 @@
  - Récepteur 433mhz (pour télécommande)
  - Capteur température
  - 4 sorties prises
- - Wifi et/ou Ethernet
+ - Wifi et Ethernet
 
 ## Choix techniques
  - ESP semble suffisant pour le projet (avec shield ethernet si besoin)
