@@ -1,4 +1,4 @@
-# Energy Monitory
+# ePanel Energy Monitory
 
 ## Notes
 
