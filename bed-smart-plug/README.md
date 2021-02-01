@@ -6,6 +6,7 @@
  - Capteur température
  - 4 sorties prises
  - Wifi et Ethernet
+ - Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
 
 ## Choix techniques
  - ESP semble suffisant pour le projet (avec shield ethernet si besoin)
@@ -24,7 +25,7 @@
  - Prises : https://www.leroymerlin.fr/v3/p/produits/quadruple-prise-avec-terre-mosaic-legrand-blanc-e41326
  - ENC28J60 Ethernet Shield Module : https://www.amazon.fr/dp/B07V5HZSVK
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
- - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51
+ - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
  - ESP8266 : https://www.amazon.fr/dp/B074Q27ZBQ
  - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
  - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
