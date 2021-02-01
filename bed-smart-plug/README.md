@@ -27,7 +27,7 @@
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
  - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
  - ESP8266 : https://www.amazon.fr/dp/B074Q27ZBQ
- - ESP32 : https://www.amazon.fr/dp/B071P98VTG
+ - ESP32 : https://www.amazon.fr/dp/B071P98VTG => non, prendre des versions mieux documentées, et ou on peut connecter une antenne externe !!!
  - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
  - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
  - Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
