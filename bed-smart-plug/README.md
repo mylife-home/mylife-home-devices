@@ -5,7 +5,7 @@
  - Récepteur 433mhz (pour télécommande)
  - Capteur température
  - 4 sorties prises
- - Wifi et Ethernet
+ - Wifi et (Ethernet ?)
  - Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
 
 ## Choix techniques
@@ -27,6 +27,7 @@
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
  - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
  - ESP8266 : https://www.amazon.fr/dp/B074Q27ZBQ
+ - ESP32 : https://www.amazon.fr/dp/B071P98VTG
  - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
  - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
  - Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
