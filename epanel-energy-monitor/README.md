@@ -3,8 +3,9 @@
 ## Besoin
 
  - 12 capteurs
-   - 4 sur inter diff (63A)
-   - 8 sur disjoncteur (16A => 32A)
+   - abonnement 9KVA ~ 40A
+   - 4 sur inter diff (entre 40A et 63A)
+   - 8 sur disjoncteurs (entre 16A et 32A)
  
 ## Notes
 
