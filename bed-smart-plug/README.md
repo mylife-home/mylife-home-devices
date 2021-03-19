@@ -36,3 +36,5 @@
  - NodeMcu ethernet + wifi :
    - https://github.com/UIPEthernet/UIPEthernet
    - https://github.com/UIPEthernet/UIPEthernet/blob/master/hardware/NodeMCU_enc28j60_wiring.PNG
+ - infrarouge
+   - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
