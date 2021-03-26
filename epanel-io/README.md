@@ -4,4 +4,6 @@
 
 ## Notes
 
+IRF740 -> 10A
+
 ## Links
