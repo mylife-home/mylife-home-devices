@@ -23,18 +23,15 @@
    - si assez de place : https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456006
    - Sinon  https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456005
  - Prises : https://www.leroymerlin.fr/v3/p/produits/quadruple-prise-avec-terre-mosaic-legrand-blanc-e41326
- - ENC28J60 Ethernet Shield Module : https://www.amazon.fr/dp/B07V5HZSVK
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
  - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
- - ESP8266 : https://www.amazon.fr/dp/B074Q27ZBQ
- - ESP32 : https://www.amazon.fr/dp/B071P98VTG (connecter une antenne externe ?!)
+ - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
  - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
  - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
  - Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
 
 ## Notes
- - NodeMcu ethernet + wifi :
-   - https://github.com/UIPEthernet/UIPEthernet
-   - https://github.com/UIPEthernet/UIPEthernet/blob/master/hardware/NodeMCU_enc28j60_wiring.PNG
+ - Ethernet ESPhome :
+   - https://esphome.io/components/ethernet.html
  - infrarouge
    - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
