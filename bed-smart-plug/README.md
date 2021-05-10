@@ -10,10 +10,11 @@
 
 ## Choix techniques
  - ESP semble suffisant pour le projet (avec shield ethernet si besoin)
- - SSR pour éviter claquement relais (avec une résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester)
+ - SSR pour éviter claquement relais
    - BT136 (4A max)
    - Dissipateurs ?
    - Fusible 5x20 à souder
+   - résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester
  - Prise comme alim de PC, plus facile à mettre en oeuvre
  - Capteur température : ds18b20
 
