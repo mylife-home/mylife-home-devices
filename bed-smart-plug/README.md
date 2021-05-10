@@ -20,7 +20,7 @@
 
 ## Matériel
  - Déjà en stock
-   - Récepteur 433mhz
+   - Récepteur 433mhz => à tester output 3.3V
    - ds18b20
    - fil éléctrique 1.5mm²
  - Boîtier
