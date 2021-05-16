@@ -24,7 +24,7 @@
    - fil éléctrique 1.5mm²
  - Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
  - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
- - Récepteur 433MHz : RXB6 ou AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
+ - Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
 
 ## Notes
  - Ethernet ESPhome :
