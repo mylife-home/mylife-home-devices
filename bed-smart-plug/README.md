@@ -43,3 +43,7 @@
    - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
    - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
    - http://www.farnell.com/datasheets/97984.pdf (bottom)
+   - R 39ohm => 0,02496mW
+   - R 360ohm => (very low)
+   - R 470ohm => 7,52mW
+   - C: 400V
