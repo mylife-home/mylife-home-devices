@@ -39,3 +39,7 @@
    - https://esphome.io/components/ethernet.html
  - infrarouge
    - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
+ - Schémas
+   - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
+   - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
+   - http://www.farnell.com/datasheets/97984.pdf (bottom)
