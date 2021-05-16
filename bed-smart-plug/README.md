@@ -20,18 +20,11 @@
 
 ## Matériel
  - Déjà en stock
-   - Récepteur 433mhz => à tester output 3.3V
    - ds18b20
    - fil éléctrique 1.5mm²
- - Boîtier
-   - si assez de place : https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456006
-   - Sinon  https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456005
- - Prises : https://www.leroymerlin.fr/v3/p/produits/quadruple-prise-avec-terre-mosaic-legrand-blanc-e41326
  - Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
  - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
- - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
- - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
- - Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
+ - Récepteur 433MHz : RXB6 ou AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
 
 ## Notes
  - Ethernet ESPhome :
@@ -50,3 +43,11 @@
 ## Ancien matériel
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
  - Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
+ - Récepteur 433mhz
+ - Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
+ - Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
+ - Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
+ - Boîtier
+   - si assez de place : https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456006
+   - Sinon  https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456005
+ - Prises : https://www.leroymerlin.fr/v3/p/produits/quadruple-prise-avec-terre-mosaic-legrand-blanc-e41326
