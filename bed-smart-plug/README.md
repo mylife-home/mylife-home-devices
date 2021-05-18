@@ -14,7 +14,7 @@
    - BT136 (4A max)
    - Dissipateurs ?
    - Fusible 5x20 à souder
-   - résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester
+   - résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester ?
  - Prise comme alim de PC, plus facile à mettre en oeuvre
  - Capteur température : ds18b20
 
@@ -25,6 +25,7 @@
  - Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
  - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
  - Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
+ - Prise comme alim de PC => C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
 
 ## Notes
  - Ethernet ESPhome :
