@@ -13,6 +13,7 @@
    - Mcp3208 12 bits
    - Mcp3008 10 bits
    - Arduino UNO interne 10 bits
+   - rpi pico interne 3 ADC utilisables de 12 bits
 
 ## Links
 
