@@ -28,6 +28,7 @@
  - Prise comme alim de PC => C14 :
    - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
    - voir si montage a cosses ?
+ - LED IR avec rallonge : https://www.amazon.fr/dp/B01MT59LFO
 
 ## Notes
  - Ethernet ESPhome :
