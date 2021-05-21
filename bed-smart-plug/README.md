@@ -25,7 +25,9 @@
  - Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
  - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
  - Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
- - Prise comme alim de PC => C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
+ - Prise comme alim de PC => C14 :
+   - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
+   - voir si montage a cosses ?
 
 ## Notes
  - Ethernet ESPhome :
