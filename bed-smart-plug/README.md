@@ -60,4 +60,3 @@
    - prise entree 250v
    - recepteur 433MHz
    - diode IR
-   - UART: chercher des modules USB uart 3.3v et faire le même pinout
