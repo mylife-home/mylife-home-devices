@@ -57,7 +57,6 @@
 ## TODO
 
  - Schematic
-   - dissipateurs
    - prise entree 250v
    - recepteur 433MHz
    - diode IR
