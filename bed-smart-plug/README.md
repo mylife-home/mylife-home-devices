@@ -61,6 +61,5 @@
    - recepteur 433MHz
    - diode IR
    - ds18b20
-   - Ajouter led en // de MOC3021
    - Ajouter led pour status
    - UART: chercher des modules USB uart 3.3v et faire le même pinout
