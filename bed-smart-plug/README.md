@@ -29,6 +29,12 @@
    - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
    - voir si montage a cosses ?
  - LED IR avec rallonge : https://www.amazon.fr/dp/B01MT59LFO
+ - Composants:
+   - C 50nF : https://fr.rs-online.com/web/p/condensateurs-polyethylene-naphtalate-pen/1649855/
+   - C 10nF : https://fr.rs-online.com/web/p/condensateurs-polyester/6224779/
+   - Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
+   - Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
+   - Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
 
 ## Notes
  - Ethernet ESPhome :
@@ -44,6 +50,7 @@
    - R 470ohm => 7,52mW
    - C: 400V
    - Attention a garder le port USB accessible
+   - Dessiner des mouting holes
 
 ## Ancien matériel
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
