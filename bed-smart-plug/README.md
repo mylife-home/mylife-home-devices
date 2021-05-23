@@ -49,6 +49,7 @@
    - R 470ohm => 7,52mW
    - C: 400V
    - Attention a garder le port USB accessible
+   - Dessiner des mouting holes
 
 ## Ancien matériel
  - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
