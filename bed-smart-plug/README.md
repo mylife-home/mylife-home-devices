@@ -29,6 +29,9 @@
    - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
    - voir si montage a cosses ?
  - LED IR avec rallonge : https://www.amazon.fr/dp/B01MT59LFO
+ - Composants:
+   - C 50nF : https://fr.rs-online.com/web/p/condensateurs-polyethylene-naphtalate-pen/1649855/
+   - C 10nF : https://fr.rs-online.com/web/p/condensateurs-polyester/6224779/
 
 ## Notes
  - Ethernet ESPhome :
