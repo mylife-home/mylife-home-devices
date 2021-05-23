@@ -32,6 +32,7 @@
  - Composants:
    - C 50nF : https://fr.rs-online.com/web/p/condensateurs-polyethylene-naphtalate-pen/1649855/
    - C 10nF : https://fr.rs-online.com/web/p/condensateurs-polyester/6224779/
+   - Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
 
 ## Notes
  - Ethernet ESPhome :
