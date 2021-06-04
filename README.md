@@ -8,3 +8,4 @@ MyLife Home devices
 
 ## Notes
  - Tutorial KiCad: https://www.youtube.com/playlist?list=PLuQznwVAhY2WA4CIf3_aB_e8hRCSbQuUp
+ - Best practice routing PCB: https://resources.altium.com/fr/p/top-5-pcb-design-guidelines-every-pcb-designer-needs-know
