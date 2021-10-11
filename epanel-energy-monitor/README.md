@@ -6,6 +6,7 @@
    - abonnement 9KVA ~ 40A
    - 4 sur inter diff (entre 40A et 63A)
    - 8 sur disjoncteurs (entre 16A et 32A)
+ - teleinfo
  
 ## Notes
 
@@ -17,4 +18,12 @@
 
 ## Links
 
- - https://github.com/openenergymonitor/emontx3
+ - CT clamp : https://github.com/openenergymonitor/emontx3
+ - teleinfo : http://sarakha63-domotique.fr/nodemcu-teleinformation-wifi/
+ - esphome teleinfo : https://esphome.io/components/sensor/teleinfo.html
+ - espgome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
+
+## Choix techniques
+
+ - ESP32 : ESP32-POE-ISO https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
+ - Mcp3208 x2
