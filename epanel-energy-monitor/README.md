@@ -21,7 +21,8 @@
  - CT clamp : https://github.com/openenergymonitor/emontx3
  - teleinfo : http://sarakha63-domotique.fr/nodemcu-teleinformation-wifi/
  - esphome teleinfo : https://esphome.io/components/sensor/teleinfo.html
- - espgome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
+ - esphome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
+ - eshome 3008 : https://esphome.io/components/sensor/mcp3008.html
 
 ## Choix techniques
 
