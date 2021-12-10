@@ -21,4 +21,14 @@
    - 4bits forts pour type de composants
    - 3bits faibles pour adressage du composant (paramétrable avec jumper si possible)
 
+_ou_
+
+ - uart
+ - esp32 Ethernet + rpi pico sur chaque board
+ - Switch dans tableau ?
+ - avantages
+   - chaque board est indépendante (Ethernet)
+   - uart est bidirectionnel (pas de master/slave)
+   - uart messaging semble simple à mettre en œuvre
+
 ## Links
