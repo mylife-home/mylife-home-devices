@@ -32,3 +32,5 @@ _ou_
    - uart messaging semble simple à mettre en œuvre
 
 ## Links
+
+220v current sensor (input) : https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
