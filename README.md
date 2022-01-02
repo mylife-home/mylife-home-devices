@@ -5,6 +5,7 @@ MyLife Home devices
  - [ePanel Energy Monitory](epanel-energy-monitor/README.md) - Module de tableau électrique pour mesurer la consommation électrique
  - [Bed Smart Plug](bed-smart-plug/README.md) - "Multiprise intelligente" pour mettre en tête de lit
  - [Garden box](garden-box/README.md) - Boîtier de commandes/capteurs dans le jardin
+ - [Presence Wifi sensor](presence-wifi-sensor/README.md) - Détecteur de présence Wifi
 
 ## Notes
  - Tutorial KiCad: https://www.youtube.com/playlist?list=PLuQznwVAhY2WA4CIf3_aB_e8hRCSbQuUp
