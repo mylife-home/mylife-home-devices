@@ -17,11 +17,11 @@
    - résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester ?
  - Prise comme alim de PC, plus facile à mettre en oeuvre
  - Capteur température : ds18b20
+ - utiliser jack pour IR et capteur temp
 
 ## Matériel
  - Déjà en stock
-   - ds18b20
-   - fil éléctrique 1.5mm²
+   - fil électrique 1.5mm²
  - Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
  - ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
  - Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
@@ -29,6 +29,7 @@
    - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
    - voir si montage a cosses ?
  - LED IR avec rallonge : https://www.amazon.fr/dp/B01MT59LFO
+ - ds18b20 + jack ??
  - Composants:
    - C 50nF : https://fr.rs-online.com/web/p/condensateurs-polyethylene-naphtalate-pen/1649855/
    - C 10nF : https://fr.rs-online.com/web/p/condensateurs-polyester/6224779/
