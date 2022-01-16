@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name mylife-symbols)(type Legacy)(uri D:/Programmation/workspace/mylife-home-devices/libraries/mylife-symbols.lib)(options "")(descr ""))
+  (lib (name "mylife-symbols")(type "KiCad")(uri "D:/Programmation/workspace/mylife-home-devices/libraries/mylife-symbols.kicad_sym")(options "")(descr ""))
 )

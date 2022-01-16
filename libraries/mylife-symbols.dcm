@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ESP32-POE-ISO
-F https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
-$ENDCMP
-#
-#End Doc Library
