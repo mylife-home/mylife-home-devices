@@ -1462,6 +1462,14 @@
     )
   )
 
+  (gr_line (start 182.88 43.18) (end 182.88 106.68) (layer "Edge.Cuts") (width 0.1) (tstamp 5faa1233-75b8-4f7b-888d-d18b3bff0bff))
+  (gr_line (start 182.88 109.22) (end 96.52 109.22) (layer "Edge.Cuts") (width 0.1) (tstamp 947e2789-16d4-4fcd-9abb-151e96c6e471))
+  (gr_line (start 96.52 43.18) (end 182.88 43.18) (layer "Edge.Cuts") (width 0.1) (tstamp 9e77a8d9-ff77-46a9-b221-dc03b444e06e))
+  (gr_line (start 96.52 109.22) (end 93.98 109.22) (layer "Edge.Cuts") (width 0.1) (tstamp b970ce92-c9f6-41f7-8442-9053747ca562))
+  (gr_line (start 93.98 43.18) (end 96.52 43.18) (layer "Edge.Cuts") (width 0.1) (tstamp ba5de5a3-8e56-4732-abb0-c62f4032ae62))
+  (gr_line (start 93.98 109.22) (end 93.98 43.18) (layer "Edge.Cuts") (width 0.1) (tstamp cf70afed-1686-4d19-815c-d5005320e42d))
+  (gr_line (start 182.88 106.68) (end 182.88 109.22) (layer "Edge.Cuts") (width 0.1) (tstamp fe1d4bfe-afd6-4401-90c3-c728fc027ab4))
+
   (segment (start 119.38 51.69) (end 118.49 51.69) (width 0.25) (layer "F.Cu") (net 1) (tstamp 07d02498-98e6-4a97-90f7-d649212851cf))
   (segment (start 124.285 51.69) (end 124.46 51.865) (width 0.25) (layer "F.Cu") (net 1) (tstamp 1019f14f-a625-488c-8f9e-79cdad12ac8a))
   (segment (start 127 60.96) (end 127 63.5) (width 0.25) (layer "F.Cu") (net 1) (tstamp 271648ee-817f-437e-a1b8-07029f15754b))
