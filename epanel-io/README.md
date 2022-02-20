@@ -34,3 +34,9 @@ _ou_
 ## Links
 
 220v current sensor (input) : https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
+
+# Prototype-1
+
+## Observations
+
+- Trous pour borniers trop gros
