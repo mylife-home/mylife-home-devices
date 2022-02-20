@@ -11,6 +11,7 @@
 - IRF740 -> 10A
 - Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
+- Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
 
 ## Notes design ePanel (common with energy monitor)
 
