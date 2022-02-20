@@ -41,3 +41,5 @@ _ou_
 ## Observations
 
 - Trous pour borniers trop gros
+- Triac: fait clignotter un spot led 10w en OFF
+- Mosfet: fait clignotter un spot led 10w en OFF
