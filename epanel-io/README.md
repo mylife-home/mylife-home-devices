@@ -42,10 +42,10 @@ _ou_
 
 - Trous pour borniers trop gros
 - Triac:
-  - fait clignotter un spot led 10w en OFF
+  - fait clignoter un spot led 10w en OFF
   - fait un leger bruit sur passage de OFF a ON
   - dimming: fait un bourdonnement marqué (testé à 50/255 et 150/255)
 - Mosfet:
-  - fait clignotter un spot led 10w en OFF
+  - fait clignoter un spot led 10w en OFF
   - avec resistances 100k en // de la charge, pareil
   - avec spot 35W, R5 brule
