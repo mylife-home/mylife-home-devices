@@ -15,6 +15,7 @@
 - Other mosfet dimmer schematics:
   - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
   - https://sound-au.com/project157.htm
+  - https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
 
 ## Notes design ePanel (common with energy monitor)
 
