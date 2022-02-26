@@ -12,10 +12,16 @@
 - Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
 - Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
-- Other mosfet dimmer schematics:
-  - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
-  - https://sound-au.com/project157.htm
-  - https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
+
+### Other mosfet dimmer schematics
+- https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
+- https://sound-au.com/project157.htm
+- https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
+
+### 220v current sensor (input)
+- https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
+- https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
+- https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
 
 ## Notes design ePanel (common with energy monitor)
 
@@ -35,10 +41,6 @@ _ou_
   - chaque board est indépendante (Ethernet)
   - uart est bidirectionnel (pas de master/slave)
   - uart messaging semble simple à mettre en œuvre
-
-## Links
-
-220v current sensor (input) : https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
 
 # Prototype-1
 
