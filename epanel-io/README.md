@@ -1,7 +1,5 @@
 # ePanel IO
 
-![](mosfet-dimmer.png)
-
 ## Besoin
 - 20 IO au moins
 - mettre un Switch ou jumper pour relier les phases et neutres de 2 entrées sorties voisines (pour pouvoir relier ensemble ceux qui viennent du même disjoncteur)
@@ -13,7 +11,8 @@
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
 - Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
 
-### Other mosfet dimmer schematics
+### Mosfet dimmer schematics
+- Prototype1 (does not work) ![](mosfet-dimmer.png)
 - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
 - https://sound-au.com/project157.htm
 - https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
