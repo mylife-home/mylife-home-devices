@@ -12,7 +12,7 @@
 - Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
 
 ### Mosfet dimmer schematics
-- Prototype1 (does not work) ![](mosfet-dimmer.png)
+- [Prototype1 (does not work)](mosfet-dimmer.png)
 - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
 - https://sound-au.com/project157.htm
 - https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
