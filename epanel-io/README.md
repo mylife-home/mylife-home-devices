@@ -43,6 +43,8 @@ _ou_
 
 # Prototype-1
 
+![](prototype-1/schematic.png)
+
 ## Observations
 
 - Trous pour borniers trop gros
@@ -54,3 +56,4 @@ _ou_
   - fait clignoter un spot led 10w en OFF
   - avec resistances 100k en // de la charge, pareil
   - avec spot 35W, R5 brule
+  - après avoir changé alim par HLK-PM12, c'est OK!
