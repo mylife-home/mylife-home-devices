@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "/Users/vincent/workspace/private/mylife-home-devices/libraries/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )
