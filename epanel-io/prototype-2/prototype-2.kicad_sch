@@ -2914,7 +2914,7 @@
     (uuid e31efd23-be24-4c15-b84c-d88bbfadcb94)
     (property "Reference" "J1" (id 0) (at 42.545 68.58 0))
     (property "Value" "Conn_01x07_Male" (id 1) (at 42.545 71.12 0))
-    (property "Footprint" "" (id 2) (at 41.91 81.28 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (id 2) (at 41.91 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 81.28 0)
@@ -3074,7 +3074,7 @@
       (reference "D3") (unit 1) (value "1N4007") (footprint "Diode_SMD:D_SMA")
     )
     (path "/e31efd23-be24-4c15-b84c-d88bbfadcb94"
-      (reference "J1") (unit 1) (value "Conn_01x07_Male") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_01x07_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/d32932d2-0f28-4db7-8df8-ecaa16aba6bd"
       (reference "J2") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
