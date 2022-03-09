@@ -57,3 +57,8 @@ _ou_
   - avec resistances 100k en // de la charge, pareil
   - avec spot 35W, R5 brule
   - après avoir changé alim par HLK-PM12, c'est OK!
+
+
+# Prototype-2
+
+![](prototype-2/schematic.png)
