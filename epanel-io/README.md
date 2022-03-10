@@ -62,3 +62,7 @@ _ou_
 # Prototype-2
 
 ![](prototype-2/schematic.png)
+
+## TODO
+- Dessouder la diode et connecter son anode au neutral
+
