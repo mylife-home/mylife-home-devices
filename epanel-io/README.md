@@ -45,6 +45,16 @@ _ou_
 
 ![](prototype-1/schematic.png)
 
+## Tests
+- Code:
+  - https://github.com/vincent-tr/pico-experiments/tree/main/zc
+  - https://github.com/vincent-tr/pico-experiments/tree/main/triac
+  - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
+- Images:
+  ![](prototype-1/pictures/zc.png)
+  ![](prototype-1/pictures/triac.png)
+  ![](prototype-1/pictures/mosfet.png)
+
 ## Observations
 
 - Trous pour borniers trop gros
@@ -62,6 +72,14 @@ _ou_
 # Prototype-2
 
 ![](prototype-2/schematic.png)
+
+## Tests
+- Code:
+  - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
+- Images:
+  ![](prototype-2/pictures/top.png)
+  ![](prototype-2/pictures/side.png)
+  ![](prototype-2/pictures/connected.png)
 
 ## Observations
 - Dessoudé la diode D3 et connecter son anode au neutral
