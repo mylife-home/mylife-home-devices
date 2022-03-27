@@ -87,5 +87,5 @@ _ou_
 - Montage faux : j'ai dessoudé la diode D3 et connecté son anode au neutral
 - Anoter les IO (dominos/pin headers) sinon c'est difficile a retrouver après
 - La taille du PCB correspond parfaitement au boitier DIN : CNMB/4/kit
-- Montage fonictionne avec spot 35w + sport réel salon (mais pas avec spot test 10w, que on/off, non dimmable?)
+- Montage fonctionne avec spot 35w + sport réel salon (mais pas avec spot test 10w, que on/off, non dimmable?)
 - Pas de chauffe
