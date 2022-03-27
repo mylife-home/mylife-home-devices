@@ -63,6 +63,7 @@ _ou_
 
 ![](prototype-2/schematic.png)
 
-## TODO
-- Dessouder la diode et connecter son anode au neutral
+## Observations
+- Dessoudé la diode D3 et connecter son anode au neutral
+- Anoter les IO (dominos/pin headers) sinon c'est difficile a retrouver après
 
