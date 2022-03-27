@@ -51,9 +51,9 @@ _ou_
   - https://github.com/vincent-tr/pico-experiments/tree/main/triac
   - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
 - Images:
-  ![](prototype-1/pictures/zc.png)
-  ![](prototype-1/pictures/triac.png)
-  ![](prototype-1/pictures/mosfet.png)
+  ![](prototype-1/pictures/zc.jpg)
+  ![](prototype-1/pictures/triac.jpg)
+  ![](prototype-1/pictures/mosfet.jpg)
 
 ## Observations
 
@@ -77,9 +77,9 @@ _ou_
 - Code:
   - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
 - Images:
-  ![](prototype-2/pictures/top.png)
-  ![](prototype-2/pictures/side.png)
-  ![](prototype-2/pictures/connected.png)
+  ![](prototype-2/pictures/top.jpg)
+  ![](prototype-2/pictures/side.jpg)
+  ![](prototype-2/pictures/connected.jpg)
 
 ## Observations
 - Dessoudé la diode D3 et connecter son anode au neutral
