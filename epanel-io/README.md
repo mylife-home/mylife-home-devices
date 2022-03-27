@@ -51,7 +51,7 @@ _ou_
   - https://github.com/vincent-tr/pico-experiments/tree/main/triac
   - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
 - Images:
-  <img src="prototype-1/pictures/zc.jpg" width="48">
+  <img src="prototype-1/pictures/zc.jpg" width="300">
   ![](prototype-1/pictures/zc.jpg)
   ![](prototype-1/pictures/triac.jpg)
   ![](prototype-1/pictures/mosfet.jpg)
