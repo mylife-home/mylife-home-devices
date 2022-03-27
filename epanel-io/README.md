@@ -78,9 +78,10 @@ _ou_
 - Code:
   - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
 - Images:
-  ![](prototype-2/pictures/top.jpg)
-  ![](prototype-2/pictures/side.jpg)
-  ![](prototype-2/pictures/connected.jpg)
+  <br/>
+  <img src="prototype-2/pictures/top.jpg" width="300">
+  <img src="prototype-2/pictures/side.jpg" width="300">
+  <img src="prototype-2/pictures/connected.jpg" width="300">
 
 ## Observations
 - Dessoudé la diode D3 et connecter son anode au neutral
