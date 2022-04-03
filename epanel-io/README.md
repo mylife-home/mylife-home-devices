@@ -89,3 +89,4 @@ _ou_
 - La taille du PCB correspond parfaitement au boitier DIN : CNMB/4/kit
 - Montage fonctionne avec spot 35w + sport réel salon (mais pas avec spot test 10w, que on/off, non dimmable?)
 - Pas de chauffe
+- pico "RUN" pin si utilisé sur breadboard doit être relié au VCC, sinon le laisser dangling peut causer des reboot intempestifs
