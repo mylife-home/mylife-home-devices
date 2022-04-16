@@ -22,7 +22,7 @@
 - https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
 - https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
 
-## Notes design ePanel (common with energy monitor)
+### Design ePanel (common with energy monitor)
 
 - i2c bus
 - Connexion i2c + power : connecteurs DIN 5 broches + cable ? rj11 ? rj45 ?
@@ -41,11 +41,11 @@ _ou_
   - uart est bidirectionnel (pas de master/slave)
   - uart messaging semble simple à mettre en œuvre
 
-# Prototype-1
+## Prototype-1
 
 ![](prototype-1/schematic.png)
 
-## Tests
+### Tests
 - Code:
   - https://github.com/vincent-tr/pico-experiments/tree/main/zc
   - https://github.com/vincent-tr/pico-experiments/tree/main/triac
@@ -56,7 +56,7 @@ _ou_
   <img src="prototype-1/pictures/triac.jpg" width="300">
   <img src="prototype-1/pictures/mosfet.jpg" width="300">
 
-## Observations
+### Observations
 
 - Trous pour borniers trop gros
 - Triac:
@@ -70,11 +70,11 @@ _ou_
   - après avoir changé alim par HLK-PM12, c'est OK!
 
 
-# Prototype-2
+## Prototype-2
 
 ![](prototype-2/schematic.png)
 
-## Tests
+### Tests
 - Code:
   - https://github.com/vincent-tr/pico-experiments/tree/main/mosfet
 - Images:
@@ -83,10 +83,37 @@ _ou_
   <img src="prototype-2/pictures/side.jpg" width="300">
   <img src="prototype-2/pictures/connected.jpg" width="300">
 
-## Observations
+### Observations
 - Montage faux : j'ai dessoudé la diode D3 et connecté son anode au neutral
 - Anoter les IO (dominos/pin headers) sinon c'est difficile a retrouver après
 - La taille du PCB correspond parfaitement au boitier DIN : CNMB/4/kit
 - Montage fonctionne avec spot 35w + sport réel salon (mais pas avec spot test 10w, que on/off, non dimmable?)
 - Pas de chauffe
 - pico "RUN" pin si utilisé sur breadboard doit être relié au VCC, sinon le laisser dangling peut causer des reboot intempestifs
+
+## Etapes suivantes
+
+Faire un test complet
+- spot
+- bouton en entrée
+- i2c avec esp
+- esp wifi
+
+Puis quand ça marche
+- chargeur USB + bread board + boîtier fin dans tableau
+- mettre mylife-home esp en prod
+- mettre sur lampe lit ou dressing parents
+
+### First run
+
+- spot OK
+- bouton OK
+- i2c flaky
+- esp wifi flaky
+
+Note : sur reset I2C apparemment des outputs manquent
+
+Notes i2c :
+- Use registers on esp32 (implement 16 and 32 bits registers if needed)
+- Publish internal temp https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__adc.html
+- Publish zc data
