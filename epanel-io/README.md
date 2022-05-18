@@ -13,13 +13,15 @@
 - Borniers "détachables" ?
 - Noter sur le silkscreen a quoi correspondent les borniers/pin headers/jumpers
 
-### Mosfet dimmer schematics
+### Links
+
+#### Mosfet dimmer schematics
 - [Prototype1 (does not work)](mosfet-dimmer.png)
 - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
 - https://sound-au.com/project157.htm
 - https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
 
-### 220v current sensor (input)
+#### 220v current sensor (input)
 - https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
 - https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
 - https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
