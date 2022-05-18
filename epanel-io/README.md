@@ -86,6 +86,7 @@ _ou_
   <img src="prototype-2/pictures/top.jpg" width="300">
   <img src="prototype-2/pictures/side.jpg" width="300">
   <img src="prototype-2/pictures/connected.jpg" width="300">
+  <img src="prototype-2/pictures/epanel.jpg" width="300">
 
 ### Observations
 - Montage faux : j'ai dessoudé la diode D3 et connecté son anode au neutral
