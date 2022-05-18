@@ -10,6 +10,8 @@
 - Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
 - Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
+- Borniers "détachables" ?
+- Noter sur le silkscreen a quoi correspondent les borniers/pin headers/jumpers
 
 ### Mosfet dimmer schematics
 - [Prototype1 (does not work)](mosfet-dimmer.png)
@@ -91,29 +93,12 @@ _ou_
 - Pas de chauffe
 - pico "RUN" pin si utilisé sur breadboard doit être relié au VCC, sinon le laisser dangling peut causer des reboot intempestifs
 
+## Prototype-3
+
+![](prototype-3/schematic.png)
+
 ## Etapes suivantes
 
-Faire un test complet
-- spot
-- bouton en entrée
-- i2c avec esp
-- esp wifi
-
-Puis quand ça marche
-- chargeur USB + bread board + boîtier fin dans tableau
+- bread board + boîtier fin dans tableau
 - mettre mylife-home esp en prod
-- mettre sur lampe lit ou dressing parents
-
-### First run
-
-- spot OK
-- bouton OK
-- i2c flaky
-- esp wifi flaky
-
-Note : sur reset I2C apparemment des outputs manquent
-
-Notes i2c :
-- Use registers on esp32 (implement 16 and 32 bits registers if needed)
-- Publish internal temp https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__adc.html
-- Publish zc data
+- mettre sur lampe lit et dressing parents
