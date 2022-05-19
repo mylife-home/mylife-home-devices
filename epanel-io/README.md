@@ -1,6 +1,7 @@
 # ePanel IO
 
 ## Besoin
+
 - 20 IO au moins
 - mettre un Switch ou jumper pour relier les phases et neutres de 2 entrées sorties voisines (pour pouvoir relier ensemble ceux qui viennent du même disjoncteur)
 
@@ -34,6 +35,7 @@ _ou_
 ## Notes
 
 ### Mosfet dimmer schematics
+
 - [Prototype1 (does not work)](mosfet-dimmer.png)
 - https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
 - https://sound-au.com/project157.htm
@@ -41,6 +43,7 @@ _ou_
 - IRF740 -> 10A
 
 ### 220v current sensor (input)
+
 - https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
 - https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
 - https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
@@ -51,6 +54,7 @@ _ou_
 ![](prototype-1/schematic.png)
 
 ### Tests
+
 - Code:
   - https://github.com/vincent-tr/pico-experiments/tree/main/zc
   - https://github.com/vincent-tr/pico-experiments/tree/main/triac
@@ -90,6 +94,7 @@ _ou_
   <img src="prototype-2/pictures/epanel.jpg" width="300">
 
 ### Observations
+
 - Montage faux : j'ai dessoudé la diode D3 et connecté son anode au neutral
 - Anoter les IO (dominos/pin headers) sinon c'est difficile a retrouver après
 - La taille du PCB correspond parfaitement au boitier DIN : CNMB/4/kit
@@ -100,6 +105,12 @@ _ou_
 ## Prototype-3
 
 ![](prototype-3/schematic.png)
+
+### Tests
+
+### Observations
+
+- 4N35: apparemment le Footprint ne correspond pas exactement au composant, le vrai composant est un peu plus large
 
 ## Etapes suivantes
 
