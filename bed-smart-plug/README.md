@@ -18,6 +18,7 @@
  - Prise comme alim de PC, plus facile à mettre en oeuvre
  - Capteur température : ds18b20
  - utiliser jack pour IR et capteur temp
+ - capteur temp : avoir un capteur intégré et un capteur avec Jack?
 
 ## Matériel
  - Déjà en stock
