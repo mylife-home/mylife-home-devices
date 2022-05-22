@@ -114,6 +114,6 @@ _ou_
 
 ## Etapes suivantes
 
-- bread board + boîtier fin dans tableau
+- bread board + boîtier DIN dans tableau
 - mettre mylife-home esp en prod
 - mettre sur lampe lit et dressing parents
