@@ -2085,7 +2085,7 @@
     (property "Reference" "R?" (id 0) (at 339.598 131.1715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22Ω" (id 1) (at 339.598 133.9466 0)
+    (property "Value" "22Ω/0.5W" (id 1) (at 339.598 133.9466 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 336.042 132.08 90)
@@ -2394,7 +2394,7 @@
     (property "Reference" "R?" (id 0) (at 339.598 190.8615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120Ω" (id 1) (at 339.598 193.6366 0)
+    (property "Value" "120Ω/0.5W" (id 1) (at 339.598 193.6366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 336.042 191.77 90)
@@ -2654,7 +2654,7 @@
       (reference "R?") (unit 1) (value "470KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/61d13227-ea38-4175-a5c0-8f75a3d5765d"
-      (reference "R?") (unit 1) (value "22Ω") (footprint "")
+      (reference "R?") (unit 1) (value "22Ω/0.5W") (footprint "")
     )
     (path "/79669be6-ff4f-4a0d-ab0f-2e84ce7f2aa3"
       (reference "R?") (unit 1) (value "470KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2666,7 +2666,7 @@
       (reference "R?") (unit 1) (value "1KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c617335c-bbb9-4ba2-bf32-96285610c756"
-      (reference "R?") (unit 1) (value "120Ω") (footprint "")
+      (reference "R?") (unit 1) (value "120Ω/0.5W") (footprint "")
     )
     (path "/eb97f50e-7ea5-4f23-a809-258cd91d8cb4"
       (reference "R?") (unit 1) (value "1KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
