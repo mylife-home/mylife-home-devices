@@ -1907,7 +1907,7 @@
     (property "Value" "Conn_01x02_Male" (id 1) (at 274.32 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 283.21 130.81 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 283.21 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 283.21 130.81 0)
@@ -2331,7 +2331,7 @@
     (property "Value" "Conn_01x02_Male" (id 1) (at 275.59 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 284.48 190.5 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 284.48 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 284.48 190.5 0)
@@ -2476,10 +2476,10 @@
       (reference "J5") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/75fb2c3a-e486-423a-935f-1fb07328359e"
-      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "")
+      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/f0fcb2f0-4bec-4a32-83dd-ac07bfcfbf9c"
-      (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "")
+      (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/eab3c1d2-8494-4933-98a0-1f180f0c6f69"
       (reference "PS1") (unit 1) (value "HLK-PM01") (footprint "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx")
