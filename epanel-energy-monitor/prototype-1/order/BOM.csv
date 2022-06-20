@@ -5,7 +5,7 @@ Comment,Designator,Footprint,LCSC
 "Screw_Terminal_01x02","J4,J5","TerminalBlock:TerminalBlock_bornier-2_P5.08mm",""
 "Conn_01x02_Male","J6,J7","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
 "HLK-PM01","PS1","Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx",""
-"BS170","Q1","Package_TO_SOT_SMD:SOT-23","C151050"
+"CJ2302","Q1","Package_TO_SOT_SMD:SOT-23","C2910175"
 "1KΩ","R1,R2","Resistor_SMD:R_0603_1608Metric","C21190"
 "120Ω/0.5W","R10","Resistor_SMD:R_0805_2012Metric","C966144"
 "4.7KΩ","R11","Resistor_SMD:R_0603_1608Metric","C23162"
