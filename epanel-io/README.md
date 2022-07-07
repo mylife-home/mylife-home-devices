@@ -5,13 +5,24 @@
 - 20 IO au moins
 - mettre un Switch ou jumper pour relier les phases et neutres de 2 entrées sorties voisines (pour pouvoir relier ensemble ceux qui viennent du même disjoncteur)
 
+- IO / disjoncteurs:
+  - R1: 7 + 3 extension + escalier
+  - RDC: 5 + porche
+  - Dehors: terrasse (vers spa)
+
 ## Design
 
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
 - Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
 - Borniers "détachables" ?
 - Noter sur le silkscreen a quoi correspondent les borniers/pin headers/jumpers
-- Grouper les IO 4 par 4 (1 phase et 1 neutre pour 4 IO)
+- Grouper les IO 4 par 4 (1 phase et 1 neutre pour 4 IO) => 4 + 4 + 2 par RPI
+
+- Découpage IO:
+  - R1: 11     => 4 + 4 + 4
+  - RDC: 6     => 4 + 2
+  - Dehors: 1  => 2
+=> 2x 4+4+2 OK
 
 ### ePanel (common with energy monitor)
 
