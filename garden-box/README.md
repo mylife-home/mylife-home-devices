@@ -1,5 +1,12 @@
 # Garden box
 
+## Besoin
+
+- capteur températeur
+- capteur humidité sol
+- drivers électrovannes
+- drivers RGB 24v
+
 ## Notes
 
  - Bus avec 230v, 12v ondulé, ethernet
