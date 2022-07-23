@@ -8194,12 +8194,12 @@
     )
   )
 
-  (gr_line locked (start 106.36 50.8) (end 193.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 1b3064ff-f326-4728-bece-2d8288e0c3a7))
-  (gr_line locked (start 106.36 118.8) (end 106.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 41694881-07b2-4449-970b-a0a04e7ed871))
-  (gr_line locked (start 193.36 118.8) (end 193.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 47efff7e-fb7c-40cf-bc97-0950285854db))
-  (gr_line locked (start 106.36 118.8) (end 193.36 118.8) (layer "Edge.Cuts") (width 0.1) (tstamp f409c2d0-1214-4bef-810e-97403e0227df))
-  (gr_text "Size: 87 x 68" (at 198.12 172.72) (layer "Cmts.User") (tstamp 12768145-3120-4ddc-880f-7b2a84d966a3)
-    (effects (font (size 3 3) (thickness 0.15)))
+  (gr_line locked (start 100 50) (end 186.5 50) (layer "Edge.Cuts") (width 0.1) (tstamp 1b3064ff-f326-4728-bece-2d8288e0c3a7))
+  (gr_line locked (start 100 153) (end 100 50) (layer "Edge.Cuts") (width 0.1) (tstamp 41694881-07b2-4449-970b-a0a04e7ed871))
+  (gr_line locked (start 186.5 153) (end 186.5 50) (layer "Edge.Cuts") (width 0.1) (tstamp 47efff7e-fb7c-40cf-bc97-0950285854db))
+  (gr_line locked (start 100 153) (end 186.5 153) (layer "Edge.Cuts") (width 0.1) (tstamp f409c2d0-1214-4bef-810e-97403e0227df))
+  (gr_text "CNMB/6- \nPCB A -> 86.5x103mm\nPCB B -> 57x102mm\nPCB C -> 42x102mm" (at 178.435 173.99) (layer "Cmts.User") (tstamp bdd0b335-10a1-4a58-b644-8a502b93dd0b)
+    (effects (font (size 2 2) (thickness 0.15)) (justify left))
   )
 
 )
