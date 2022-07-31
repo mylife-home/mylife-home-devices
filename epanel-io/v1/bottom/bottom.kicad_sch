@@ -1947,7 +1947,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 278.13 189.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1a40b32a-6c8c-448f-bf8b-56c1f528da37)
-    (property "Reference" "J?" (id 0) (at 281.94 176.53 0))
+    (property "Reference" "J14" (id 0) (at 281.94 176.53 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 280.67 180.34 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 278.13 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2223,7 +2223,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 278.13 209.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5564de75-9c7c-4b69-912b-824cbaa6df29)
-    (property "Reference" "J?" (id 0) (at 281.94 196.85 0))
+    (property "Reference" "J15" (id 0) (at 281.94 196.85 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 280.67 200.66 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 278.13 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 278.13 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fb7abf49-27cd-4c26-ba3a-f5fee1af179c)
-    (property "Reference" "J?" (id 0) (at 281.94 156.21 0))
+    (property "Reference" "J13" (id 0) (at 281.94 156.21 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 280.67 160.02 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 278.13 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2674,14 +2674,14 @@
     (path "/02b7b19f-5b9e-46a4-bfa9-c1ef8d35ae97"
       (reference "J12") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
     )
+    (path "/fb7abf49-27cd-4c26-ba3a-f5fee1af179c"
+      (reference "J13") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
     (path "/1a40b32a-6c8c-448f-bf8b-56c1f528da37"
-      (reference "J?") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "J14") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/5564de75-9c7c-4b69-912b-824cbaa6df29"
-      (reference "J?") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
-    )
-    (path "/fb7abf49-27cd-4c26-ba3a-f5fee1af179c"
-      (reference "J?") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "J15") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/0a538e21-f9f7-41ac-9f9d-581175515cb0"
       (reference "Q1") (unit 1) (value "IRF830") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
