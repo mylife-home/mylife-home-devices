@@ -1065,7 +1065,6 @@
     )
   )
 
-
   (junction (at 118.11 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 200e9ea6-eb43-4b22-9360-1cd8a4a8dc81)
   )
@@ -2188,7 +2187,7 @@
     (uuid 547d4158-ddba-4752-97f0-70d1b9e258cb)
     (property "Reference" "U1" (id 0) (at 105.41 189.23 0))
     (property "Value" "Pico" (id 1) (at 105.41 191.77 0))
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (id 2) (at 105.41 220.98 90)
+    (property "Footprint" "Custom:RPI_Pico_pinout" (id 2) (at 105.41 220.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 105.41 220.98 0)
@@ -3438,7 +3437,7 @@
       (reference "R73") (unit 1) (value "33KΩ/0.5W") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/547d4158-ddba-4752-97f0-70d1b9e258cb"
-      (reference "U1") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
+      (reference "U1") (unit 1) (value "Pico") (footprint "Custom:RPI_Pico_pinout")
     )
     (path "/c941acbf-ee78-4974-aae7-741801263b9b"
       (reference "U2") (unit 1) (value "H11AA1") (footprint "Package_DIP:SMDIP-6_W9.53mm")
