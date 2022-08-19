@@ -2389,7 +2389,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809111517_ON-Semiconductor-H11AA1SM_C184383.pdf" (id 3) (at 224.536 244.348 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C184383" (id 4) (at 243.84 260.35 0)
+    (property "LCSC" "C258253" (id 4) (at 243.84 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5cb05459-51c0-404a-ae5e-014f3318b3da))
