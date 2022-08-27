@@ -6,6 +6,7 @@
 - capteur humidité sol
 - drivers électrovannes
 - drivers RGB 24v
+- driver lanterne/guirlande
 
 ## Notes
 
