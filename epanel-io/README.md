@@ -119,6 +119,10 @@ _ou_
 
 ### Tests
 
+- Images:
+  <br/>
+  <img src="prototype-3/pictures/panel.jpg" width="300">
+
 ### Observations
 
 - 4N35: apparemment le Footprint ne correspond pas exactement au composant, le vrai composant est un peu plus large
