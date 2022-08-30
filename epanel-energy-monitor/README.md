@@ -22,7 +22,7 @@
  - teleinfo : http://sarakha63-domotique.fr/nodemcu-teleinformation-wifi/
  - esphome teleinfo : https://esphome.io/components/sensor/teleinfo.html
  - esphome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
- - eshome 3008 : https://esphome.io/components/sensor/mcp3008.html
+ - eshome 3208 : https://esphome.io/components/sensor/mcp3204.html
 
 ## Choix techniques
 
