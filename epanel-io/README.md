@@ -10,13 +10,21 @@
   - RDC: 5 + porche
   - Dehors: terrasse (vers spa)
 
+## TODO
+
+- Tester internal temp sensor sur pico + esp
+- Corriger bouton qui se déclenche quand bouton voisin est déclenché
+- Tester ethernet
+
 ## Design
 
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
-- Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot
+- Rpi pico + esp : jumper pour alim séparée => permet live debug usb + reboot ?
 - Borniers "détachables" ?
 - Noter sur le silkscreen a quoi correspondent les borniers/pin headers/jumpers
 - Grouper les IO 4 par 4 (1 phase et 1 neutre pour 4 IO) => 4 + 4 + 2 par RPI
+
+---
 
 - Découpage IO:
   - R1: 11     => 4 + 4 + 4
@@ -27,21 +35,8 @@
 ### ePanel (common with energy monitor)
 
 - i2c bus
-- Connexion i2c + power : connecteurs DIN 5 broches + cable ? rj11 ? rj45 ?
-- master controler olimex esp32 or rpi1 or rpi2? (peut etre dans le tableau electrique)
-- Adresse 7 bits
-  - 4bits forts pour type de composants
-  - 3bits faibles pour adressage du composant (paramétrable avec jumper si possible)
-
-_ou_
-
-- uart
-- esp32 Ethernet + rpi pico sur chaque board
-- Switch dans tableau ?
-- avantages
-  - chaque board est indépendante (Ethernet)
-  - uart est bidirectionnel (pas de master/slave)
-  - uart messaging semble simple à mettre en œuvre
+- Connexion i2c + power
+- master controler olimex esp32 dans le tableau electrique
 
 ## Notes
 
