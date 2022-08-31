@@ -12,8 +12,6 @@
 
 ## TODO
 
-- Tester internal temp sensor sur pico + esp
-- Corriger bouton qui se déclenche quand bouton voisin est déclenché
 - Tester ethernet
 
 ## Design
