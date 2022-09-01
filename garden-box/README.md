@@ -10,6 +10,8 @@
 
 ## Design
 
+### generic
+
 - 1 place pour un switch
 - esp32 poe
 - convertisseur 12v -> 5v OU alim 220v -> 5v?
@@ -17,7 +19,10 @@
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
 - ds 18b20
 - capteur humidité avec ADC
-- led driver: design a part ou carte d'extension ?
+
+### led driver
+
+_TODO_
 
 ## Notes
 
