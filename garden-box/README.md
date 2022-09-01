@@ -17,12 +17,10 @@
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
 - ds 18b20
 - capteur humidité avec ADC
+- driver LED : design a part
 
 ## Notes
 
- - Bus avec 230v, 12v ondulé, ethernet
- - Boite avec couvercle transparent
- - Presses etoupe
----
- - Boite et bus + contrôleur (rpi) + mini switch ethernet 5 ports standards
- - Composants intérieurs (relai, transfo, rgb) + I/O custom
+- Bus avec 230v, 12v ondulé, ethernet
+- Boite avec couvercle transparent
+- Presses etoupe
