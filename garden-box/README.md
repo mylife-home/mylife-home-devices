@@ -33,3 +33,7 @@ _TODO_
 - Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846 (36VA - 77.5x60x48.5)
 - RS online has symbol library, convertible to kicad
 - convertisseur 12v -> 5v : https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934032 (2A - regarder la datasheet il faut mettre des condensateurs avec)
+- relais : 
+  - Omron G6DN-1A-L DC5
+  - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
+  - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
