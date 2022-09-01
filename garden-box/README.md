@@ -17,7 +17,7 @@
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
 - ds 18b20
 - capteur humidité avec ADC
-- driver LED : design a part
+- led driver: design a part ou carte d'extension ?
 
 ## Notes
 
