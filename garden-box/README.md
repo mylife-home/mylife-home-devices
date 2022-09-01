@@ -14,12 +14,12 @@
 
 - 1 place pour un switch
 - esp32 poe
-- convertisseur 12v -> 5v OU alim 220v -> 5v?
+- convertisseur 12v -> 5v
 - 1 transfo 24v AC pour electrovannes (capable d'alimenter 3 ou 4 electrovannes), avec un relais
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
 - led en face de chaque relais (sortie + transfo 24v)
 - ds 18b20
-- capteur humidité avec ADC
+- capteur humidité sol avec ADC
 
 ### led driver
 
@@ -38,3 +38,4 @@ _TODO_
   - Omron G6DN-1A-L DC5
   - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
   - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
+- capteur humidité sol : https://www.amazon.fr/gp/product/B07RGJHQ1L
