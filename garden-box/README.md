@@ -17,6 +17,7 @@
 - convertisseur 12v -> 5v OU alim 220v -> 5v?
 - 1 transfo 24v AC pour electrovannes (capable d'alimenter 3 ou 4 electrovannes), avec un relais
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
+- led en face de chaque relais (sortie + transfo 24v)
 - ds 18b20
 - capteur humidité avec ADC
 
