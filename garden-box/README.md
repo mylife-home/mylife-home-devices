@@ -30,5 +30,6 @@ _TODO_
 - Boite avec couvercle transparent
 - Presses etoupe
 - Electrovannes : Solénoïde robuste : 24 V c.a., courant d'appel de 370 mA, courant de maintien de 190 mA, 60 cycles ; courant d'appel de 475 mA, courant de maintien de 230 mA, 50 cycles
-- => Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846 (36VA)
+- Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846 (36VA - 77.5x60x48.5)
 - RS online has symbol library, convertible to kicad
+- convertisseur 12v -> 5v : https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934032 (2A - regarder la datasheet il faut mettre des condensateurs avec)
