@@ -21,6 +21,30 @@
 - ds 18b20
 - capteur humidité sol avec ADC
 
+#### Materiel
+
+- boitier :
+  - https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/?applied-dimensions=4294547633,4294564706,4294564365,4294256070,4292584295
+- switch :
+  - DLink GO-SW-5E
+  - https://eu.dlink.com/fr/fr/products/go-sw-5e
+  - dimensions : 87 x 47.85 x 21.7mm
+  - alimentation : 5V 0.55A
+- capteur humidité sol :
+  - https://www.amazon.fr/gp/product/B07RGJHQ1L
+- relais : 
+  - Omron G6DN-1A-L DC5
+  - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
+  - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
+- convertisseur 12v -> 5v : 
+  - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934032
+  - Courant de sortie : 2A
+  - regarder la datasheet il faut mettre des condensateurs avec
+- Transfo :
+  - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846
+  - dimensions : 77.5 x 60 x 48.5
+  - Puissance : 36VA
+
 ### led driver
 
 _TODO_
@@ -31,14 +55,5 @@ _TODO_
 - Boite avec couvercle transparent
 - Presses etoupe
 - Electrovannes : Solénoïde robuste : 24 V c.a., courant d'appel de 370 mA, courant de maintien de 190 mA, 60 cycles ; courant d'appel de 475 mA, courant de maintien de 230 mA, 50 cycles
-- Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846 (36VA - 77.5x60x48.5)
 - RS online has symbol library, convertible to kicad
-- convertisseur 12v -> 5v : https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934032 (2A - regarder la datasheet il faut mettre des condensateurs avec)
-- relais : 
-  - Omron G6DN-1A-L DC5
-  - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
-  - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
-- capteur humidité sol : https://www.amazon.fr/gp/product/B07RGJHQ1L
 - schema pilotage relais : https://i.stack.imgur.com/04BfF.jpg
-- switch : https://eu.dlink.com/fr/fr/products/go-sw-5e GO-SW-5E
-- boitier : https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/?applied-dimensions=4294547633,4294564706,4294564365,4294256070,4292584295
