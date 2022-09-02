@@ -40,3 +40,5 @@ _TODO_
   - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
 - capteur humidité sol : https://www.amazon.fr/gp/product/B07RGJHQ1L
 - schema pilotage relais : https://i.stack.imgur.com/04BfF.jpg
+- switch : https://eu.dlink.com/fr/fr/products/go-sw-5e GO-SW-5E
+- boitier : https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/?applied-dimensions=4294547633,4294564706,4294564365,4294256070,4292584295
