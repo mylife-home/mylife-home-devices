@@ -53,6 +53,18 @@
 - https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
 - Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
 
+## V1
+
+### Top
+
+![](v1/schematic-top.png)
+![](v1/schematic-top-input.png)
+![](v1/schematic-top-output.png)
+
+### Bottom
+
+![](v1/schematic-bottom.png)
+
 ## Prototype-1
 
 ![](prototype-1/schematic.png)
