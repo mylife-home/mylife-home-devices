@@ -11,8 +11,9 @@
 ## Notes
 
  - arduino external ADC :
-   - Mcp3208 12 bits
-   - Mcp3008 10 bits
+   - ADS1115 - I2C - 16 bits - 4 channels ADC
+   - MCP3208 - SPI - 12 bits - 8 channels ADC
+   - MCP3008 - SPI - 10 bits - 8 channels ADC
    - Arduino UNO interne 10 bits
    - rpi pico interne 3 ADC utilisables de 12 bits
 
