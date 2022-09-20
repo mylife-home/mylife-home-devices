@@ -15,6 +15,7 @@
 - Tester ethernet
 - firmware : 2 versions avec 2 adresses
 - fabrication 2ieme carte (cf V1/Assemblage boitier)
+
 ## Design
 
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
