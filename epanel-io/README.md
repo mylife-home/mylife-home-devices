@@ -14,14 +14,7 @@
 
 - Tester ethernet
 - firmware : 2 versions avec 2 adresses
-- image de cablage de la carte
-- fabrication 2ieme carte :
-  - enlever les renforts au milieu a la pince + finition dremel
-  - raboter les cales pour la carte superieure au dremel
-  - souder headers
-  - souder borniers
-  - couper a la pince pins qui depassent du bornier qui empechent de fermer le boitier correctement
-
+- fabrication 2ieme carte (cf V1/Assemblage boitier)
 ## Design
 
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
@@ -68,22 +61,13 @@
 <img src="v1/pictures/fini1.jpg" width="300">
 <img src="v1/pictures/fini2.jpg" width="300">
 
-## Notes
+### Assemblage boitier
 
-### Mosfet dimmer schematics
-
-- [Prototype1 (does not work)](mosfet-dimmer.png)
-- https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
-- https://sound-au.com/project157.htm
-- https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
-- IRF740 -> 10A
-
-### 220v current sensor (input)
-
-- https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
-- https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
-- https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
-- Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
+- enlever les renforts au milieu a la pince + finition dremel
+- raboter les cales pour la carte superieure au dremel
+- souder les pin headers
+- souder les borniers
+- couper a la pince les pins qui depassent des soudures de borniers qui empechent de fermer le boitier correctement
 
 ## Prototype-1
 
@@ -147,3 +131,20 @@
 - Images:
   <br/>
   <img src="prototype-3/pictures/panel.jpg" width="300">
+
+## Notes
+
+### Mosfet dimmer schematics
+
+- [Prototype1 (does not work)](mosfet-dimmer.png)
+- https://electronics.stackexchange.com/questions/557763/trailing-edge-dimmer-circuit-limitations
+- https://sound-au.com/project157.htm
+- https://electronics.stackexchange.com/questions/277884/problems-with-a-back-to-back-mosfet-dimmer-for-230vac
+- IRF740 -> 10A
+
+### 220v current sensor (input)
+
+- https://arduino.stackexchange.com/questions/37044/127v-220v-ac-sensor-whats-the-role-of-this-particular-resistor
+- https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
+- https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
+- Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
