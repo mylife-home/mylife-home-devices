@@ -128,12 +128,13 @@
   <br/>
   <img src="prototype-3/pictures/panel.jpg" width="300">
 
-### Observations
-
-- 4N35: apparemment le Footprint ne correspond pas exactement au composant, le vrai composant est un peu plus large
-
 ## Etapes suivantes
 
-- bread board + boîtier DIN dans tableau
-- mettre mylife-home esp en prod
-- mettre sur lampe lit et dressing parents
+- firmware : 2 versions avec 2 adresses
+- image de cablage de la carte
+- fabrication 2ieme carte :
+  - enlever les renforts au milieu a la pince + finition dremel
+  - raboter les cales pour la carte superieure au dremel
+  - souder headers
+  - souder borniers
+  - couper a la pince pins qui depassent du bornier qui empechent de fermer le boitier correctement
