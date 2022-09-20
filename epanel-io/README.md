@@ -13,6 +13,14 @@
 ## TODO
 
 - Tester ethernet
+- firmware : 2 versions avec 2 adresses
+- image de cablage de la carte
+- fabrication 2ieme carte :
+  - enlever les renforts au milieu a la pince + finition dremel
+  - raboter les cales pour la carte superieure au dremel
+  - souder headers
+  - souder borniers
+  - couper a la pince pins qui depassent du bornier qui empechent de fermer le boitier correctement
 
 ## Design
 
@@ -36,6 +44,30 @@
 - Connexion i2c + power
 - master controler olimex esp32 dans le tableau electrique
 
+## V1
+
+### Wiring
+
+![](v1/wiring.png)
+
+### Top
+
+![](v1/schematic-top.png)
+![](v1/schematic-top-input.png)
+![](v1/schematic-top-output.png)
+
+### Bottom
+
+![](v1/schematic-bottom.png)
+
+### Images
+
+<img src="v1/pictures/emballage.jpg" width="300">
+<img src="v1/pictures/ensemble1.jpg" width="300">
+<img src="v1/pictures/ensemble2.jpg" width="300">
+<img src="v1/pictures/fini1.jpg" width="300">
+<img src="v1/pictures/fini2.jpg" width="300">
+
 ## Notes
 
 ### Mosfet dimmer schematics
@@ -52,18 +84,6 @@
 - https://smartsolutions4home.com/detecting-mains-voltage-with-microcontroller/
 - https://bytesofgigabytes.com/embedded/sensing-ac-voltage-using-microcontroller/
 - Zc : https://electronics.stackexchange.com/questions/215094/how-to-test-if-zero-crossing-is-working
-
-## V1
-
-### Top
-
-![](v1/schematic-top.png)
-![](v1/schematic-top-input.png)
-![](v1/schematic-top-output.png)
-
-### Bottom
-
-![](v1/schematic-bottom.png)
 
 ## Prototype-1
 
@@ -127,14 +147,3 @@
 - Images:
   <br/>
   <img src="prototype-3/pictures/panel.jpg" width="300">
-
-## Etapes suivantes
-
-- firmware : 2 versions avec 2 adresses
-- image de cablage de la carte
-- fabrication 2ieme carte :
-  - enlever les renforts au milieu a la pince + finition dremel
-  - raboter les cales pour la carte superieure au dremel
-  - souder headers
-  - souder borniers
-  - couper a la pince pins qui depassent du bornier qui empechent de fermer le boitier correctement
