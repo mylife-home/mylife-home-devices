@@ -42,6 +42,9 @@
 
 ### Wiring
 
+IO from left to right:
+0,1,2,3, 8,9, 4,5,6,7
+
 ![](v1/wiring.png)
 
 ### Top
