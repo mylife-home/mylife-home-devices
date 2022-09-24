@@ -15,7 +15,8 @@
    - MCP3208 - SPI - 12 bits - 8 channels ADC
    - MCP3008 - SPI - 10 bits - 8 channels ADC
    - Arduino UNO interne 10 bits
-   - rpi pico interne 3 ADC utilisables de 12 bits
+   - rpi pico interne 3 ADC utilisables de 12 bits*
+   - https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report
 
 ## Links
 
