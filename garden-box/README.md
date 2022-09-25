@@ -57,3 +57,5 @@ _TODO_
 - Electrovannes : Solénoïde robuste : 24 V c.a., courant d'appel de 370 mA, courant de maintien de 190 mA, 60 cycles ; courant d'appel de 475 mA, courant de maintien de 230 mA, 50 cycles
 - RS online has symbol library, convertible to kicad
 - schema pilotage relais : https://i.stack.imgur.com/04BfF.jpg
+- Boitier actuel IP 55 210x170x70, dimenesions intérieures 204x164x75
+  
