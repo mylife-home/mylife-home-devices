@@ -36,7 +36,7 @@
   - Omron G6DN-1A-L DC5
   - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
   - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
-- convertisseur 12v -> 5v : 
+- convertisseur 12v -> 5v : (En stock à partir du 14/02/2023)
   - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934032
   - Courant de sortie : 2A
   - regarder la datasheet il faut mettre des condensateurs avec
