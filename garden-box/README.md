@@ -49,6 +49,10 @@
 
 _TODO_
 
+## V1
+
+![](v1/schematic.png)
+
 ## Notes
 
 - Bus avec 230v, 12v ondulé, ethernet
