@@ -51,7 +51,13 @@ _TODO_
 
 ## V1
 
+### Main
+
 ![](v1/schematic.png)
+
+### Relay
+
+![](v1/schematic-relay.png)
 
 ## Notes
 
