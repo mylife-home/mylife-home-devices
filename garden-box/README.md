@@ -24,7 +24,7 @@
 #### Materiel
 
 - boitier :
-  - https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/?applied-dimensions=4294547633,4294564706,4294564365,4294256070,4292584295
+  - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/2010161
 - switch :
   - DLink GO-SW-5E
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
