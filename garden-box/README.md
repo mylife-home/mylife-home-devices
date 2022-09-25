@@ -31,7 +31,7 @@
   - dimensions : 87 x 47.85 x 21.7mm
   - alimentation : 5V 0.55A
 - capteur humidité sol :
-  - https://www.amazon.fr/gp/product/B07RGJHQ1L
+  - https://fr.rs-online.com/web/p/kits-de-developpement-pour-capteur/2049905
 - relais : 
   - Omron G6DN-1A-L DC5
   - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
