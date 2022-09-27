@@ -8,6 +8,20 @@
 - Wifi et (Ethernet ?)
 - Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
 
+### Emplacements
+
+- chambre parents
+- chambre Eléonore
+- chambre Éloïse
+- chambre d'amis
+- rdc derrière TV
+- bibliothèque pour lampe pot de fleurs + température ?
+
+---
+- 1 par clim + capteur température par pièce
+- 1 par lit
+- 1 télécommande 433 par chambre + 1 RDC
+
 ## Choix techniques
 
 - ESP semble suffisant pour le projet (avec shield ethernet si besoin)
