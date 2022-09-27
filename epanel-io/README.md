@@ -12,9 +12,9 @@
 
 ## TODO
 
-- Tester ethernet
-- firmware : 2 versions avec 2 adresses
-- fabrication 2ieme carte (cf V1/Assemblage boitier)
+- pico 2 : output KO:
+  - 1 (always on),
+  - 2 (always blinking),
 
 ## Design
 
