@@ -10,12 +10,6 @@
   - RDC: 5 + porche
   - Dehors: terrasse (vers spa)
 
-## TODO
-
-- pico 2 : output KO:
-  - 1 (always on),
-  - 2 (always blinking),
-
 ## Design
 
 - Rpi pico: 2 modules with 10 I/O each with io port0 = Zc + power supply
