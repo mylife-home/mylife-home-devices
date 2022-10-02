@@ -67,6 +67,13 @@ IO from left to right:
 - souder les borniers
 - couper a la pince les pins qui depassent des soudures de borniers qui empechent de fermer le boitier correctement
 
+### Problèmes
+
+- défaut sur Q3/Q4 sur board 2 (always on)
+- défaut sur Q5/Q6 sur board 2 (blinking)
+
+=> Q4 est mort, Q5/Q6 à tester
+
 ## Prototype-1
 
 ![](prototype-1/schematic.png)
