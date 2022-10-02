@@ -32,3 +32,22 @@
 
  - ESP32 : ESP32-POE-ISO https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
  - Mcp3208 x2
+
+## Prototype-1
+
+![](prototype-1/schematic.png)
+
+### Tests
+
+### Observations
+
+- Teleinfo
+  - mauvais composant pour optocoupleur :
+    - courant LTV-8141
+    - correct: LTV-814 (C125118)
+  - voir si on doit mettre une résistance de 4.7K, 1.2K ou 1K (prévoir les 3 dans proto 2)
+- CT Clamp
+  - les prise jack a souder sont très peu épaisses, elles doivent être au board du PCB ou changer de modèle
+  - prévoir plusieurs burden possibles pour tester dans proto 2
+  - tester avec MCP3208 dans proto 2
+  - problème de sensibilité ?
