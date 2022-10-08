@@ -54,13 +54,13 @@ _ZC sur 8,9_
 
 ### Images
 
+#### Fabrication
+
 <img src="v1/pictures/emballage.jpg" width="300">
 <img src="v1/pictures/ensemble1.jpg" width="300">
 <img src="v1/pictures/ensemble2.jpg" width="300">
 <img src="v1/pictures/fini1.jpg" width="300">
 <img src="v1/pictures/fini2.jpg" width="300">
-
-### Assemblage boitier
 
 - enlever les renforts au milieu a la pince + finition dremel
 - raboter les cales pour la carte superieure au dremel
@@ -68,12 +68,22 @@ _ZC sur 8,9_
 - souder les borniers
 - couper a la pince les pins qui depassent des soudures de borniers qui empechent de fermer le boitier correctement
 
-### Problèmes
+<img src="v1/pictures/fini-avec-fix.jpg" width="300">
 
-- défaut sur Q3/Q4 sur board 2 (always on)
-- défaut sur Q5/Q6 sur board 2 (blinking)
+_Après fix (Q3/Q4 et Q5/Q6 etaient morts)_
 
-=> Q4 est mort, Q5/Q6 à tester
+
+#### Installation
+
+<img src="v1/pictures/avant1.jpg" width="300">
+<img src="v1/pictures/avant2.jpg" width="300">
+
+_Ancienne domotique_
+
+<img src="v1/pictures/apres1.jpg" width="300">
+<img src="v1/pictures/apres2.jpg" width="300">
+
+_Nouvelle domotique_
 
 ## Prototype-1
 
