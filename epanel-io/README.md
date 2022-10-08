@@ -36,8 +36,9 @@
 
 ### Wiring
 
-IO from left to right:
-0,1,2,3, 8,9, 4,5,6,7
+IO from left to right:  
+0,1,2,3, 8,9, 4,5,6,7  
+_ZC sur 8,9_
 
 ![](v1/wiring.png)
 
