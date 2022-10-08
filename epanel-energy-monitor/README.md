@@ -5,7 +5,7 @@
  - 12 capteurs
    - abonnement 12KVA ~ 55A
    - 4 sur inter diff (entre 40A et 63A)
-   - 8 sur disjoncteurs (entre 16A et 32A)
+   - 8 sur disjoncteurs (entre 10A et 32A)
  - teleinfo
  
 ## Notes
