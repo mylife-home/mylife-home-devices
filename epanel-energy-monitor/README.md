@@ -63,6 +63,7 @@
 - CT Clamp
   - mettre un MCP3208
   - jumper pour passer soit par MCP3208 soit direct sur ESP32
+  - attention: GPIO2 et GPIO4 ne semble pas etre valides pour ADC avec esphome. GPIO32 et GPIO33 oui
   - mettre des pins headers pour pouvoir mesurer au voltmètre
   - plusieurs burden possibles:
     - 20A 117ohm
