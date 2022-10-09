@@ -52,7 +52,7 @@
     - Théoriquement: 1300W /230V = 5.6A
     - Mesure avec ampèremètre sur directement sur le courant secteur : 6.12A
     - Mesure avec voltmètre aux bornes du burden resistor 120ohm : 0.31V /120Rb *2000 = 5.16A
-  - TODO: recoder esphome CT clamp pour etre adapter au montage OpenEnergyMonitor
+    - Mesure avec oem_clamp recodé : 7.55A à l'allumage puis 6.35A après (instable). Note : le 0 est à 0.06A
 
 ### A faire pour proto 2:
 
