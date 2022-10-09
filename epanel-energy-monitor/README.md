@@ -21,6 +21,8 @@
   - Alimentation : 
     - rpi pico: < 100ma
     - esp32 poe: 200ma
+    - mcp3208: 0.4ma
+    - alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
 
 
 ## Links
