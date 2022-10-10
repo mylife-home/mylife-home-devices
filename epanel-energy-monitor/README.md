@@ -78,3 +78,8 @@
     - 16A 146ohm
     - 32A 73ohm
     - 10A 233ohm
+- test emplacement ESP32
+  - avec le connecteur ethernet vers le bas
+  - sur la partie droite, mais pas collé (sinon les ergo vont gener)
+  - au milieu en hauteur
+  - on decoupera le boitier au dremel pour faire la place pour le connecteur ethernet
