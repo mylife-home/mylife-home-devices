@@ -17,7 +17,7 @@
   - Arduino UNO interne 10 bits
   - rpi pico interne 3 ADC utilisables de 12 bits
   - https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report
-  - Calcul burden : `1,65÷(val×√2÷2000)` val = max courant en Amperes https://tyler.anairo.com/projects/open-energy-monitor-calculator
+  - Calcul burden : `1,65 / (val * √2 / 2000)` val = max courant en Amperes https://tyler.anairo.com/projects/open-energy-monitor-calculator
   - Alimentation : 
     - rpi pico: < 100ma
     - esp32 poe: 200ma
@@ -73,11 +73,11 @@
   - attention: GPIO2 et GPIO4 ne semble pas etre valides pour ADC avec esphome. GPIO32 et GPIO33 oui
   - mettre des pins headers pour pouvoir mesurer au voltmètre
   - plusieurs burden possibles:
-    - 10A 233ohm
-    - 16A 146ohm
-    - 20A 117ohm
-    - 32A 73ohm
-    - 60A 39ohm
+    - 10A 233ohm -> 220 (10.6A)
+    - 16A 146ohm -> 150 (15.6A)
+    - 20A 117ohm -> 120 (19.4A)
+    - 32A 73ohm -> 75 (31.1A)
+    - 60A 39ohm -> 33 (70.7A)
 - test emplacement ESP32
   - avec le connecteur ethernet vers le bas
   - sur la partie droite, mais pas collé (sinon les ergo vont gener)
