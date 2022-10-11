@@ -73,11 +73,11 @@
   - attention: GPIO2 et GPIO4 ne semble pas etre valides pour ADC avec esphome. GPIO32 et GPIO33 oui
   - mettre des pins headers pour pouvoir mesurer au voltmètre
   - plusieurs burden possibles:
-    - 20A 117ohm
-    - 60A 39ohm
-    - 16A 146ohm
-    - 32A 73ohm
     - 10A 233ohm
+    - 16A 146ohm
+    - 20A 117ohm
+    - 32A 73ohm
+    - 60A 39ohm
 - test emplacement ESP32
   - avec le connecteur ethernet vers le bas
   - sur la partie droite, mais pas collé (sinon les ergo vont gener)
