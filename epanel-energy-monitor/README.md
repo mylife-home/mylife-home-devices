@@ -83,3 +83,8 @@
   - sur la partie droite, mais pas collé (sinon les ergo vont gener)
   - au milieu en hauteur
   - on decoupera le boitier au dremel pour faire la place pour le connecteur ethernet
+
+## Prototype-2
+
+![](prototype-2/schematic.png)
+
