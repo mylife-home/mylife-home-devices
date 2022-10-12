@@ -2555,8 +2555,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5d7b5a26-027a-4672-ad98-b9419fb008a1)
     (property "Reference" "U1" (id 0) (at 63.5 19.05 0))
-    (property "Value" "ESP32-POE-ISO" (id 1) (at 63.5 21.59 0))
-    (property "Footprint" "" (id 2) (at 63.5 20.32 0)
+    (property "Value" "ESP32-POE" (id 1) (at 63.5 21.59 0))
+    (property "Footprint" "mylife-footprints:ESP32-POE" (id 2) (at 63.5 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware" (id 3) (at 63.5 20.32 0)
@@ -3307,7 +3307,7 @@
       (reference "R15") (unit 1) (value "4.7KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/5d7b5a26-027a-4672-ad98-b9419fb008a1"
-      (reference "U1") (unit 1) (value "ESP32-POE-ISO") (footprint "")
+      (reference "U1") (unit 1) (value "ESP32-POE") (footprint "mylife-footprints:ESP32-POE")
     )
     (path "/245abd9d-3d35-4956-a9f0-7102dcf3248e"
       (reference "U2") (unit 1) (value "MCP3208") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
