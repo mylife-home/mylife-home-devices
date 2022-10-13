@@ -34,7 +34,7 @@
   - https://fr.rs-online.com/web/p/kits-de-developpement-pour-capteur/2049905
 - relais : 
   - Omron G6DN-1A-L DC5
-  - courant de bobine : 36ma
+  - courant de bobine : 22ma
   - https://fr.rs-online.com/web/p/relais-de-puissance/2051958 (En stock à partir du 27/03/2023)
   - https://fr.farnell.com/omron/g6dn-1a-l-dc5/relais-puissance-spst-no-5a-250v/dp/2831773
 - convertisseur 12v -> 5v : (En stock à partir du 14/02/2023)
@@ -45,7 +45,8 @@ _- OU -_
 - alim 220v
   - alim 220v -> 5V 2A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812115
 - Transfo :
-  - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320506
+  - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472818 (moins cher)
+  - ~~https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320506~~
   - ~~https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846~~
   - dimensions : 77.5 x 60 x 48.5
   - Puissance : 36VA
@@ -54,9 +55,26 @@ _- OU -_
 
 _TODO_
 
+## Proto 1
+
+### Objectifs
+
+- valider implantation du PCB dans boitier
+- tester capteur humidité
+- tester montage transistor/relais
+- tester implantation alim sur PCB
+- tester implantation transfo sur PCB
+- tester ds18b20
+- tester end-to-end que solenoide fonctionne avec relais/transfo
+- trouver meilleure solution (jack? bornier?) pour alim switch
+
 ## V1
 
 ### Main
+
+__Manque resistance sur ds18b20__
+__Refaire alim__
+
 
 ![](v1/schematic.png)
 
