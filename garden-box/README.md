@@ -59,7 +59,7 @@ _TODO_
 
 ## Proto 1
 
-![](v1/schematic.png)
+![](prototype-1/schematic.png)
 
 ### Objectifs
 
