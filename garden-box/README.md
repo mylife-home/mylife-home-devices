@@ -59,6 +59,8 @@ _TODO_
 
 ## Proto 1
 
+![](v1/schematic.png)
+
 ### Objectifs
 
 - valider implantation du PCB dans boitier
@@ -69,6 +71,10 @@ _TODO_
 - tester ds18b20
 - tester end-to-end que solenoide fonctionne avec relais/transfo
 - trouver meilleure solution (jack? bornier?) pour alim switch
+
+### Tests
+
+### Observations
 
 ## V1
 
