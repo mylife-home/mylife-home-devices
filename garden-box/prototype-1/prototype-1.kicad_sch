@@ -1294,7 +1294,6 @@
     )
   )
 
-
   (junction (at 64.77 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 17dfe0dc-d4a8-460d-a95d-97633485cd55)
   )
@@ -1734,7 +1733,7 @@
   (symbol (lib_id "Connector:USB_A") (at 31.75 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 046cc858-94d2-4a81-a286-14af2525c2b6)
-    (property "Reference" "J?" (id 0) (at 31.75 76.2 0))
+    (property "Reference" "J1" (id 0) (at 31.75 76.2 0))
     (property "Value" "USB_A" (id 1) (at 31.75 78.74 0))
     (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (id 2) (at 35.56 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1804,7 +1803,7 @@
   (symbol (lib_id "power:+5V") (at 44.45 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3226b6bd-c8f2-4b15-a10a-d43df37b02fa)
-    (property "Reference" "#PWR0102" (id 0) (at 44.45 85.09 0)
+    (property "Reference" "#PWR02" (id 0) (at 44.45 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 44.45 77.6755 0))
@@ -1843,7 +1842,7 @@
   (symbol (lib_id "power:GND") (at 46.99 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3d24ca64-8898-4a21-92dc-4bb372c9b113)
-    (property "Reference" "#PWR03" (id 0) (at 46.99 162.56 0)
+    (property "Reference" "#PWR04" (id 0) (at 46.99 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 47.117 160.6042 0))
@@ -1859,7 +1858,7 @@
   (symbol (lib_id "power:+3.3V") (at 63.5 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 47dd3c39-450c-4d60-835c-89b562cd20bd)
-    (property "Reference" "#PWR09" (id 0) (at 63.5 71.12 0)
+    (property "Reference" "#PWR08" (id 0) (at 63.5 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 63.5 63.7055 0))
@@ -1913,7 +1912,7 @@
   (symbol (lib_id "power:GND") (at 31.75 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 705d7904-7783-4aa0-8d1a-24e75e472f89)
-    (property "Reference" "#PWR0101" (id 0) (at 31.75 111.76 0)
+    (property "Reference" "#PWR01" (id 0) (at 31.75 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 31.877 109.8042 0))
@@ -1929,7 +1928,7 @@
   (symbol (lib_id "power:GND") (at 58.42 72.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c21d32b-1bd6-41c7-a0fb-1c1fb434cb30)
-    (property "Reference" "#PWR08" (id 0) (at 58.42 78.74 0)
+    (property "Reference" "#PWR07" (id 0) (at 58.42 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 58.547 76.7842 0))
@@ -2044,7 +2043,7 @@
   (symbol (lib_id "power:GND") (at 46.99 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a9799945-6524-4792-9375-160ea9239fdb)
-    (property "Reference" "#PWR02" (id 0) (at 46.99 137.16 0)
+    (property "Reference" "#PWR03" (id 0) (at 46.99 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 47.117 135.2042 0))
@@ -2095,7 +2094,7 @@
   (symbol (lib_id "power:+3.3V") (at 64.77 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c1c839fa-6054-424e-a156-b2a9bf37d803)
-    (property "Reference" "#PWR07" (id 0) (at 64.77 115.57 0)
+    (property "Reference" "#PWR09" (id 0) (at 64.77 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 64.77 108.1555 0))
@@ -2329,11 +2328,17 @@
   )
 
   (symbol_instances
+    (path "/705d7904-7783-4aa0-8d1a-24e75e472f89"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3226b6bd-c8f2-4b15-a10a-d43df37b02fa"
+      (reference "#PWR02") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/a9799945-6524-4792-9375-160ea9239fdb"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/3d24ca64-8898-4a21-92dc-4bb372c9b113"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/c0477393-31e8-40d5-b090-5fa2eaf7ba72"
       (reference "#PWR05") (unit 1) (value "+3.3V") (footprint "")
@@ -2341,13 +2346,13 @@
     (path "/c8ca09c4-3864-43ce-949c-ef7e8a8f9575"
       (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/c1c839fa-6054-424e-a156-b2a9bf37d803"
-      (reference "#PWR07") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/9c21d32b-1bd6-41c7-a0fb-1c1fb434cb30"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/47dd3c39-450c-4d60-835c-89b562cd20bd"
+      (reference "#PWR08") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/c1c839fa-6054-424e-a156-b2a9bf37d803"
       (reference "#PWR09") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/ed517006-d210-4768-8125-1a124e6c86ac"
@@ -2371,17 +2376,14 @@
     (path "/643a5c35-c8ac-4fca-a8bf-42bed6f5de92"
       (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/705d7904-7783-4aa0-8d1a-24e75e472f89"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/3226b6bd-c8f2-4b15-a10a-d43df37b02fa"
-      (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/4f6aa278-908b-4606-ab16-3f89a1d8ebf8"
       (reference "D1") (unit 1) (value "LED") (footprint "Diode_SMD:D_0805_2012Metric")
     )
     (path "/fa287af3-8143-4b7d-ba6a-f713228393e0"
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/046cc858-94d2-4a81-a286-14af2525c2b6"
+      (reference "J1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
     (path "/a92772ed-b0e6-4a03-a485-6f9febfd19d3"
       (reference "J2") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -2397,9 +2399,6 @@
     )
     (path "/d06b310f-b364-4ea4-a2e6-b01c3e071e60"
       (reference "J6") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
-    )
-    (path "/046cc858-94d2-4a81-a286-14af2525c2b6"
-      (reference "J?") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
     (path "/c594017f-aa60-467a-ab4f-3544e1ac6b56"
       (reference "K1") (unit 1) (value "G6DN-1A-L_DC5") (footprint "rs-online:G6DN-1A-L")
