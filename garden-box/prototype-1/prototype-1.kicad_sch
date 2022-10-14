@@ -1788,7 +1788,7 @@
     (uuid 2fb2622f-7997-48d2-bce0-8286d8a31d77)
     (property "Reference" "PS1" (id 0) (at 110.49 15.24 0))
     (property "Value" "RS PRO 5V 2A" (id 1) (at 110.49 17.78 0))
-    (property "Footprint" "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT" (id 2) (at 110.49 34.29 0)
+    (property "Footprint" "mylife-footprints:RS PRO 5V 2A" (id 2) (at 110.49 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF" (id 3) (at 110.49 35.56 0)
@@ -2404,7 +2404,7 @@
       (reference "K1") (unit 1) (value "G6DN-1A-L_DC5") (footprint "rs-online:G6DN-1A-L")
     )
     (path "/2fb2622f-7997-48d2-bce0-8286d8a31d77"
-      (reference "PS1") (unit 1) (value "RS PRO 5V 2A") (footprint "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT")
+      (reference "PS1") (unit 1) (value "RS PRO 5V 2A") (footprint "mylife-footprints:RS PRO 5V 2A")
     )
     (path "/3b87441e-9545-4daa-bf5c-0e30f2dd4c01"
       (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_SMD:SOT-23")
