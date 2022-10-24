@@ -5,7 +5,7 @@
 - Récepteur 433mhz (pour télécommande)
 - Capteur température
 - 4 sorties prises
-- Wifi et (Ethernet ?)
+- Wifi et Ethernet
 - Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
 
 ### Emplacements
@@ -29,11 +29,14 @@
   - BT136 (4A max)
   - Dissipateurs ?
   - Fusible 5x20 à souder
-  - résistance de 100k en // de la charge pour éviter déclenchements foireux ampoules leds, à tester ?
 - Prise comme alim de PC, plus facile à mettre en oeuvre
 - Capteur température : ds18b20
 - utiliser jack pour IR et capteur temp
 - capteur temp : avoir un capteur intégré et un capteur avec Jack?
+- Idées :
+  - Sorties prises C14 pour avoir un format plus compact ?
+  - Sortie USB direct sur la prise pour brancher le switch dessus en ethernet si besoin ?
+  - Format prise : https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/interrupteur-et-prise-en-saillie/bloc-5-prises-avec-terre-saillie-blanc-82016676.html ?
 
 ## Matériel
 
