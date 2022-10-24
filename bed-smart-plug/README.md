@@ -34,7 +34,7 @@
 - utiliser jack pour IR et capteur temp
 - capteur temp : avoir un capteur intégré et un capteur avec Jack?
 - Idées :
-  - Sorties prises C14 pour avoir un format plus compact ?
+  - Sorties prises IEC C13 pour avoir un format plus compact ?
   - Sortie USB direct sur la prise pour brancher le switch dessus en ethernet si besoin ?
   - Format prise : https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/interrupteur-et-prise-en-saillie/bloc-5-prises-avec-terre-saillie-blanc-82016676.html ?
 
