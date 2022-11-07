@@ -88,3 +88,11 @@
 
 ![](prototype-2/schematic.png)
 
+### Tests
+
+### Observations
+
+- Teleinfo
+  - ne fonctionne pas
+  - WeMos TIC fonctionne, schematic : https://cdn.tindiemedia.com/images/resize/s_ZnNZRPrxDSvn3I8rBo9nkt9-8=/p/fit-in/1370x912/filters:fill(fff)/i/5857/products/2021-11-24T17%3A07%3A47.675Z-WeMos-TIC-sch.png?1637747448
+  - Note : les valeurs des resistances correspondent bien au schematic
