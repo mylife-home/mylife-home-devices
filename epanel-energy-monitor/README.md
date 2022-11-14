@@ -90,9 +90,21 @@
 
 ### Tests
 
+- CT Clamp avec ADC ESP32 - Burden 220ohm (10A) sur sèche cheveux 1500W
+  - eteint : 0.030A - 0.036A
+  - level1 : 2.321A - 2.323A = 533W
+  - level3 : 6.395A - 6.431A = 1470W - 1479W
+
+- CT Clamp avec MCP3008 - Burden 220ohm (10A) sur sèche cheveux 1500W
+  - eteint : 0.043A - 0.105A
+  - level1 : 2.316A = 532.68W
+  - level3 : 6.335A = 1457W
+
 ### Observations
 
 - Teleinfo
   - ne fonctionne pas
   - WeMos TIC fonctionne, schematic : https://cdn.tindiemedia.com/images/resize/s_ZnNZRPrxDSvn3I8rBo9nkt9-8=/p/fit-in/1370x912/filters:fill(fff)/i/5857/products/2021-11-24T17%3A07%3A47.675Z-WeMos-TIC-sch.png?1637747448
   - Note : les valeurs des resistances correspondent bien au schematic
+- CT Clamp MCP3008
+  - GPIO15 = strapping pin
