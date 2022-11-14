@@ -101,7 +101,8 @@
   - level3 : 6.335A = 1457W
 
 - CT Clamp avec MCP3008 - Burden 75ohm (32A) sur SPA
-  - au "repos" (avec filtration ?) : 0.117A - 0.258A -> 26,91W - 59,34W
+  - au "repos" : 0.117A - 0.258A -> 26,91W - 59,34W
+  - filtration? : 0.551A -> 126,73W
   - au "travail" (chauffage ?) : 11.751A -> 2700W
 
 ### Observations
