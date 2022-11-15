@@ -113,4 +113,7 @@
   - Note : les valeurs des resistances correspondent bien au schematic
 - CT Clamp MCP3008
   - GPIO15 = strapping pin
-  - rajouter Voltage sensor pour pouvoir calculer la puissance réelle https://learn.openenergymonitor.org/electricity-monitoring/voltage-sensing/measuring-voltage-with-an-acac-power-adapter
+  - rajouter Voltage sensor pour pouvoir calculer la puissance réelle
+    - https://learn.openenergymonitor.org/electricity-monitoring/voltage-sensing/measuring-voltage-with-an-acac-power-adapter
+    - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/1213819
+  - tester reactivité ESP32 avec 16 mesures (meme si pas de CT clamp, juste pour etre sur que ca ne perde pas en reactivite)
