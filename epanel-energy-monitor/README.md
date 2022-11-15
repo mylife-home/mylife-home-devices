@@ -124,6 +124,9 @@
       - semble etre 80A:50mA
       - tore d'une seule pièce
   - faire une sortie screwterminal a cote du jack pour pouvoir tester d'autres CT Clamp
+  - burdens:
+    - essayer d'optimiser les valeurs en pouvant les mettre en //
+    - attention : schneider CT turns = 1600, YHDC CT turns = 2000
 - Montage ESP32 dans DIN box
   - trop sur le côté, décaler de 2-3mm vers le milieu
   - la prochaine fois faire un truc moins cochon au Dremel
