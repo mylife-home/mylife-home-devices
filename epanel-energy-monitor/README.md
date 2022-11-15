@@ -117,3 +117,7 @@
     - https://learn.openenergymonitor.org/electricity-monitoring/voltage-sensing/measuring-voltage-with-an-acac-power-adapter
     - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/1213819
   - tester reactivité ESP32 avec 16 mesures (meme si pas de CT clamp, juste pour etre sur que ca ne perde pas en reactivite)
+  - trouver des CT Clamp plus petits ? comme ceux de Schneider ?
+- Montage ESP32 dans DIN box
+  - trop sur le côté, décaler de 2-3mm vers le milieu
+  - la prochaine fois faire un truc moins cochon au Dremel
