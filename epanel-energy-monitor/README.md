@@ -118,6 +118,11 @@
     - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/1213819
   - tester reactivité ESP32 avec 16 mesures (meme si pas de CT clamp, juste pour etre sur que ca ne perde pas en reactivite)
   - trouver des CT Clamp plus petits ? comme ceux de Schneider ?
+    - ceux de Schneider:
+      - https://www.amazon.fr/Transformateurs-courant-ferm%C3%A9s-80a-Lot/dp/B01G5M1MT4
+      - https://www.se.com/fr/fr/product/EER39200/wiser-energy-lot-de-5-tc-transformateurs-de-courant-ferm%C3%A9s-80a/
+      - semble etre 80A:50mA
+      - tore d'une seule pièce
   - faire une sortie screwterminal a cote du jack pour pouvoir tester d'autres CT Clamp
 - Montage ESP32 dans DIN box
   - trop sur le côté, décaler de 2-3mm vers le milieu
