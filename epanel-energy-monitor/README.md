@@ -146,9 +146,11 @@
     - tester les 3 modes : pont div, ampli op et entre 2 points (AN0-AN3 par exemple)
   - ajouter capteur de tension
   - ajouter ampli op (avec un switch ampli op ou pont diviseur)
+    - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
   - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 4 capteurs CT + 1 tension
   - mettre des terminalscrews au lieu des jacks (ou les 2 si possible ?) pour tester CT Schneider
   - jeu de burden resistances pour CT turns 1600 et 2000
   - tester avec vraie alim (pour tester la stabilité des mesures avec l'alim)
+  - diodes pour protéger les ADC : https://openenergymonitor.github.io/forum-archive/sites/default/files/MyInputCircuits_0.jpg
 - Montage ESP32
   - corriger l'emplacement sur la board
