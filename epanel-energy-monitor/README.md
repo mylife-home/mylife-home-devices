@@ -130,3 +130,22 @@
 - Montage ESP32 dans DIN box
   - trop sur le côté, décaler de 2-3mm vers le milieu
   - la prochaine fois faire un truc moins cochon au Dremel
+- Montage prises Jack
+  - l'emplacement est parfait, mais on ne peut pas en mettre de chaque coté de la board et la faire rentrer dans le boitiers car ils depassent
+
+### A faire pour proto 3
+
+- Teleinfo
+  - doit fonctionner
+  - ajouter une led
+- CT Clamp
+  - garder un switch ADC ESP vs MCP3008
+  - ajouter un ADS1115 pour tester la difference de précision, avec un autre switch
+  - ajouter capteur de tension
+  - ajouter ampli op (avec un switch ampli op ou pont diviseur)
+  - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 4 capteurs CT + 1 tension
+  - mettre des terminalscrews au lieu des jacks (ou les 2 si possible ?) pour tester CT Schneider
+  - jeu de burden resistances pour CT turns 1600 et 2000
+  - tester avec vraie alim (pour tester la stabilité des mesures avec l'alim)
+- Montage ESP32
+  - corriger l'emplacement sur la board
