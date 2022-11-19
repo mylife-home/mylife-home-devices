@@ -141,6 +141,8 @@
 - CT Clamp
   - garder un switch ADC ESP vs MCP3008
   - ajouter un ADS1115 pour tester la difference de précision, avec un autre switch
+    - datasheet : https://www.ti.com/lit/ds/symlink/ads1115.pdf
+    - il peut mesure la difference entre 2 points, ce qui enleverait le pont diviseur et l'ampli OP, mais lui prendrait 2 IO ?
   - ajouter capteur de tension
   - ajouter ampli op (avec un switch ampli op ou pont diviseur)
   - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 4 capteurs CT + 1 tension
