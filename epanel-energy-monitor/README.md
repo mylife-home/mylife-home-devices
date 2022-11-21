@@ -105,6 +105,14 @@
   - filtration? : 0.551A -> 126,73W
   - au "travail" (chauffage ?) : 11.751A -> 2700W
 
+- CT Clamp comparaison avec Schneider avec MCP3008 - Burden 75ohm sur sèche cheveux 1500W - level3
+  - Mesure avec CT clamp YHDC : 6.3 - 6.4
+  - Mesure avec multimetre : 6.36
+  - Mesure schneider config 1600 turns => 5.6
+  - Mesure schneider config 2000 turns => 7
+  => en faisant le ratio, CT clamp Schneider = 1800 turns
+
+
 ### Observations
 
 - Teleinfo
