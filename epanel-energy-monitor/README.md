@@ -129,12 +129,12 @@
     - ceux de Schneider:
       - https://www.amazon.fr/Transformateurs-courant-ferm%C3%A9s-80a-Lot/dp/B01G5M1MT4
       - https://www.se.com/fr/fr/product/EER39200/wiser-energy-lot-de-5-tc-transformateurs-de-courant-ferm%C3%A9s-80a/
-      - semble etre 80A:50mA
+      - semble etre 80A:50mA => en fait 1800 turns
       - tore d'une seule pièce
   - faire une sortie screwterminal a cote du jack pour pouvoir tester d'autres CT Clamp
   - burdens:
     - essayer d'optimiser les valeurs en pouvant les mettre en //
-    - attention : schneider CT turns = 1600, YHDC CT turns = 2000
+    - attention : schneider CT turns = 1800, YHDC CT turns = 2000
 - Montage ESP32 dans DIN box
   - trop sur le côté, décaler de 2-3mm vers le milieu
   - la prochaine fois faire un truc moins cochon au Dremel
@@ -159,7 +159,7 @@
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
   - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 4 capteurs CT + 1 tension
   - mettre des terminalscrews au lieu des jacks (ou les 2 si possible ?) pour tester CT Schneider
-  - jeu de burden resistances pour CT turns 1600 et 2000
+  - jeu de burden resistances pour CT turns 1800 et 2000
   - tester avec vraie alim (pour tester la stabilité des mesures avec l'alim)
   - diodes pour protéger les ADC : https://openenergymonitor.github.io/forum-archive/sites/default/files/MyInputCircuits_0.jpg
 - Montage ESP32
