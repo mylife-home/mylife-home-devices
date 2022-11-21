@@ -147,20 +147,19 @@
   - doit fonctionner
   - ajouter une led
 - CT Clamp
-  - garder un switch ADC ESP vs MCP3008
   - ajouter un ADS1115 pour tester la difference de précision, avec un autre switch
     - datasheet : https://www.ti.com/lit/ds/symlink/ads1115.pdf
-    - il peut mesure la difference entre 2 points, ce qui enleverait le pont diviseur et l'ampli OP, il n'aurait que 3 IO au lieu de 4 ?
-    - tester les 3 modes : pont div, ampli op et entre 2 points (AN0-AN3 par exemple)
-    - peut-on n'avoir qu'une seule valeur de burden et utiliser le PGA ? (eg : 64A - 32A - 16A serait pas mal)
     - avec un burden pour 60A et la precision de l'ADC, cela suffit peut etre sans burden en plus ?
   - ajouter capteur de tension
-  - ajouter ampli op (avec un switch ampli op ou pont diviseur)
+  - ajouter ampli op
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
-  - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 4 capteurs CT + 1 tension
-  - mettre des terminalscrews au lieu des jacks (ou les 2 si possible ?) pour tester CT Schneider
-  - jeu de burden resistances pour CT turns 1800 et 2000
+    - pour chaque capteur, switch ampli op ou pont diviseur
+  - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 3 capteurs CT + 1 tension
+  - mettre des terminalscrews au lieu des jacks pour tester CT Schneider
+  - jeu de burden resistances pour CT turns 1800 et si possible 2000
   - tester avec vraie alim (pour tester la stabilité des mesures avec l'alim)
   - diodes pour protéger les ADC : https://openenergymonitor.github.io/forum-archive/sites/default/files/MyInputCircuits_0.jpg
+    - ADS a deja des protections dans son MUX
+  - pour chaque capteur, switch ADS vs MCP vs ESP
 - Montage ESP32
   - corriger l'emplacement sur la board
