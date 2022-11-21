@@ -145,6 +145,7 @@
     - il peut mesure la difference entre 2 points, ce qui enleverait le pont diviseur et l'ampli OP, il n'aurait que 3 IO au lieu de 4 ?
     - tester les 3 modes : pont div, ampli op et entre 2 points (AN0-AN3 par exemple)
     - peut-on n'avoir qu'une seule valeur de burden et utiliser le PGA ? (eg : 64A - 32A - 16A serait pas mal)
+    - avec un burden pour 60A et la precision de l'ADC, cela suffit peut etre sans burden en plus ?
   - ajouter capteur de tension
   - ajouter ampli op (avec un switch ampli op ou pont diviseur)
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
