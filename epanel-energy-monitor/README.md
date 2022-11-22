@@ -112,6 +112,18 @@
   - Mesure schneider config 2000 turns => 7
   => en faisant le ratio, CT clamp Schneider = 1800 turns
 
+- CT Clamp comparaison avec Schneider avec MCP3008 - Burden 75ohm sur ampoule 40W
+  - Mesure schneider config 1800 turns : 0.27
+  - Mesure schneider config 1600 turns : 0.24
+  - Mesure avec multimetre : 0.15
+  - 40W = 0.17
+  => en faisant le ratio, CT clamp Shneider = 1000 turns => tres peut precis, mais 0.27A sur 32A < 1%
+
+- CT Clamp comparaison avec Schneider avec MCP3008 - Burden 220ohm sur ampoule 40W
+  - Mesure schneider config 1800 turns : 0.18
+  - Mesure avec multimetre : 0.15
+  - 40W = 0.17
+
 
 ### Observations
 
