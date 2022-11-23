@@ -163,6 +163,7 @@
     - datasheet : https://www.ti.com/lit/ds/symlink/ads1115.pdf
     - avec un burden pour 60A et la precision de l'ADC, cela suffit peut etre sans burden en plus ?
   - ajouter capteur de tension
+    - Transfor : 6V -> https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
   - ajouter ampli op
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
     - pour chaque capteur, switch ampli op ou pont diviseur
