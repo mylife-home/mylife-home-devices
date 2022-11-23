@@ -336,7 +336,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tedit 59FF03AB) (tstamp 1e338d48-329f-4bcc-9503-54fc71796eff)
-    (at 64.945 66.255)
+    (at 64.77 55.245)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "prototype-3.kicad_sch")
@@ -1810,7 +1810,7 @@
 
   (footprint "mylife-footprints:ESP32-POE" (layer "F.Cu")
     (tedit 63469076) (tstamp 93facddf-6c79-4013-ab86-6d9262f4e0b0)
-    (at 149.225 99.735 -90)
+    (at 137.795 133.985 -90)
     (property "Sheetfile" "prototype-3.kicad_sch")
     (property "Sheetname" "")
     (path "/5d7b5a26-027a-4672-ad98-b9419fb008a1")
@@ -3372,10 +3372,10 @@
     )
   )
 
-  (gr_line locked (start 106.36 50.8) (end 193.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 1b3064ff-f326-4728-bece-2d8288e0c3a7))
-  (gr_line locked (start 106.36 118.8) (end 106.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 41694881-07b2-4449-970b-a0a04e7ed871))
-  (gr_line locked (start 193.36 118.8) (end 193.36 50.8) (layer "Edge.Cuts") (width 0.1) (tstamp 47efff7e-fb7c-40cf-bc97-0950285854db))
-  (gr_line locked (start 106.36 118.8) (end 193.36 118.8) (layer "Edge.Cuts") (width 0.1) (tstamp f409c2d0-1214-4bef-810e-97403e0227df))
+  (gr_line locked (start 100 50) (end 200 50) (layer "Edge.Cuts") (width 0.1) (tstamp 1b3064ff-f326-4728-bece-2d8288e0c3a7))
+  (gr_line locked (start 100 150) (end 100 50) (layer "Edge.Cuts") (width 0.1) (tstamp 41694881-07b2-4449-970b-a0a04e7ed871))
+  (gr_line locked (start 200 150) (end 200 50) (layer "Edge.Cuts") (width 0.1) (tstamp 47efff7e-fb7c-40cf-bc97-0950285854db))
+  (gr_line locked (start 100 150) (end 200 150) (layer "Edge.Cuts") (width 0.1) (tstamp f409c2d0-1214-4bef-810e-97403e0227df))
   (gr_text "L" (at 107.315 55.88) (layer "F.SilkS") (tstamp 2df41b52-c285-4fd7-a353-130335cc2ad2)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -3384,9 +3384,6 @@
   )
   (gr_text "N" (at 107.315 60.96) (layer "F.SilkS") (tstamp ceb28b26-70d5-4559-b0a0-4e091e4b60cc)
     (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "Size: 87 x 68" (at 198.12 172.72) (layer "Cmts.User") (tstamp 12768145-3120-4ddc-880f-7b2a84d966a3)
-    (effects (font (size 3 3) (thickness 0.15)))
   )
 
 )
