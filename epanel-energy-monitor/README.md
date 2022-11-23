@@ -164,6 +164,11 @@
     - avec un burden pour 60A et la precision de l'ADC, cela suffit peut etre sans burden en plus ?
   - ajouter capteur de tension
     - Transfor : 6V -> https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
+    - 6V RMS
+    - = 8.5V peak
+    - = 17V peak-peak
+    - ratio: 12 / (100 + 12) = 0,107
+    - = 1,819V
   - ajouter ampli op
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
     - pour chaque capteur, switch ampli op ou pont diviseur
