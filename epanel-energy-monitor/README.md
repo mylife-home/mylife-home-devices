@@ -168,7 +168,12 @@
     - pour chaque capteur, switch ampli op ou pont diviseur
   - mettre plusieurs capteurs de courant pour etre sur que l'ampli op fonctionne pour plusieurs, eg : 3 capteurs CT + 1 tension
   - mettre des terminalscrews au lieu des jacks pour tester CT Schneider
-  - jeu de burden resistances pour CT turns 1800 et si possible 2000
+  - jeu de burden resistances pour CT turns 1800
+    - 10A 210ohm -> 200 (10.5A)
+    - 16A 131ohm -> 130 (16.2A)
+    - 20A 105ohm -> 100 (21A)
+    - 32A 66ohm -> 62 (33.9A)
+    - 60A 35ohm -> 33 (63.6A)
   - tester avec vraie alim (pour tester la stabilité des mesures avec l'alim)
   - diodes pour protéger les ADC : https://openenergymonitor.github.io/forum-archive/sites/default/files/MyInputCircuits_0.jpg
     - ADS a deja des protections dans son MUX
