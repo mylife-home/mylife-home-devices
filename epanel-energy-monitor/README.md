@@ -186,3 +186,14 @@
   - pour chaque capteur, switch ADS vs MCP vs ESP
 - Montage ESP32
   - corriger l'emplacement sur la board
+
+## Prototype-3
+
+![](prototype-3/schematic.png)
+
+### Tests
+
+### Observations
+
+- Teleinfo
+  - LTV-824 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
