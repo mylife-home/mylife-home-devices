@@ -17,7 +17,10 @@
 - convertisseur 12v -> 5v
 - 1 transfo 24v AC pour electrovannes (capable d'alimenter 3 ou 4 electrovannes), avec un relais
 - 6 sorties relais, switchable (par jumper) entre 220v et 24v
-- led en face de chaque relais (sortie + transfo 24v)
+  - led en face de chaque relais (sortie + transfo 24v)
+  - mettre un seul jumper pour choisir entre 220v et 24v
+  - chaque relais a une seule sortie
+  - mettre 6 screwterminals common 220v et 6 screwterminals common 24v. Cela permet de mettre qu'un seul cable common vers les electrovannes (eg: pouvoir piloter 3 electrovannes avec un cable 4 cores plutot que 6 cores)
 - ds 18b20
 - capteur humidité sol avec ADC
 
@@ -83,7 +86,6 @@ _TODO_
 
 __Manque resistance sur ds18b20__
 __Refaire alim__
-
 
 ![](v1/schematic.png)
 
