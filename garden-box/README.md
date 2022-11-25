@@ -96,7 +96,7 @@ _Refaire alim_
 
 ## Notes
 
-- Bus avec 230v, 12v ondulé, ethernet
+- Bus avec 230v, (12v ondulé), ethernet
 - Boite avec couvercle transparent
 - Presses etoupe
 - Electrovannes : Solénoïde robuste : 24 V c.a., courant d'appel de 370 mA, courant de maintien de 190 mA, 60 cycles ; courant d'appel de 475 mA, courant de maintien de 230 mA, 50 cycles
