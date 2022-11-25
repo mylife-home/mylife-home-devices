@@ -71,9 +71,9 @@ _TODO_
 - tester capteur humidité
 - tester montage transistor/relais
 - tester implantation alim sur PCB
-- tester implantation transfo sur PCB
+- KO -> tester implantation transfo sur PCB
 - tester ds18b20
-- tester end-to-end que solenoide fonctionne avec relais/transfo
+- KO -> tester end-to-end que solenoide fonctionne avec relais/transfo
 - trouver meilleure solution (jack? bornier?) pour alim switch
 
 ### Tests
