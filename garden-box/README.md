@@ -84,8 +84,9 @@ _TODO_
 
 ### Main
 
-__Manque resistance sur ds18b20__
-__Refaire alim__
+_Manque resistance sur ds18b20_
+
+_Refaire alim_
 
 ![](v1/schematic.png)
 
