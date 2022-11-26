@@ -71,14 +71,33 @@ _TODO_
 - tester capteur humidité
 - tester montage transistor/relais
 - tester implantation alim sur PCB
-- KO -> tester implantation transfo sur PCB
+- tester implantation transfo sur PCB
 - tester ds18b20
-- KO -> tester end-to-end que solenoide fonctionne avec relais/transfo
+- tester end-to-end que solenoide fonctionne avec relais/transfo
 - trouver meilleure solution (jack? bornier?) pour alim switch
 
 ### Tests
 
+- DS18B20
+- SEN0308
+- Alim + relais
+
 ### Observations
+
+OK:
+- implantation PCB dans boitier
+- alim PCB
+- relais PCB
+
+KO: 
+- vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
+- transfo PCB
+- prise USB PCB
+
+A améliorer:
+- silkscreen pinout DS18B20
+- silkscreen pinout SEN0308
+- silkscreen pinout alim + relais (phase/neutre)
 
 ## V1
 
