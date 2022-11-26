@@ -79,25 +79,35 @@ _TODO_
 ### Tests
 
 - DS18B20
+  _TODO_
 - SEN0308
+  _TODO_
 - Alim + relais
+  _TODO_
+- position switch: peut-on voir les leds depuis l'exterieur ? peut-on brancher des cables correctement ?
+  _TODO_
 
 ### Observations
 
 OK:
 - implantation PCB dans boitier
-- alim PCB
-- relais PCB
+- implantation alim sur PCB
+- implantation relais sur PCB
 
 KO: 
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
-- transfo PCB
-- prise USB PCB
+- implantation transfo sur PCB
+- implantation prise USB sur PCB
 
 A améliorer:
 - silkscreen pinout DS18B20
 - silkscreen pinout SEN0308
 - silkscreen pinout alim + relais (phase/neutre)
+
+### _TODO_
+
+- trouver vis boitier
+- refaire PCB pour implantation KO
 
 ## V1
 
