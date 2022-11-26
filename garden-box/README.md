@@ -98,6 +98,7 @@ KO:
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
 - implantation transfo sur PCB
 - implantation prise USB sur PCB
+- GPIO35 => inutilisable pour DS18B20 (impossible de mettre en output), utiliser eg GPIO13 à la place
 
 A améliorer:
 - silkscreen pinout DS18B20
