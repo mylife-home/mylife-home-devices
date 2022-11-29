@@ -78,8 +78,6 @@ _TODO_
 
 ### Tests
 
-- DS18B20
-  _TODO_
 - SEN0308
   _TODO_
 - position switch: peut-on voir les leds depuis l'exterieur ? peut-on brancher des cables correctement ?
@@ -92,6 +90,7 @@ OK:
 - implantation alim sur PCB
 - implantation relais sur PCB
 - relais + led : si on court-circuite collector/emitter du transistor ca fonctionne.
+- DS18b20
 
 KO: 
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
