@@ -199,4 +199,5 @@
 ### Observations
 
 - Teleinfo
-  - LTV-824 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
+  - LTV-814 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
+  - BSS138: mauvais pinout/footprint, cf jlcpcb/parts
