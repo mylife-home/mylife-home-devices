@@ -82,8 +82,6 @@ _TODO_
   _TODO_
 - SEN0308
   _TODO_
-- Alim + relais
-  _TODO_
 - position switch: peut-on voir les leds depuis l'exterieur ? peut-on brancher des cables correctement ?
   _TODO_
 
@@ -93,12 +91,14 @@ OK:
 - implantation PCB dans boitier
 - implantation alim sur PCB
 - implantation relais sur PCB
+- relais + led : si on court-circuite collector/emitter du transistor ca fonctionne.
 
 KO: 
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
 - implantation transfo sur PCB
 - implantation prise USB sur PCB
 - GPIO35 => inutilisable pour DS18B20 (impossible de mettre en output), utiliser eg GPIO13 à la place
+- Circuit relais: mauvais footprint SOT23-3 du transistor, pin 1 et 2 sont inversés
 
 A améliorer:
 - silkscreen pinout DS18B20
