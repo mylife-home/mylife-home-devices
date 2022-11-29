@@ -91,6 +91,9 @@ OK:
 - implantation relais sur PCB
 - relais + led : si on court-circuite collector/emitter du transistor ca fonctionne.
 - DS18b20
+- SEN0308
+  - sec : 2.95V
+  - dans l'eau : 0.28V
 
 KO: 
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
