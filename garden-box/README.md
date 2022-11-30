@@ -78,8 +78,14 @@ _TODO_
 
 ### Tests
 
-- position switch: peut-on voir les leds depuis l'exterieur ? peut-on brancher des cables correctement ?
-  _TODO_
+- GPIO35 => inutilisable pour DS18B20 (impossible de mettre en output), utiliser eg GPIO13 à la place
+- Circuit relais:
+  - mauvais footprint SOT23-3 du transistor, pin 1 et 2 sont inversés
+  - si on court-circuite collector/emitter du transistor ca fonctionne.
+- DS18b20: OK
+- SEN0308
+  - sec : 2.95V
+  - dans l'eau : 0.28V
 
 ### Observations
 
@@ -87,28 +93,22 @@ OK:
 - implantation PCB dans boitier
 - implantation alim sur PCB
 - implantation relais sur PCB
-- relais + led : si on court-circuite collector/emitter du transistor ca fonctionne.
-- DS18b20
-- SEN0308
-  - sec : 2.95V
-  - dans l'eau : 0.28V
 
 KO: 
 - vis PCB boitiers -> semble être presque bon dimaètre, mais tourne dans le vide
 - implantation transfo sur PCB
 - implantation prise USB sur PCB
-- GPIO35 => inutilisable pour DS18B20 (impossible de mettre en output), utiliser eg GPIO13 à la place
-- Circuit relais: mauvais footprint SOT23-3 du transistor, pin 1 et 2 sont inversés
 
 A améliorer:
 - silkscreen pinout DS18B20
 - silkscreen pinout SEN0308
 - silkscreen pinout alim + relais (phase/neutre)
-
-### _TODO_
-
-- trouver vis boitier
-- refaire PCB pour implantation KO
+- implantation switch:
+  - mettre en travers, a gauche, voyants vers le haut (pour position alim)
+  - a 5cm du bord cote lumieres
+  - centrer l'alim dessous, on fixera le switch sur l'alim (ca sureleve le switch)
+  - si beosin on peut mettre ESP32 entre le switch et le bord cote voyants (vu qu il est surelevé ca ne gene pas, par contre eviter l'autre cote a cause de la place des cables ethernet), mettre cote ethernet a droite vers le milieu
+  - mettre prise usb coté cables ethernet car pas besoin d'etre accessible et peu fragile
 
 ## V1
 
