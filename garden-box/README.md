@@ -78,8 +78,6 @@ _TODO_
 
 ### Tests
 
-- SEN0308
-  _TODO_
 - position switch: peut-on voir les leds depuis l'exterieur ? peut-on brancher des cables correctement ?
   _TODO_
 
