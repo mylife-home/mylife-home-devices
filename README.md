@@ -13,4 +13,6 @@ MyLife Home devices
  - Kicad to JLCPCB
    - https://support.jlcpcb.com/article/149-how-to-generate-gerber-and-drill-files-in-kicad
    - https://support.jlcpcb.com/article/84-how-to-generate-the-bom-and-centroid-file-from-kicad
+   - plugin pour aide a la generation de commande : https://github.com/Bouni/kicad-jlcpcb-tools
+   - plugin pour importer les composants JLCPCB dans Kicad : https://github.com/TousstNicolas/JLC2KiCad_lib
  - Component footprints : https://componentsearchengine.com/
