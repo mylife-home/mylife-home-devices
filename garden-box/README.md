@@ -34,8 +34,9 @@
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
   - dimensions : 87 x 47.85 x 21.7mm
   - alimentation : 5V 0.55A, Jack 5.5 2.5, avec + au centre
-  - Cable USB -> Jack https://www.amazon.fr/dp/B00ZUE4WBE
-  - Connecteur USB -> https://fr.rs-online.com/web/p/connecteurs-usb/8006797
+  - Connecteur USB 
+    - cable : https://fr.rs-online.com/web/p/connecteurs-usb/8006797
+    - connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/8006797
 - capteur humidité sol :
   - https://fr.rs-online.com/web/p/kits-de-developpement-pour-capteur/2049905
 - relais : 
