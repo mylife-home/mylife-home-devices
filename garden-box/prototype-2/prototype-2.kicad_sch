@@ -1661,7 +1661,7 @@
     (uuid fcb5f3b1-c106-4e38-a970-97ddec4b90d6)
   )
 
-  (text "Moisture sensor" (at 12.7 148.59 0)
+  (text "SEN0308" (at 19.05 148.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a5992e7-4343-408b-bf65-6d30104a9e33)
   )

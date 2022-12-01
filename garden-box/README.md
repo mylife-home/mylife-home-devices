@@ -128,11 +128,11 @@ A améliorer:
 - OK mauvais footprint Q1
 - vis PCB boitiers
 - OK implantation transfo sur PCB
-- implantation prise USB sur PCB
-- silkscreen pinout DS18B20
-- silkscreen pinout SEN0308
-- silkscreen pinout alim + relais (phase/neutre)
-- implantation switch:
+- OK implantation prise USB sur PCB
+- OK silkscreen pinout DS18B20
+- OK silkscreen pinout SEN0308
+- OK silkscreen pinout alim + relais (phase/neutre)
+- implantation switch
 
 ## V1
 
