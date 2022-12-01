@@ -132,7 +132,7 @@ A améliorer:
 - OK silkscreen pinout DS18B20
 - OK silkscreen pinout SEN0308
 - OK silkscreen pinout alim + relais (phase/neutre)
-- implantation switch
+- OK implantation switch
 
 ## V1
 
