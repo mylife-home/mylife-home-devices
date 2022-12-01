@@ -110,6 +110,28 @@ A améliorer:
   - si beosin on peut mettre ESP32 entre le switch et le bord cote voyants (vu qu il est surelevé ca ne gene pas, par contre eviter l'autre cote a cause de la place des cables ethernet), mettre cote ethernet a droite vers le milieu
   - mettre prise usb coté cables ethernet car pas besoin d'etre accessible et peu fragile
 
+## Proto 2
+
+### Objectifs
+
+- tester montage transistor/relais
+- tester organisation PCB (ali, switch sur alim, esp, connectique, ...)
+- tester implantation transfo sur PCB
+- tester end-to-end que solenoide fonctionne avec relais/transfo
+- tester connecteur USB alim switch
+
+### TODO
+
+- changer GPIO ds18b20 (35 -> 13)
+- OK mauvais footprint Q1
+- vis PCB boitiers
+- OK implantation transfo sur PCB
+- implantation prise USB sur PCB
+- silkscreen pinout DS18B20
+- silkscreen pinout SEN0308
+- silkscreen pinout alim + relais (phase/neutre)
+- implantation switch:
+
 ## V1
 
 ### Main
