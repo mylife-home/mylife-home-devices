@@ -28,7 +28,9 @@
 
 - boitier :
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/2010161
-  - fixation : https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831224
+  - fixation : 
+      - ~~https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831224~~
+      - https://fr.rs-online.com/web/p/vis-autotaraudeuses/5465648
 - switch :
   - DLink GO-SW-5E
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
@@ -56,6 +58,7 @@ _- OU -_
   - https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472818 (moins cher)
   - ~~https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320506~~
   - ~~https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/3472846~~
+  - fixation : (M4) https://www.amazon.fr/VIGRUE-Hexagonale-Boulons-Inoxydable-Ext%C3%A9rieur/dp/B097HV7QHQ
   - dimensions : 77.5 x 60 x 48.5
   - Puissance : 36VA
 
@@ -126,13 +129,14 @@ A améliorer:
 
 - OK changer GPIO ds18b20 (35 -> 13)
 - OK mauvais footprint Q1
-- vis PCB boitiers
+- OK vis PCB boitiers
 - OK implantation transfo sur PCB
 - OK implantation prise USB sur PCB
 - OK silkscreen pinout DS18B20
 - OK silkscreen pinout SEN0308
 - OK silkscreen pinout alim + relais (phase/neutre)
 - OK implantation switch
+- OK vis transfo
 
 ## V1
 
