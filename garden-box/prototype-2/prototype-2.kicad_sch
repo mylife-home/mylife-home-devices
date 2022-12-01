@@ -1735,7 +1735,7 @@
     (uuid 046cc858-94d2-4a81-a286-14af2525c2b6)
     (property "Reference" "J1" (id 0) (at 31.75 76.2 0))
     (property "Value" "USB_A" (id 1) (at 31.75 78.74 0))
-    (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (id 2) (at 35.56 90.17 0)
+    (property "Footprint" "rs-online:875200010BLF" (id 2) (at 35.56 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.rs-online.com/2587/0900766b813c3dce.pdf" (id 3) (at 35.56 90.17 0)
@@ -2383,7 +2383,7 @@
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/046cc858-94d2-4a81-a286-14af2525c2b6"
-      (reference "J1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
+      (reference "J1") (unit 1) (value "USB_A") (footprint "rs-online:875200010BLF")
     )
     (path "/a92772ed-b0e6-4a03-a485-6f9febfd19d3"
       (reference "J2") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
