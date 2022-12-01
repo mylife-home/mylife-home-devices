@@ -124,7 +124,7 @@ A améliorer:
 
 ### TODO
 
-- changer GPIO ds18b20 (35 -> 13)
+- OK changer GPIO ds18b20 (35 -> 13)
 - OK mauvais footprint Q1
 - vis PCB boitiers
 - OK implantation transfo sur PCB
