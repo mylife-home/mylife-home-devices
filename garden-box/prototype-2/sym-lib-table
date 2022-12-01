@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "mylife-symbols")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/mylife-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "rs-online")(type "Legacy")(uri "${KIPRJMOD}/../../libraries/rs-online.lib")(options "")(descr ""))
+)
