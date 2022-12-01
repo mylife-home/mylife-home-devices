@@ -36,7 +36,8 @@
   - alimentation : 5V 0.55A, Jack 5.5 2.5, avec + au centre
   - Connecteur USB 
     - cable : https://fr.rs-online.com/web/p/connecteurs-usb/8006797
-    - connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/8006797
+    - ~~connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/8006797~~
+    - connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/7710057
 - capteur humidité sol :
   - https://fr.rs-online.com/web/p/kits-de-developpement-pour-capteur/2049905
 - relais : 
