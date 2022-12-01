@@ -1825,7 +1825,7 @@
     (property "Value" "2N3904" (id 1) (at 152.1714 71.7166 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 152.4 71.755 0)
+    (property "Footprint" "jlcpcb:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR" (id 2) (at 152.4 71.755 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806151220_KEC-Semicon-2N3904S-RTK-PS_C18536.pdf" (id 3) (at 147.32 69.85 0)
@@ -2407,7 +2407,7 @@
       (reference "PS1") (unit 1) (value "RS PRO 5V 2A") (footprint "mylife-footprints:RS PRO 5V 2A")
     )
     (path "/3b87441e-9545-4daa-bf5c-0e30f2dd4c01"
-      (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "2N3904") (footprint "jlcpcb:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR")
     )
     (path "/edf8efa6-7dc9-40e5-9168-51551bfeb3ac"
       (reference "R1") (unit 1) (value "4.7KΩ") (footprint "Resistor_SMD:R_0402_1005Metric")
