@@ -1,0 +1,18 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,LED,D_0805_2012Metric,198.49192,-128.895,-90.0,top
+D2,1N4148,D_SOD-123,202.30192,-129.53,90.0,top
+J1,USB_A,875200010BLF,52.38,-94.955,0.0,top
+J2,Conn_01x03_Male,PinHeader_1x03_P2.54mm_Vertical,162.56,-49.53,0.0,top
+J3,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,152.4,-49.53,0.0,top
+J4,Screw_Terminal_01x02,TerminalBlock_bornier-2_P5.08mm,185.79192,-151.12,0.0,top
+J5,Screw_Terminal_01x02,TerminalBlock_bornier-2_P5.08mm,205.47692,-151.12,0.0,top
+J6,Screw_Terminal_01x02,TerminalBlock_bornier-2_P5.08mm,223.89192,-151.12,0.0,top
+K1,G6DN-1A-L_DC5,G6DN-1A-L,227.965,-127.0,0.0,top
+PS1,RS PRO 5V 2A,RS PRO 5V 2A,73.2775,-74.2875,0.0,top
+Q1,2N3904,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR,194.04692,-130.8,90.0,top
+R1,4.7KΩ,R_0402_1005Metric,157.48,-53.34,-90.0,top
+R2,1KΩ,R_0402_1005Metric,195.58192,-127.625,0.0,top
+R3,10KΩ,R_0402_1005Metric,192.77692,-127.625,180.0,top
+R4,330Ω,R_0402_1005Metric,198.49192,-132.07,0.0,top
+T1,Transformer_1P_2S,VCM36212,191.415,-79.095,90.0,top
+U1,ESP32-POE,ESP32-POE,84.455,-40.64,90.0,top

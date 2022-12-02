@@ -1,0 +1,18 @@
+Comment,Designator,Footprint,LCSC
+1KΩ,R2,R_0402_1005Metric,C11702
+2N3904,Q1,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR,C18536
+LED,D1,D_0805_2012Metric,C2297
+330Ω,R4,R_0402_1005Metric,C25104
+10KΩ,R3,R_0402_1005Metric,C25744
+4.7KΩ,R1,R_0402_1005Metric,C25900
+1N4148,D2,D_SOD-123,C81598
+Screw_Terminal_01x02,J4,TerminalBlock_bornier-2_P5.08mm,
+RS PRO 5V 2A,PS1,RS PRO 5V 2A,
+Screw_Terminal_01x02,J5,TerminalBlock_bornier-2_P5.08mm,
+ESP32-POE,U1,ESP32-POE,
+Conn_01x04_Male,J3,PinHeader_1x04_P2.54mm_Vertical,
+USB_A,J1,875200010BLF,
+Screw_Terminal_01x02,J6,TerminalBlock_bornier-2_P5.08mm,
+Conn_01x03_Male,J2,PinHeader_1x03_P2.54mm_Vertical,
+Transformer_1P_2S,T1,VCM36212,
+G6DN-1A-L_DC5,K1,G6DN-1A-L,
