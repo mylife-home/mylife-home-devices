@@ -117,6 +117,8 @@ A améliorer:
 
 ## Proto 2
 
+![](prototype-2/schematic.png)
+
 ### Objectifs
 
 - tester montage transistor/relais
@@ -137,6 +139,11 @@ A améliorer:
 - OK silkscreen pinout alim + relais (phase/neutre)
 - OK implantation switch
 - OK vis transfo
+
+### Observations
+
+- vis PCB toujours KO
+- implantation prise USB sur PCB OK
 
 ## V1
 
