@@ -144,6 +144,7 @@ A améliorer:
 
 - vis PCB toujours KO
 - implantation prise USB sur PCB OK
+- vis transfo OK
 
 ## V1
 
