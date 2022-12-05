@@ -30,7 +30,7 @@
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/2010161
   - fixation : 
       - ~~https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831224~~
-      - https://fr.rs-online.com/web/p/vis-autotaraudeuses/5465648
+      - ~~https://fr.rs-online.com/web/p/vis-autotaraudeuses/5465648~~
 - switch :
   - DLink GO-SW-5E
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
