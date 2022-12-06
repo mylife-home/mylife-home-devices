@@ -74,6 +74,34 @@
   - Attention a garder le port USB accessible
   - Dessiner des mouting holes
 
+## Observations Prototype-1 epanel-io
+
+- cf [epanel-io/README.md#observations](../epanel-io/README.md#observations) - Triac
+- si on enleve snubber du phototriac, toujours une fuite (couper la piste entre C3 et C4)
+- si on enleve les 2 snubbers, plus de fuite, spot led 10w reste eteint (couper la piste entre C3 et le triac)
+
+## Prototype-1
+
+### Objectifs
+
+- Triac: snubbers/bruit/fuite
+  - spot 10w
+  - guirlande boules
+  - lampe incandescence train
+  - lampe bureau
+  - lampe chevet
+  - alim a decoupage
+- 433MHz receiver
+  - binding avec telecommandes
+- ds18b20 + jack pinout
+- Led IR
+  - jack pinout
+  - binding avec clim
+- prises comme PC
+- fusibles
+- triac dissipateurs
+
+
 ## Ancien matériel
 
 - 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
