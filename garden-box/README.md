@@ -31,6 +31,7 @@
   - fixation : 
       - ~~https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831224~~
       - ~~https://fr.rs-online.com/web/p/vis-autotaraudeuses/5465648~~
+      - (M5x6mm) https://www.amazon.fr/dp/B0BHMT42NY
 - switch :
   - DLink GO-SW-5E
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
