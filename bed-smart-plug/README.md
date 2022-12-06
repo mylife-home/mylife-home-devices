@@ -38,6 +38,57 @@
   - Sortie USB direct sur la prise pour brancher le switch dessus en ethernet si besoin ?
   - Format prise : https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/interrupteur-et-prise-en-saillie/bloc-5-prises-avec-terre-saillie-blanc-82016676.html ?
 
+## Observations Prototype-1 epanel-io
+
+- cf [epanel-io/README.md#observations](../epanel-io/README.md#observations) - Triac
+- si on enleve snubber du phototriac, toujours une fuite (couper la piste entre C3 et C4)
+- si on enleve les 2 snubbers, plus de fuite, spot led 10w reste eteint (couper la piste entre C3 et le triac)
+
+## Prototype-1
+
+### Objectifs
+
+- Triac: snubbers/bruit/fuite
+  - spot 10w
+  - guirlande boules
+  - lampe incandescence train
+  - lampe bureau
+  - lampe chevet
+  - alim a decoupage
+  - test BT136-600E
+    - https://www.farnell.com/datasheets/97984.pdf (fig. 8)
+  - test BTA08-600TWRG (snubberless)
+    - http://www.sper.hr/eng/solid_state_relay_scheme.htm
+    - https://fr.rs-online.com/web/p/triac/7142577
+- 433MHz receiver
+  - binding avec telecommandes
+- ds18b20 + jack pinout
+- Led IR
+  - jack pinout
+  - binding avec clim
+- prises comme PC
+- fusibles
+- triac dissipateurs
+
+## Notes
+
+- Ethernet ESPhome :
+  - https://esphome.io/components/ethernet.html
+- infrarouge
+  - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
+- Schémas
+  - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
+  - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
+  - http://www.farnell.com/datasheets/97984.pdf (bottom)
+  - R 39ohm => 0,02496mW
+  - R 360ohm => (very low)
+  - R 470ohm => 7,52mW
+  - C: 400V
+  - Attention a garder le port USB accessible
+  - Dessiner des mouting holes
+- triacs
+  - comparaison specs : https://www.esr.co.uk/components/products/frame-triacs.htm
+
 ## Matériel
 
 - Déjà en stock
@@ -56,51 +107,6 @@
   - Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
   - Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
   - Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
-
-## Notes
-
-- Ethernet ESPhome :
-  - https://esphome.io/components/ethernet.html
-- infrarouge
-  - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
-- Schémas
-  - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
-  - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
-  - http://www.farnell.com/datasheets/97984.pdf (bottom)
-  - R 39ohm => 0,02496mW
-  - R 360ohm => (very low)
-  - R 470ohm => 7,52mW
-  - C: 400V
-  - Attention a garder le port USB accessible
-  - Dessiner des mouting holes
-
-## Observations Prototype-1 epanel-io
-
-- cf [epanel-io/README.md#observations](../epanel-io/README.md#observations) - Triac
-- si on enleve snubber du phototriac, toujours une fuite (couper la piste entre C3 et C4)
-- si on enleve les 2 snubbers, plus de fuite, spot led 10w reste eteint (couper la piste entre C3 et le triac)
-
-## Prototype-1
-
-### Objectifs
-
-- Triac: snubbers/bruit/fuite
-  - spot 10w
-  - guirlande boules
-  - lampe incandescence train
-  - lampe bureau
-  - lampe chevet
-  - alim a decoupage
-- 433MHz receiver
-  - binding avec telecommandes
-- ds18b20 + jack pinout
-- Led IR
-  - jack pinout
-  - binding avec clim
-- prises comme PC
-- fusibles
-- triac dissipateurs
-
 
 ## Ancien matériel
 
