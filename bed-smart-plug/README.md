@@ -60,6 +60,8 @@
   - test BTA08-600TWRG (snubberless)
     - http://www.sper.hr/eng/solid_state_relay_scheme.htm
     - https://fr.rs-online.com/web/p/triac/7142577
+    - http://wiring.org.co/learning/basics/lightbulb.html
+    - https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html
 - 433MHz receiver
   - binding avec telecommandes
 - ds18b20 + jack pinout
