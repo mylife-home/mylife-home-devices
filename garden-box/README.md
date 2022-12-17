@@ -143,7 +143,6 @@ A améliorer:
 - OK vis transfo
 - commander vis du bout filetage pour fixation PCB
 - commander alim
-- commander transfo (ou vérifier datasheet pour asymétrie des pins du circuit secondaire)
 
 ### Observations
 
@@ -156,6 +155,7 @@ A améliorer:
 ## Proto 3
 
 - corriger PCB pour avoir trous fixation à la bonne taille
+- corriger PCB pinout transfo : le secondaire n'est pas centré (CF Datasheet)
 
 ## V1
 
