@@ -141,12 +141,21 @@ A améliorer:
 - OK silkscreen pinout alim + relais (phase/neutre)
 - OK implantation switch
 - OK vis transfo
+- commander vis du bout filetage pour fixation PCB
+- commander alim
+- commander transfo (ou vérifier datasheet pour asymétrie des pins du circuit secondaire)
 
 ### Observations
 
-- vis PCB toujours KO
+- Insert fileté top
+  - pour fixer : poser l'insert sur le bout du fer à souder, attendre que ca chauffe et placer l'insert dans la boîte avec le fer
 - implantation prise USB sur PCB OK
 - vis transfo OK
+- transfo semble avoir un défaut
+
+## Proto 3
+
+- corriger PCB pour avoir trous fixation à la bonne taille
 
 ## V1
 
