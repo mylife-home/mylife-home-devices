@@ -144,6 +144,11 @@ A améliorer:
 - OK vis transfo
 - OK commander vis du bout filetage pour fixation PCB
 - OK commander alim
+- tester relais en 220v (sans transfo)
+- tester oganisation des composants dans boitier
+- tester vissage boitier (meme si trous normalement trop gros)
+- tester prise usb alim switch
+- essayer de dessouder relais et alim proto1
 
 ### Observations
 
@@ -154,6 +159,14 @@ A améliorer:
 - transfo : implantation secondaire non symétrique (cf datasheet) => KO
 
 ## Proto 3
+
+### Objectifs
+
+- tester implantation transfo sur PCB
+- testerque solenoide fonctionne avec transfo (mettre un jumper pour simuler relais, on va pas en souder un autre)
+- fixation PCB dans boitier avec trous à la bonne taille
+
+### TODO
 
 - corriger PCB pour avoir trous fixation à la bonne taille
 - corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
