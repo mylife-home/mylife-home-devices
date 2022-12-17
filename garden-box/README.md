@@ -142,8 +142,8 @@ A améliorer:
 - OK silkscreen pinout alim + relais (phase/neutre)
 - OK implantation switch
 - OK vis transfo
-- commander vis du bout filetage pour fixation PCB
-- commander alim
+- OK commander vis du bout filetage pour fixation PCB
+- OK commander alim
 
 ### Observations
 
