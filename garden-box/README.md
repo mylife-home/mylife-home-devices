@@ -151,12 +151,12 @@ A améliorer:
   - pour fixer : poser l'insert sur le bout du fer à souder, attendre que ca chauffe et placer l'insert dans la boîte avec le fer
 - implantation prise USB sur PCB OK
 - vis transfo OK
-- transfo semble avoir un défaut
+- transfo : implantation secondaire non symétrique (cf datasheet) => KO
 
 ## Proto 3
 
 - corriger PCB pour avoir trous fixation à la bonne taille
-- corriger PCB pinout transfo : le secondaire n'est pas centré (CF Datasheet)
+- corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
 
 ## V1
 
