@@ -145,10 +145,10 @@ A améliorer:
 - OK commander vis du bout filetage pour fixation PCB
 - OK commander alim
 - tester relais en 220v (sans transfo)
-- tester oganisation des composants dans boitier
-- tester vissage boitier (meme si trous normalement trop gros)
+- tester organisation des composants dans boitier
+- tester fixation PCB dans boitier (meme si trous normalement trop gros)
 - tester prise usb alim switch
-- essayer de dessouder relais et alim proto1
+- essayer de dessouder relais et alim proto-1
 
 ### Observations
 
