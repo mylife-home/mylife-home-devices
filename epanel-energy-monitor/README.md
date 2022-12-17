@@ -201,3 +201,6 @@
 - Teleinfo
   - LTV-814 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
   - BSS138: mauvais pinout/footprint, cf jlcpcb/parts
+- CT Clamp :
+  - ADS1115: pin 34-39 impossible pour I2C (output impossible) => déplacé SDA = GPIO0, SCL = GPIO1
+  - transfo: pastilles bien placées mais trop petites
