@@ -144,11 +144,11 @@ A améliorer:
 - OK vis transfo
 - OK commander vis du bout filetage pour fixation PCB
 - OK commander alim
-- tester relais en 220v (sans transfo)
-- tester organisation des composants dans boitier
+- OK tester relais en 220v (sans transfo)
+- OK tester organisation des composants dans boitier
 - tester fixation PCB dans boitier (meme si trous normalement trop gros)
-- tester prise usb alim switch
-- essayer de dessouder relais et alim proto-1
+- OK tester prise usb alim switch
+- OK essayer de dessouder relais et alim proto-1
 
 ### Observations
 
@@ -163,7 +163,7 @@ A améliorer:
 ### Objectifs
 
 - tester implantation transfo sur PCB
-- testerque solenoide fonctionne avec transfo (mettre un jumper pour simuler relais, on va pas en souder un autre)
+- tester que solenoide fonctionne avec transfo (mettre un jumper pour simuler relais, on va pas en souder un autre)
 - fixation PCB dans boitier avec trous à la bonne taille
 
 ### TODO
