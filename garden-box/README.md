@@ -146,7 +146,7 @@ A améliorer:
 - OK commander alim
 - OK tester relais en 220v (sans transfo)
 - OK tester organisation des composants dans boitier
-- tester fixation PCB dans boitier (meme si trous normalement trop gros)
+- OK tester fixation PCB dans boitier (meme si trous normalement trop gros)
 - OK tester prise usb alim switch
 - OK essayer de dessouder relais et alim proto-1
 
@@ -170,6 +170,8 @@ A améliorer:
 
 - corriger PCB pour avoir trous fixation à la bonne taille
 - corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
+- la led est tres lumineuse, on peut remplacer la resistance par une de 1K
+- (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB)
 
 ## V1
 
