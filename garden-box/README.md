@@ -174,6 +174,7 @@ A améliorer:
 - corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
 - la led est tres lumineuse, on peut remplacer la resistance par une de 1K
 - (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB)
+- Est-ce avantageux de directement commander une V1 complète avec ses 6 voix ? (vu le peu de composants a assembler dessus) => designer une V1 et voir son prix d'assemblage
 
 ## V1
 
