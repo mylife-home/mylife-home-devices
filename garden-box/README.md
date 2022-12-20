@@ -184,7 +184,9 @@ _Manque resistance sur ds18b20_
 
 _Refaire alim_
 
-_ Mettre 4 borniers de common 220v et 4 de common 12v, et ne faire qu'une seule sortie par relais avec un seul jumper
+_ Mettre 4 borniers de common 220v et 4 de common 12v, et ne faire qu'une seule sortie par relais avec un seul jumper_
+
+_SILKSCREEN pour éviter les mauvais branchements_
 
 ![](v1/schematic.png)
 
