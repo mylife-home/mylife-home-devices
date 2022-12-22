@@ -170,7 +170,7 @@ A améliorer:
 
 ### TODO
 
-- corriger PCB pour avoir trous fixation à la bonne taille
+- OK corriger PCB pour avoir trous fixation à la bonne taille
 - corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
 - la led est tres lumineuse, on peut remplacer la resistance par une de 1K
 - (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB)
