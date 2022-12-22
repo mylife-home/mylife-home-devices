@@ -445,6 +445,34 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "03134064-4c69-44ac-bb2e-8e515cf0547b",
+      "relay transfo"
+    ],
+    [
+      "e7ed88d0-ec00-43b2-82f2-28eb10a7538f",
+      "relay 1"
+    ],
+    [
+      "097e35c4-5167-4cfc-9e32-21e4df32b1be",
+      "relay 2"
+    ],
+    [
+      "60900689-156f-43c1-b734-08e052770413",
+      "relay 3"
+    ],
+    [
+      "a16e5b04-0bbd-4b95-8920-0af52178cf5c",
+      "relay 4"
+    ],
+    [
+      "efa71a72-372e-4fcf-ba1f-d6aeeacafcb5",
+      "relay 5"
+    ],
+    [
+      "ca6e64e7-343c-4ce1-96cc-74c521729842",
+      "relay 6"
     ]
   ],
   "text_variables": {}
