@@ -2061,7 +2061,7 @@
     (uuid be49853a-e63a-418f-add4-0398acbca9cd)
     (property "Reference" "T1" (id 0) (at 246.38 85.0603 0))
     (property "Value" "Transformer_1P_2S" (id 1) (at 246.38 87.8354 0))
-    (property "Footprint" "rs-online:VCM36212" (id 2) (at 246.38 99.06 0)
+    (property "Footprint" "mylife-footprints:VCM36212" (id 2) (at 246.38 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.rs-online.com/037c/0900766b8002d93c.pdf" (id 3) (at 246.38 99.06 0)
@@ -2422,7 +2422,7 @@
       (reference "R4") (unit 1) (value "1KΩ") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/be49853a-e63a-418f-add4-0398acbca9cd"
-      (reference "T1") (unit 1) (value "Transformer_1P_2S") (footprint "rs-online:VCM36212")
+      (reference "T1") (unit 1) (value "Transformer_1P_2S") (footprint "mylife-footprints:VCM36212")
     )
     (path "/a51d3ce6-8227-462c-b55f-ac7604ee63f5"
       (reference "U1") (unit 1) (value "ESP32-POE") (footprint "mylife-footprints:ESP32-POE")
