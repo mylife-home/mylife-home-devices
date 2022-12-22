@@ -2269,7 +2269,7 @@
     (property "Value" "Screw_Terminal_01x06" (id 1) (at 262.89 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 257.81 105.41 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-6_P5.08mm" (id 2) (at 257.81 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 257.81 105.41 0)
@@ -2571,7 +2571,7 @@
     (property "Value" "Screw_Terminal_01x04" (id 1) (at 262.89 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 257.81 54.61 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" (id 2) (at 257.81 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 257.81 54.61 0)
@@ -2642,7 +2642,7 @@
     (property "Value" "Screw_Terminal_01x04" (id 1) (at 262.89 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 257.81 38.1 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" (id 2) (at 257.81 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 257.81 38.1 0)
@@ -3027,13 +3027,13 @@
       (reference "J10") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/f5416ddf-59ed-4f48-b51e-bab29af9d5f1"
-      (reference "J11") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J11") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
     )
     (path "/e45bde6b-6e64-4e40-ae94-5dab729c5e38"
-      (reference "J12") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J12") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
     )
     (path "/3ec37a54-7a47-4b29-a563-42e26d223519"
-      (reference "J13") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J13") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock:TerminalBlock_bornier-6_P5.08mm")
     )
     (path "/03134064-4c69-44ac-bb2e-8e515cf0547b/06cb99de-98af-4682-9909-21f8fdc0ea5e"
       (reference "K1") (unit 1) (value "G6DN-1A-L_DC5") (footprint "rs-online:G6DN-1A-L")
