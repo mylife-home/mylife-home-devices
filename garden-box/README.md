@@ -160,9 +160,17 @@ A améliorer:
 - vis transfo OK
 - transfo : implantation secondaire non symétrique (cf datasheet) => KO
 
-## Proto 3
+## V1
 
-### Objectifs
+### Main
+
+![](v1/schematic.png)
+
+### Relay
+
+![](v1/schematic-relay.png)
+
+### Objectifs à tester
 
 - tester implantation transfo sur PCB
 - tester que solenoide fonctionne avec transfo (mettre un jumper pour simuler relais, on va pas en souder un autre)
@@ -173,26 +181,9 @@ A améliorer:
 - OK corriger PCB pour avoir trous fixation à la bonne taille
 - OK corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
 - OK la led est tres lumineuse, on peut remplacer la resistance par une de 1K
-- (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB)
+- SILKSCREEN pour éviter les mauvais branchements
+- (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB si proto)
 - Est-ce avantageux de directement commander une V1 complète avec ses 6 voix ? (vu le peu de composants a assembler dessus) => designer une V1 et voir son prix d'assemblage
-
-## V1
-
-### Main
-
-_Manque resistance sur ds18b20_
-
-_Refaire alim_
-
-_Mettre 4 borniers de common 220v et 4 de common 12v, et ne faire qu'une seule sortie par relais avec un seul jumper_
-
-_SILKSCREEN pour éviter les mauvais branchements_
-
-![](v1/schematic.png)
-
-### Relay
-
-![](v1/schematic-relay.png)
 
 ## Notes
 
