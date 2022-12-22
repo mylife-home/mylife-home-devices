@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 6.4,
-          "width": 6.4
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -445,6 +445,34 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "206ecf25-9ce7-4646-9512-b2a03aa7930a",
+      "Relay Transfo"
+    ],
+    [
+      "7b9ec503-a8d0-4666-8a24-391dbdee205b",
+      "Relay1"
+    ],
+    [
+      "680781e8-c7e9-482e-a685-8c52757280c6",
+      "Relay2"
+    ],
+    [
+      "7b5afcba-dd6f-4e98-9096-c351a002b7c2",
+      "Relay3"
+    ],
+    [
+      "d4b9f118-7fad-4576-8fff-f4a21eca4c62",
+      "Relay4"
+    ],
+    [
+      "03fc8036-b2d1-40bd-8b5c-e3d98c08ef1a",
+      "Relay5"
+    ],
+    [
+      "8a43c22e-8939-4f2e-b151-50ceb877726a",
+      "Relay6"
     ]
   ],
   "text_variables": {}
