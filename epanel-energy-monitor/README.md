@@ -168,11 +168,13 @@
     - avec un burden pour 60A et la precision de l'ADC, cela suffit peut etre sans burden en plus ?
   - ajouter capteur de tension
     - Transfo : 6V -> https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
-    - 6V RMS
-    - = 8.5V peak
-    - = 17V peak-peak
+    - no load voltage = x1.8 => 10.8V RMS
+    - https://learn.openenergymonitor.org/electricity-monitoring/voltage-sensing/measuring-voltage-with-an-acac-power-adapter
+    - 10.8V RMS
+    - = 15.3V peak
+    - = 30,6V peak-peak
     - ratio: 12 / (100 + 12) = 0,107
-    - = 1,819V
+    - = 3.274V peak-peak
   - ajouter ampli op
     - https://learn.openenergymonitor.org/electricity-monitoring/ctac/acac-buffered-voltage-bias
     - pour chaque capteur, switch ampli op ou pont diviseur
@@ -197,11 +199,89 @@
 
 ### Tests
 
+- Sortie transfo mesurée :
+  - (7.5VRMS)
+  - 8.8V RMS
+
+- MCP/OP (seche cheveux sur ct1)
+
+```
+[09:39:28][D][oem_computer:065]: 'ct2' - v_rms=234.4V, i_rms=0.052A, p_real=0.3W (sample count: 1025, sample per period: 102.50)
+[09:39:28][D][sensor:127]: 'epanel-ct2-current': Sending state 0.05180 A with 2 decimals of accuracy
+[09:39:28][D][sensor:127]: 'epanel-ct2-voltage': Sending state 234.41190 V with 0 decimals of accuracy
+[09:39:28][D][sensor:127]: 'epanel-ct2-apparent-power': Sending state 12.14348 VA with 0 decimals of accuracy
+[09:39:28][D][sensor:127]: 'epanel-ct2-real-power': Sending state 0.34598 W with 0 decimals of accuracy
+[09:39:29][D][oem_computer:065]: 'ct1' - v_rms=234.9V, i_rms=5.399A, p_real=-989.3W (sample count: 1046, sample per period: 104.60)
+[09:39:29][D][sensor:127]: 'epanel-ct1-current': Sending state 5.39941 A with 2 decimals of accuracy
+[09:39:29][D][sensor:127]: 'epanel-ct1-voltage': Sending state 234.88547 V with 0 decimals of accuracy
+[09:39:29][D][sensor:127]: 'epanel-ct1-apparent-power': Sending state 1268.24182 VA with 0 decimals of accuracy
+[09:39:29][D][sensor:127]: 'epanel-ct1-real-power': Sending state -989.25970 W with 0 decimals of accuracy
+[09:39:30][D][oem_computer:065]: 'ct3' - v_rms=235.3V, i_rms=0.050A, p_real=0.0W (sample count: 1055, sample per period: 105.50)
+[09:39:30][D][sensor:127]: 'epanel-ct3-current': Sending state 0.04952 A with 2 decimals of accuracy
+[09:39:30][D][sensor:127]: 'epanel-ct3-voltage': Sending state 235.33501 V with 0 decimals of accuracy
+[09:39:30][D][sensor:127]: 'epanel-ct3-apparent-power': Sending state 11.65409 VA with 0 decimals of accuracy
+[09:39:30][D][sensor:127]: 'epanel-ct3-real-power': Sending state 0.02975 W with 0 decimals of accuracy
+
+[09:39:38][D][oem_computer:065]: 'ct2' - v_rms=234.8V, i_rms=0.047A, p_real=0.5W (sample count: 1032, sample per period: 103.20)
+[09:39:38][D][sensor:127]: 'epanel-ct2-current': Sending state 0.04736 A with 2 decimals of accuracy
+[09:39:38][D][sensor:127]: 'epanel-ct2-voltage': Sending state 234.82834 V with 0 decimals of accuracy
+[09:39:38][D][sensor:127]: 'epanel-ct2-apparent-power': Sending state 11.12200 VA with 0 decimals of accuracy
+[09:39:38][D][sensor:127]: 'epanel-ct2-real-power': Sending state 0.52791 W with 0 decimals of accuracy
+[09:39:39][D][oem_computer:065]: 'ct1' - v_rms=235.0V, i_rms=5.385A, p_real=-987.9W (sample count: 1054, sample per period: 105.40)
+[09:39:39][D][sensor:127]: 'epanel-ct1-current': Sending state 5.38487 A with 2 decimals of accuracy
+[09:39:39][D][sensor:127]: 'epanel-ct1-voltage': Sending state 235.02916 V with 0 decimals of accuracy
+[09:39:39][D][sensor:127]: 'epanel-ct1-apparent-power': Sending state 1265.60107 VA with 0 decimals of accuracy
+[09:39:39][D][sensor:127]: 'epanel-ct1-real-power': Sending state -987.94031 W with 0 decimals of accuracy
+[09:39:40][D][oem_computer:065]: 'ct3' - v_rms=234.7V, i_rms=0.046A, p_real=0.4W (sample count: 1048, sample per period: 104.80)
+[09:39:40][D][sensor:127]: 'epanel-ct3-current': Sending state 0.04584 A with 2 decimals of accuracy
+[09:39:40][D][sensor:127]: 'epanel-ct3-voltage': Sending state 234.70300 V with 0 decimals of accuracy
+[09:39:40][D][sensor:127]: 'epanel-ct3-apparent-power': Sending state 10.75784 VA with 0 decimals of accuracy
+[09:39:40][D][sensor:127]: 'epanel-ct3-real-power': Sending state 0.44836 W with 0 decimals of accuracy
+```
+
+- MCP/DIV (seche cheveux sur ct1)
+
+```
+[09:41:57][D][oem_computer:065]: 'ct3' - v_rms=236.3V, i_rms=0.087A, p_real=0.7W (sample count: 791, sample per period: 79.10)
+[09:41:57][D][sensor:127]: 'epanel-ct3-current': Sending state 0.08679 A with 2 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct3-voltage': Sending state 236.31416 V with 0 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct3-apparent-power': Sending state 20.50956 VA with 0 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct3-real-power': Sending state 0.68594 W with 0 decimals of accuracy
+[09:41:57][D][oem_computer:065]: 'ct1' - v_rms=236.9V, i_rms=5.411A, p_real=-1009.7W (sample count: 518, sample per period: 51.80)
+[09:41:57][D][sensor:127]: 'epanel-ct1-current': Sending state 5.41132 A with 2 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct1-voltage': Sending state 236.94221 V with 0 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct1-apparent-power': Sending state 1282.17102 VA with 0 decimals of accuracy
+[09:41:57][D][sensor:127]: 'epanel-ct1-real-power': Sending state -1009.70721 W with 0 decimals of accuracy
+[09:41:59][D][oem_computer:065]: 'ct2' - v_rms=236.1V, i_rms=0.072A, p_real=1.1W (sample count: 1054, sample per period: 105.40)
+[09:41:59][D][sensor:127]: 'epanel-ct2-current': Sending state 0.07230 A with 2 decimals of accuracy
+[09:41:59][D][sensor:127]: 'epanel-ct2-voltage': Sending state 236.13994 V with 0 decimals of accuracy
+[09:41:59][D][sensor:127]: 'epanel-ct2-apparent-power': Sending state 17.07363 VA with 0 decimals of accuracy
+[09:41:59][D][sensor:127]: 'epanel-ct2-real-power': Sending state 1.05915 W with 0 decimals of accuracy
+
+[09:42:07][D][oem_computer:065]: 'ct3' - v_rms=236.5V, i_rms=0.103A, p_real=1.8W (sample count: 797, sample per period: 79.70)
+[09:42:07][D][sensor:127]: 'epanel-ct3-current': Sending state 0.10278 A with 2 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct3-voltage': Sending state 236.46739 V with 0 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct3-apparent-power': Sending state 24.30380 VA with 0 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct3-real-power': Sending state 1.82878 W with 0 decimals of accuracy
+[09:42:07][D][oem_computer:065]: 'ct1' - v_rms=235.3V, i_rms=5.455A, p_real=-1005.7W (sample count: 556, sample per period: 55.60)
+[09:42:07][D][sensor:127]: 'epanel-ct1-current': Sending state 5.45496 A with 2 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct1-voltage': Sending state 235.33839 V with 0 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct1-apparent-power': Sending state 1283.76111 VA with 0 decimals of accuracy
+[09:42:07][D][sensor:127]: 'epanel-ct1-real-power': Sending state -1005.74493 W with 0 decimals of accuracy
+[09:42:09][D][oem_computer:065]: 'ct2' - v_rms=236.5V, i_rms=0.076A, p_real=1.9W (sample count: 1054, sample per period: 105.40)
+[09:42:09][D][sensor:127]: 'epanel-ct2-current': Sending state 0.07567 A with 2 decimals of accuracy
+[09:42:09][D][sensor:127]: 'epanel-ct2-voltage': Sending state 236.53575 V with 0 decimals of accuracy
+[09:42:09][D][sensor:127]: 'epanel-ct2-apparent-power': Sending state 17.89754 VA with 0 decimals of accuracy
+[09:42:09][D][sensor:127]: 'epanel-ct2-real-power': Sending state 1.92734 W with 0 decimals of accuracy
+```
+
 ### Observations
 
 - Teleinfo
   - LTV-814 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
   - BSS138: mauvais pinout/footprint, cf jlcpcb/parts
-- CT Clamp :
+- CT Clamp
   - ADS1115: pin 34-39 impossible pour I2C (output impossible) => déplacé SDA = GPIO0, SCL = GPIO1
   - transfo: pastilles bien placées mais trop petites
+- Firmware
+  - configure only once voltage sensor data ?
