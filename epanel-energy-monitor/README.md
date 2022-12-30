@@ -42,7 +42,17 @@
 
 - ESP32 : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 - MCP3208 x2 _ou_ ADS1115 x4
+- switch on/off en série de l'alim pour faciliter le debug USB/hard reset
+
+## V1
+
+### TODO
+
 - ajouter un switch on/off en série de l'alim pour faciliter le debug USB/hard reset
+- LTV-814 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
+- BSS138: mauvais pinout/footprint, cf jlcpcb/parts
+- borniers pour CT plus petits (2.54 ecartement)
+- transfo: pastilles bien placées mais trop petites
 
 ## Prototype-1
 
