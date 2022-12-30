@@ -42,6 +42,7 @@
 
 - ESP32 : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 - MCP3208 x2 _ou_ ADS1115 x4
+- ajouter un switch on/off en série de l'alim pour faciliter le debug USB/hard reset
 
 ## Prototype-1
 
