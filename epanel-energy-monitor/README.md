@@ -53,6 +53,7 @@
 - BSS138: mauvais pinout/footprint, cf jlcpcb/parts
 - borniers pour CT plus petits (2.54 ecartement)
 - transfo: pastilles bien placées mais trop petites
+- transfo: ajouter des pin headers sur secondaire pour facilement pouvoir mesurer la tension au voltmetre
 
 ## Prototype-1
 
