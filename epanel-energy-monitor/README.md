@@ -239,6 +239,8 @@
 [09:39:40][D][sensor:127]: 'epanel-ct3-real-power': Sending state 0.44836 W with 0 decimals of accuracy
 ```
 
+v_rms stddev: (234.4, 234.9, 235.3, 234.8, 235.0, 234.7) -> 0.27537852736431
+
 - MCP/DIV (seche cheveux sur ct1)
 
 ```
@@ -275,6 +277,12 @@
 [09:42:09][D][sensor:127]: 'epanel-ct2-real-power': Sending state 1.92734 W with 0 decimals of accuracy
 ```
 
+v_rms stddev: (236.3, 236.9, 236.1, 236.5, 235.3, 236.5) -> 0.49553562491061
+
+- ADS
+
+  too slow, eg: `(sample count: 34, sample per period: 3.40)` with `continuous_mode: on` and `frequency: 200kHz` (400 and 800 does not work)
+
 ### Observations
 
 - Teleinfo
@@ -283,5 +291,8 @@
 - CT Clamp
   - ADS1115: pin 34-39 impossible pour I2C (output impossible) => déplacé SDA = GPIO0, SCL = GPIO1
   - transfo: pastilles bien placées mais trop petites
+  - tests: OP semble plus stable
+  - tests: ADS1115 est inutilisable car sampling trop lent
+  - tests: transfo ne parait pas tres stable, mesurer tension pour paramétrer
 - Firmware
   - configure only once voltage sensor data ?
