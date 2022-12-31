@@ -50,7 +50,7 @@
 
 - ajouter un switch on/off en série de l'alim pour faciliter le debug USB/hard reset -> https://fr.rs-online.com/web/p/interrupteurs-a-glissiere/9138996
 - LTV-814 : mauvais footprint, le bon est plus "écarté", cf jlcpcb/parts
-- BSS138: mauvais pinout/footprint, cf jlcpcb/parts
+- OK BSS138: mauvais pinout/footprint, cf jlcpcb/parts
 - borniers pour CT plus petits (2.54 ecartement) -> https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901098
 - OK transfo: pastilles bien placées mais trop petites
 - OK transfo: ajouter des pin headers sur secondaire pour facilement pouvoir mesurer la tension au voltmetre
