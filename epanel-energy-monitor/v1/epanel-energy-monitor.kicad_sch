@@ -3554,7 +3554,7 @@
     (property "Footprint" "mylife-footprints:RS PRO Switch MFP161D" (id 2) (at 64.77 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 64.77 259.08 0)
+    (property "Datasheet" "https://docs.rs-online.com/3798/0900766b81495f3a.pdf" (id 3) (at 64.77 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 73852f96-067b-482b-9ff3-fd8a0f12db69))
@@ -4473,49 +4473,49 @@
       (reference "J?") (unit 1) (value "Conn_02x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/bf5fb817-3f88-4e9e-9f19-88ecd17786b9/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/c32772cc-653d-4957-bb3c-0a5f172ab1be/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/22185efa-8efc-4876-afd5-8dec9a4b19b5/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/b54cb057-78f4-49ce-93fb-f9cf0422be89/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/3ec1fb79-b993-4d20-9468-1c126c21d42f/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/bbd03d8b-8ea0-435e-a7c2-4b5a9471b739/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/9726333b-3c79-414c-bfef-512e56aba712/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/578560a1-6b73-4957-bfb3-35ff677f74b4/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/4ebd0385-b5b4-4d59-9aab-7e7bbf03cd89/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/eec6d226-c27e-4fc6-a4d7-8cea76935031/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/0800fbbc-d96c-4d5a-b7a0-08fb9bc29558/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/e2501a4c-bb11-4117-ba70-34a13e3cfe58/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/50fb0f56-4425-4903-83f0-4cd762164e97/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/bf534973-8668-4c5f-8b33-b6d8c40de3db/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/8544a075-1571-4500-9d23-d51afa21acf1/73f404dd-57e9-4ab3-9c4f-c92cfa5981fb"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/eab3c1d2-8494-4933-98a0-1f180f0c6f69"
       (reference "PS1") (unit 1) (value "Alim RS PRO 5V 1A") (footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT")
