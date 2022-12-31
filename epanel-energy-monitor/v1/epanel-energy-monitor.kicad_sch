@@ -3551,7 +3551,7 @@
     (uuid 8455e93e-0497-4a1b-98ad-a5ed8aa30439)
     (property "Reference" "SW1" (id 0) (at 64.77 252.1925 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 64.77 254.9676 0))
-    (property "Footprint" "" (id 2) (at 64.77 259.08 0)
+    (property "Footprint" "mylife-footprints:RS PRO Switch MFP161D" (id 2) (at 64.77 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 64.77 259.08 0)
@@ -4821,7 +4821,7 @@
       (reference "R?") (unit 1) (value "100Ω/0.5W") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/8455e93e-0497-4a1b-98ad-a5ed8aa30439"
-      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "mylife-footprints:RS PRO Switch MFP161D")
     )
     (path "/35c8ca8a-5716-4892-b883-7f70694cf361"
       (reference "T1") (unit 1) (value "230V - 6V") (footprint "mylife-footprints:RS PRO Transfo 6V 0.35VA")
