@@ -54,6 +54,9 @@
 - OK borniers pour CT plus petits (2.54 ecartement) -> https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901098
 - OK transfo: pastilles bien placées mais trop petites
 - OK transfo: ajouter des pin headers sur secondaire pour facilement pouvoir mesurer la tension au voltmetre
+- Au lieu de jumpers pour config resistances, mettre un commutateur rotatif :
+  - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751 _ou_ https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
+  - https://fr.rs-online.com/web/p/commutateurs-dip-et-sip/1968143 _ou_ https://fr.farnell.com/nidec-copal/ss-10-15sp-le/commut-rotatif-sp5t-0-1a-5vdc/dp/2854807
 
 ## Prototype-1
 
