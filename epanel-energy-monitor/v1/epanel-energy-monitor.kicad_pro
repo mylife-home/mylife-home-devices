@@ -320,6 +320,66 @@
     [
       "9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed",
       ""
+    ],
+    [
+      "3ec1fb79-b993-4d20-9468-1c126c21d42f",
+      "CT Sensor 1"
+    ],
+    [
+      "4ebd0385-b5b4-4d59-9aab-7e7bbf03cd89",
+      "CT Sensor 2"
+    ],
+    [
+      "b54cb057-78f4-49ce-93fb-f9cf0422be89",
+      "CT Sensor 3"
+    ],
+    [
+      "9726333b-3c79-414c-bfef-512e56aba712",
+      "CT Sensor 4"
+    ],
+    [
+      "578560a1-6b73-4957-bfb3-35ff677f74b4",
+      "CT Sensor 5"
+    ],
+    [
+      "bf534973-8668-4c5f-8b33-b6d8c40de3db",
+      "CT Sensor 6"
+    ],
+    [
+      "eec6d226-c27e-4fc6-a4d7-8cea76935031",
+      "CT Sensor 7"
+    ],
+    [
+      "bbd03d8b-8ea0-435e-a7c2-4b5a9471b739",
+      "CT Sensor 8"
+    ],
+    [
+      "22185efa-8efc-4876-afd5-8dec9a4b19b5",
+      "CT Sensor 14"
+    ],
+    [
+      "0800fbbc-d96c-4d5a-b7a0-08fb9bc29558",
+      "CT Sensor 10"
+    ],
+    [
+      "e2501a4c-bb11-4117-ba70-34a13e3cfe58",
+      "CT Sensor 11"
+    ],
+    [
+      "50fb0f56-4425-4903-83f0-4cd762164e97",
+      "CT Sensor 13"
+    ],
+    [
+      "8544a075-1571-4500-9d23-d51afa21acf1",
+      "CT Sensor 12"
+    ],
+    [
+      "bf5fb817-3f88-4e9e-9f19-88ecd17786b9",
+      "CT Sensor 9"
+    ],
+    [
+      "c32772cc-653d-4957-bb3c-0a5f172ab1be",
+      "CT Sensor 15"
     ]
   ],
   "text_variables": {}
