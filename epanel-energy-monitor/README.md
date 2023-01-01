@@ -66,6 +66,10 @@
   - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
 - Note: Boitier DIN : Largeur espace pour bornier : 1.3cm
+- TODO : split ESP et energy monitor
+  - energy monitor sur CNMB/6
+  - ESP sur CNMB/4 avec Alim + IO I2C/SPI
+  - ajouter une led sur energy monitor pour montrer qu'il est bien alimenté
 
 ## Prototype-1
 
