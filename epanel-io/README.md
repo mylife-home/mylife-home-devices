@@ -34,6 +34,8 @@
 
 ## V1
 
+_Mise en service : 8 OCT 2022_
+
 ### Wiring
 
 IO from left to right:  
