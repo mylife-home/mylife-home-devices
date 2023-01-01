@@ -65,6 +65,7 @@
 - OK Au lieu de jumpers pour config resistances, mettre un commutateur rotatif :
   - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
+- Note: Boitier DIN : Largeur espace pour bornier : 1.3cm
 
 ## Prototype-1
 
