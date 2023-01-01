@@ -207,6 +207,8 @@
       (net 13 "unconnected-(U1-Pad20)") (pinfunction "GPIO39") (pintype "no_connect") (tstamp 5f664bdc-3695-431d-a3da-d4f1e68c005b))
   )
 
+  (gr_line locked (start 180.675 30) (end 180.675 160) (layer "Cmts.User") (width 0.2) (tstamp 0c4a3823-bebc-42a7-a4cb-7df796b20ba3))
+  (gr_line locked (start 120.175 30) (end 120.175 160) (layer "Cmts.User") (width 0.2) (tstamp 8fbdd12e-cbe7-4a20-ab3b-7dcb0b143148))
   (gr_line locked (start 107.175 43.75) (end 193.675 43.75) (layer "Edge.Cuts") (width 0.1) (tstamp 2bdab8f3-fd9b-4c51-a762-669761c7b8c6))
   (gr_line locked (start 193.675 146.75) (end 193.675 43.75) (layer "Edge.Cuts") (width 0.1) (tstamp 512b267b-e850-4252-9e43-017277299add))
   (gr_line locked (start 107.175 146.75) (end 107.175 43.75) (layer "Edge.Cuts") (width 0.1) (tstamp 610a5da3-c554-49d4-b661-8ed1a47423fb))
