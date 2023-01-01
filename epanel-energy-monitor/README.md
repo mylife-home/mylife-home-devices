@@ -46,6 +46,14 @@
 
 ## V1
 
+### Main
+
+![](v1/schematic.png)
+
+### CT Sensor
+
+![](v1/ct_sensor.png)
+
 ### TODO
 
 - OK ajouter un switch on/off en série de l'alim pour faciliter le debug USB/hard reset -> https://fr.rs-online.com/web/p/interrupteurs-a-glissiere/9138996
