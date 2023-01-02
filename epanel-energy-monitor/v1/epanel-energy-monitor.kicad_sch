@@ -3242,10 +3242,10 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 170.18 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 175.26 77.47 0)
+    (property "Footprint" "mylife-footprints:RS PRO Terminal Small x2" (id 2) (at 175.26 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 175.26 77.47 0)
+    (property "Datasheet" "https://docs.rs-online.com/90f4/0900766b8157c7e9.pdf" (id 3) (at 175.26 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c9c2f65e-b57d-4aec-bc03-4cf0571ce960))
@@ -3664,7 +3664,7 @@
       (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
     (path "/f73ff09a-5938-442b-8d3b-2177bfcca7fb"
-      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "mylife-footprints:RS PRO Terminal Small x2")
     )
     (path "/08f6537b-c055-45c9-b700-87f6a0a17cb3"
       (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
