@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "epanel-energy-monitor.kicad_pro",
+    "filename": "epanel-controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
