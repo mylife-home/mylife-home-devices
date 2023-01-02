@@ -36,6 +36,14 @@
 
 ## V1
 
+### Réglages
+
+- pos1 = 200Ω = 10A
+- pos2 = 120Ω = 16A
+- pos3 = 100Ω = 20A
+- pos4 =  62Ω = 32A
+- pos5 =  33Ω = 60A
+
 ### Main
 
 ![](v1/schematic.png)
