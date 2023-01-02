@@ -28,6 +28,7 @@
 ### TODO
 
 - ESP sur CNMB/4 avec Alim + IO I2C/SPI
-- switch a bascule au milieu du boitier 
+- switch a levier au milieu du boitier 
   - aucune fausse manip ne va le bouger tout seul dans le boitier
   - on peut reset en ouvrant uniquement le couvercle du boitier sans ouvrir le tableau
+  - https://fr.rs-online.com/web/p/interrupteurs-a-levier/0401703
