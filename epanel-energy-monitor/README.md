@@ -18,15 +18,6 @@
   - rpi pico interne 3 ADC utilisables de 12 bits
   - https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report
 - Calcul burden : `1,65 / (val * √2 / 2000)` val = max courant en Amperes https://tyler.anairo.com/projects/open-energy-monitor-calculator
-- Alimentation : 
-  - rpi pico: < 100ma
-  - esp32 poe: 200ma
-  - mcp3208: 0.4ma
-  - alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
-- mettre un switch pour couper l'alimentation, permet de hard-reboot en cas de plantage
-  - on peut aussi rajouter une led de power et une d'état https://esphome.io/components/status_led.html
-  - a voir comment implanter ca dans le couvercle du boitier DIN
-
 
 ## Links
 
@@ -40,9 +31,8 @@
 
 ## Choix techniques
 
-- ESP32 : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 - MCP3208 x2 _ou_ ADS1115 x4
-- switch on/off en série de l'alim pour faciliter le debug USB/hard reset
+- déplacer ESP dans un boitier DIN a part
 
 ## V1
 
@@ -66,10 +56,7 @@
   - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
 - Note: Boitier DIN : Largeur espace pour bornier : 1.3cm
-- TODO : split ESP et energy monitor
-  - energy monitor sur CNMB/6
-  - ESP sur CNMB/4 avec Alim + IO I2C/SPI
-  - ajouter une led sur energy monitor pour montrer qu'il est bien alimenté
+- OK ajouter une led pour montrer qu'il est bien alimenté
 
 ## Prototype-1
 
