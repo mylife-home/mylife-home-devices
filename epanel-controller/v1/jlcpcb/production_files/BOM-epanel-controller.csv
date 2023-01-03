@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x05_Male,J1,PinHeader_1x05_P2.54mm_Vertical,
+Alim RS PRO 5V 1A,PS1,Converter_ACDC_MeanWell_IRM-03-xx_THT,
+SW_DPDT_x2,SW1,RS PRO Switch 401-703,
+Screw_Terminal_01x02,J2,TerminalBlock_bornier-2_P5.08mm,
+ESP32-POE-ISO,U1,ESP32-POE,
+Conn_02x04_Odd_Even,J3,PinHeader_2x04_P2.54mm_Vertical,

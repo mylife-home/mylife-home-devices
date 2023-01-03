@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x05_Male,PinHeader_1x05_P2.54mm_Vertical,103.51,-129.54,90.0,top
+J2,Screw_Terminal_01x02,TerminalBlock_bornier-2_P5.08mm,120.015,-55.11,180.0,top
+J3,Conn_02x04_Odd_Even,PinHeader_2x04_P2.54mm_Vertical,120.396,-131.3942,90.0,top
+PS1,Alim RS PRO 5V 1A,Converter_ACDC_MeanWell_IRM-03-xx_THT,108.7275,-84.455,0.0,top
+SW1,SW_DPDT_x2,RS PRO Switch 401-703,121.92,-73.025,90.0,top
+U1,ESP32-POE-ISO,ESP32-POE,147.68,-94.26,0.0,top
