@@ -1338,7 +1338,7 @@
     (uuid d2f99d6e-0d4d-49fc-ad4d-c713356d660b)
     (property "Reference" "U1" (id 0) (at 147.32 104.14 0))
     (property "Value" "ESP32-POE-ISO" (id 1) (at 147.32 106.68 0))
-    (property "Footprint" "" (id 2) (at 147.32 105.41 0)
+    (property "Footprint" "mylife-footprints:ESP32-POE" (id 2) (at 147.32 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware" (id 3) (at 147.32 105.41 0)
@@ -1511,7 +1511,7 @@
       (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "mylife-footprints:RS PRO Switch 401-703")
     )
     (path "/d2f99d6e-0d4d-49fc-ad4d-c713356d660b"
-      (reference "U1") (unit 1) (value "ESP32-POE-ISO") (footprint "")
+      (reference "U1") (unit 1) (value "ESP32-POE-ISO") (footprint "mylife-footprints:ESP32-POE")
     )
   )
 )
