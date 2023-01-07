@@ -40,7 +40,7 @@
   - dimensions : 87 x 47.85 x 21.7mm
   - alimentation : 5V 0.55A, Jack 5.5 2.5, avec + au centre
   - Connecteur USB 
-    - cable : https://fr.rs-online.com/web/p/connecteurs-usb/8006797
+    - Cable USB -> Jack https://www.amazon.fr/dp/B00ZUE4WBE
     - ~~connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/8006797~~
     - connecteur : https://fr.rs-online.com/web/p/connecteurs-usb/7710057
 - capteur humidité sol :
