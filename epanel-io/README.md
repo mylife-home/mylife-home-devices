@@ -18,6 +18,12 @@
 - Noter sur le silkscreen a quoi correspondent les borniers/pin headers/jumpers
 - Grouper les IO 4 par 4 (1 phase et 1 neutre pour 4 IO) => 4 + 4 + 2 par RPI
 
+### Materiel
+
+- Borniers :
+  - 2 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
+  - 3 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444293
+
 ---
 
 - Découpage IO:
