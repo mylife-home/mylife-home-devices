@@ -62,8 +62,8 @@
   - dimensions : 77.5 x 60 x 48.5
   - Puissance : 36VA
 - borniers :
-  - 2 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
-  - 3 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444293
+  - 2 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286 (x5)
+  - 3 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444293 (x2)
 
 ### led driver
 
