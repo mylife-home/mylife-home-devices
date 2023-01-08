@@ -23,7 +23,7 @@
   - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
 - Câble 2x4 :
-
+- Transfo :
 
 ## V1
 
