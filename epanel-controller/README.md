@@ -19,6 +19,12 @@
 
 ## V1
 
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
 ![](v1/schematic.png)
 
 ### TODO
