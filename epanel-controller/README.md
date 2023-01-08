@@ -14,8 +14,10 @@
 
 ### Matériel
 
-- switch : https://fr.rs-online.com/web/p/interrupteurs-a-levier/0401703
-- alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+- Boitier : https://fr.rs-online.com/web/p/boitiers-rail-din/7495824
+- Switch : https://fr.rs-online.com/web/p/interrupteurs-a-levier/0401703
+- Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+- Bornier : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
 
 ## V1
 
