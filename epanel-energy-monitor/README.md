@@ -15,7 +15,9 @@
 
 ### Matériel
 
-- Boîtier : https://fr.rs-online.com/web/p/boitiers-rail-din/7495837
+- Boîtier : 
+  - https://fr.rs-online.com/web/p/boitiers-rail-din/7495837
+  - https://fr.farnell.com/camdenboss/cnmb-6-kit/boitier-rail-din-m6/dp/3954259
 - Borniers :
   - Petits : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901098
   - Grands : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
