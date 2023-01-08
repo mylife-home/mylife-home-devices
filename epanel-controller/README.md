@@ -15,6 +15,7 @@
 ### Matériel
 
 - switch : https://fr.rs-online.com/web/p/interrupteurs-a-levier/0401703
+- alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
 
 ## V1
 
