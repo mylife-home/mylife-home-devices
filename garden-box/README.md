@@ -37,6 +37,7 @@
 - switch :
   - DLink GO-SW-5E
   - https://eu.dlink.com/fr/fr/products/go-sw-5e
+  - https://www.fnac.com/mp32766655/Switch-Commutateur-D-link-Go-sw-5e-Unmanaged-Network-Switch-Fast-Ethernet-10-100-Blanc-Commutateur-Reseau/w-4
   - dimensions : 87 x 47.85 x 21.7mm
   - alimentation : 5V 0.55A, Jack 5.5 2.5, avec + au centre
   - Connecteur USB 
