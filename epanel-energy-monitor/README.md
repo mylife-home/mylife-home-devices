@@ -7,27 +7,6 @@
   - 4 sur inter diff (entre 40A et 63A)
   - 8 sur disjoncteurs (entre 10A et 32A)
 - teleinfo
- 
-## Notes
-
-- arduino external ADC :
-  - ADS1115 - I2C - 16 bits - 4 channels ADC
-  - MCP3208 - SPI - 12 bits - 8 channels ADC
-  - MCP3008 - SPI - 10 bits - 8 channels ADC
-  - Arduino UNO interne 10 bits
-  - rpi pico interne 3 ADC utilisables de 12 bits
-  - https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report
-- Calcul burden : `1,65 / (val * √2 / 2000)` val = max courant en Amperes https://tyler.anairo.com/projects/open-energy-monitor-calculator
-
-## Links
-
-- CT clamp : https://github.com/openenergymonitor/emontx3
-- teleinfo :
-  - http://sarakha63-domotique.fr/nodemcu-teleinformation-wifi/
-  - https://github.com/schmurtzm/Teleinfo-TIC-with-ESPhome
-- esphome teleinfo : https://esphome.io/components/sensor/teleinfo.html
-- esphome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
-- eshome 3208 : https://esphome.io/components/sensor/mcp3204.html
 
 ## Design
 
@@ -323,3 +302,25 @@ v_rms stddev: (236.3, 236.9, 236.1, 236.5, 235.3, 236.5) -> 0.49553562491061
   - tests: transfo ne parait pas tres stable, mesurer tension pour paramétrer
 - Firmware
   - configure only once voltage sensor data ?
+
+ 
+## Notes
+
+- arduino external ADC :
+  - ADS1115 - I2C - 16 bits - 4 channels ADC
+  - MCP3208 - SPI - 12 bits - 8 channels ADC
+  - MCP3008 - SPI - 10 bits - 8 channels ADC
+  - Arduino UNO interne 10 bits
+  - rpi pico interne 3 ADC utilisables de 12 bits
+  - https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report
+- Calcul burden : `1,65 / (val * √2 / 2000)` val = max courant en Amperes https://tyler.anairo.com/projects/open-energy-monitor-calculator
+
+## Links
+
+- CT clamp : https://github.com/openenergymonitor/emontx3
+- teleinfo :
+  - http://sarakha63-domotique.fr/nodemcu-teleinformation-wifi/
+  - https://github.com/schmurtzm/Teleinfo-TIC-with-ESPhome
+- esphome teleinfo : https://esphome.io/components/sensor/teleinfo.html
+- esphome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
+- eshome 3208 : https://esphome.io/components/sensor/mcp3204.html
