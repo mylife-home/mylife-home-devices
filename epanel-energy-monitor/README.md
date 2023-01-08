@@ -22,7 +22,7 @@
 - Selecteurs : 
   - https://fr.rs-online.com/web/p/interrupteurs-dip-de-codage-rotatif/1796751
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
-- Câble 2x4 :
+- Câble 2x4 : https://www.amazon.fr/sourcing-map-Connecteur-Broche-Femelle/dp/B07H26VF1J
 - Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
 
 ## V1
