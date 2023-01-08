@@ -16,7 +16,10 @@
 ### Matériel
 
 - Boîtier : https://fr.rs-online.com/web/p/boitiers-rail-din/7495837
-
+- Borniers :
+  - Petits : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901098
+  - Grands : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
+  - Câble 2x4 :
 
 
 ## V1
