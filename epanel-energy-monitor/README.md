@@ -29,10 +29,16 @@
 - esphome CT clamp : https://esphome.io/components/sensor/ct_clamp.html
 - eshome 3208 : https://esphome.io/components/sensor/mcp3204.html
 
-## Choix techniques
+## Design
 
-- MCP3208 x2 _ou_ ADS1115 x4
+- MCP3208 x2
 - déplacer ESP dans un boitier DIN a part
+
+### Matériel
+
+- Boîtier : https://fr.rs-online.com/web/p/boitiers-rail-din/7495837
+
+
 
 ## V1
 
