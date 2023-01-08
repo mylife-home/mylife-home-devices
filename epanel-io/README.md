@@ -20,6 +20,7 @@
 
 ### Materiel
 
+- Boîtier : https://fr.rs-online.com/web/p/boitiers-rail-din/7495837
 - Borniers :
   - 2 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
   - 3 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444293
