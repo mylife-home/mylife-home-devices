@@ -72,6 +72,13 @@ _TODO_
 
 ## V1
 
+### Wiring
+
+- DS18B20: GPIO13
+- SEN0308 GPIO36
+- Relays GPIO14, GPIO1, GPIO2, GPIO3, GPIO4, GPIO5
+- Relay Transfo: GPIO33
+
 ### 3D view
 
 ![](v1/3dview.png)
@@ -86,7 +93,7 @@ _TODO_
 
 ### Bugs
 
-- ne pas utiliser GPIO0 (strapping pin down -> boot en flashing mode)
+- ne pas utiliser GPIO0 (strapping pin down -> boot en flashing mode) => GPIO14 à la place
 
 <img src="v1/pictures/fix1.jpg" width="300">
 <img src="v1/pictures/fix2.jpg" width="300">
