@@ -17,3 +17,8 @@ MyLife Home devices
    - plugin pour aide a la generation de commande : https://github.com/Bouni/kicad-jlcpcb-tools
    - plugin pour importer les composants JLCPCB dans Kicad : https://github.com/TousstNicolas/JLC2KiCad_lib
  - Component footprints : https://componentsearchengine.com/
+ - ESP32-POE:
+   - NE PAS utiliser GPIO0 si possible (ne pas le mettre DOWN au boot)
+   - Attention : Version avec antenne interne est plus grande (pas que l'ESP, toute la board). Le footprint Kicad courant correspond à la version avec antenne externe : 
+
+<img src="esp32-poe-sizes.jpg" width="300">

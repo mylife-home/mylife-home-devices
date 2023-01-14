@@ -84,21 +84,12 @@ _TODO_
 
 ![](v1/schematic-relay.png)
 
-### Objectifs à tester
+### Bugs
 
-- tester implantation transfo sur PCB
-- tester que solenoide fonctionne avec transfo (mettre un jumper pour simuler relais, on va pas en souder un autre)
-- fixation PCB dans boitier avec trous à la bonne taille
+- ne pas utiliser GPIO0 (strapping pin down -> boot en flashing mode)
 
-### TODO
-
-- OK corriger PCB pour avoir trous fixation à la bonne taille
-- OK corriger PCB pinout transfo : le secondaire n'est pas centré (cf datasheet)
-- OK la led est tres lumineuse, on peut remplacer la resistance par une de 1K
-- OK SILKSCREEN pour éviter les mauvais branchements
-- OK les pistes en 220v doivent etre sur la face bottom du PCB
-- (JLCPCB: pas besoin d'assemblage, que la fabrication du PCB si proto)
-- Est-ce avantageux de directement commander une V1 complète avec ses 6 voix ? (vu le peu de composants a assembler dessus) => designer une V1 et voir son prix d'assemblage
+<img src="v1/pictures/fix1.jpg" width="300">
+<img src="v1/pictures/fix2.jpg" width="300">
 
 ## Proto 1
 
