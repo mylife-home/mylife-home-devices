@@ -65,6 +65,14 @@
 - borniers :
   - 2 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286 (x5)
   - 3 contacts : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444293 (x2)
+- presse étoupes :
+  - Cable ethernet cat 6 : PG 11
+  - 3G1.5 : PG 13.5
+  - 4x0.75 (électrovannes) : PG 11 ou PG 13.5
+  - Capteurs DS18B20/SEN0308 : PG 7
+  - PG 7 x50 : https://www.amazon.fr/dp/B07JH2LPZF
+  - PG 11 x30 : https://www.amazon.fr/dp/B07QP6NN6Q
+  - PG 13.5 x30 : https://www.amazon.fr/dp/B07V8J6RDM
 
 ### led driver
 
