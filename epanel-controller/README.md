@@ -29,9 +29,9 @@
 
 ![](v1/schematic.png)
 
-### TODO
+### Images
 
-- ESP sur CNMB/4 avec Alim + IO I2C/SPI
+<img src="v1/pictures/tableau.jpg" width="300">
 
 ## Notes
 
