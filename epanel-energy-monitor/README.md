@@ -1,4 +1,4 @@
-# ePanel Energy Monitory
+# ePanel Energy Monitor
 
 ## Besoin
 
