@@ -27,6 +27,28 @@
 - Câble 2x4 : https://www.amazon.fr/sourcing-map-Connecteur-Broche-Femelle/dp/B07H26VF1J
 - Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
 
+## V1.1
+
+### Réglages
+
+- pos1 = 200Ω = 10A
+- pos2 = 120Ω = 16A
+- pos3 = 100Ω = 20A
+- pos4 =  62Ω = 32A
+- pos5 =  33Ω = 60A
+
+### 3D view
+
+![](v1.1/3dview.png)
+
+### Main
+
+![](v1.1/schematic.png)
+
+### CT Sensor
+
+![](v1.1/ct_sensor.png)
+
 ## V1
 
 ### Réglages
@@ -61,6 +83,19 @@
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
 - Note: Boitier DIN : Largeur espace pour bornier : 1.3cm
 - OK ajouter une led pour montrer qu'il est bien alimenté
+
+### Bugs
+
+- pinout SS-10 KO !!!
+```
+1 pos3       5 NC
+2 pos2       6 C
+3 C          7 pos5
+4 pos1       8 pos4
+```
+Note: le point correspond à l'angle rogné sur le SS-10
+
+- pinout bornier inversé : les trous sont du côté des cables
 
 ## Prototype-1
 
