@@ -4021,49 +4021,49 @@
       (reference "R100") (unit 1) (value "33Ω/0.5W") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3ec1fb79-b993-4d20-9468-1c126c21d42f/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S1") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S1") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/4ebd0385-b5b4-4d59-9aab-7e7bbf03cd89/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S2") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S2") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/b54cb057-78f4-49ce-93fb-f9cf0422be89/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S3") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S3") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/9726333b-3c79-414c-bfef-512e56aba712/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S4") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S4") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/578560a1-6b73-4957-bfb3-35ff677f74b4/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S5") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S5") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/bf534973-8668-4c5f-8b33-b6d8c40de3db/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S6") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S6") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/eec6d226-c27e-4fc6-a4d7-8cea76935031/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S7") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S7") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/bbd03d8b-8ea0-435e-a7c2-4b5a9471b739/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S8") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S8") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/bf5fb817-3f88-4e9e-9f19-88ecd17786b9/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S9") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S9") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/0800fbbc-d96c-4d5a-b7a0-08fb9bc29558/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S10") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S10") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/e2501a4c-bb11-4117-ba70-34a13e3cfe58/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S11") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S11") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/8544a075-1571-4500-9d23-d51afa21acf1/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S12") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S12") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/50fb0f56-4425-4903-83f0-4cd762164e97/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S13") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S13") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/22185efa-8efc-4876-afd5-8dec9a4b19b5/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S14") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S14") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/c32772cc-653d-4957-bb3c-0a5f172ab1be/acb1c056-072a-408a-bb22-d9eadd732c4c"
-      (reference "S15") (unit 1) (value "SS-10-15SPE") (footprint "SS1015SPE")
+      (reference "S15") (unit 1) (value "SS-10-15SPE") (footprint "mylife-footprints:RS PRO SS-10-15SPE")
     )
     (path "/35c8ca8a-5716-4892-b883-7f70694cf361"
       (reference "T1") (unit 1) (value "230V - 6V") (footprint "mylife-footprints:RS PRO Transfo 6V 0.35VA")
