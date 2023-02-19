@@ -3,7 +3,8 @@
 ## Besoin
 
 - driver RGB pour jardin
-  - 4 spots 24V 3W
+  - 4 spots 24V 0.6W IDTOLight Monte Carlo LO681004ABX
+    - pinout : + Black commun
   - étanche
   - ethernet
 - driver RGB pour maison
