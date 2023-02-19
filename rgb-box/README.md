@@ -2,11 +2,12 @@
 
 ## Besoin
 
-- drivers RGB 24v pour jardin
-  - 4 spots 3W
+- driver RGB pour jardin
+  - 4 spots 24V 3W
   - étanche
   - ethernet
-- driver RGB spot 10W maison
+- driver RGB pour maison
+  - spot 12V 10W
   - pied lesté
   - fixer le spot sur le boitier
   - ethernet OU wifi
