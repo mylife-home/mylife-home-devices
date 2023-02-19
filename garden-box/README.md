@@ -5,7 +5,6 @@
 - capteur températeur
 - capteur humidité sol
 - drivers électrovannes
-- drivers RGB 24v
 - driver lanterne/guirlande
 
 ## Design
@@ -73,10 +72,6 @@
   - PG 7 x50 : https://www.amazon.fr/dp/B07JH2LPZF
   - PG 11 x30 : https://www.amazon.fr/dp/B07QP6NN6Q
   - PG 13.5 x30 : https://www.amazon.fr/dp/B07V8J6RDM
-
-### led driver
-
-_TODO_
 
 ## V1
 
