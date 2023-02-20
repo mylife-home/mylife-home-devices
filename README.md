@@ -6,7 +6,7 @@ MyLife Home devices
  - [ePanel Controller](epanel-controller/README.md) - Module de tableau électrique pour contrôler IO et Energy Monitor
  - [Bed Smart Plug](bed-smart-plug/README.md) - "Multiprise intelligente" pour mettre en tête de lit
  - [Garden box](garden-box/README.md) - Boîtier de commandes/capteurs dans le jardin
- - [RGB box](rgb-box/README.md) - Boîtier de commande spots RGB
+ - [RGB garden box](rgb-garden-box/README.md) - Boîtier de commande spots RGB dans le jardin
  - [Presence Wifi sensor](presence-wifi-sensor/README.md) - Détecteur de présence Wifi
 
 ## Notes
