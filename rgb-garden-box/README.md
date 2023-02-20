@@ -15,6 +15,7 @@
 - esp32 poe
 - petite alim pour ESP
 - grosse alim + relais pour spots
+- Mosfets: IRLZ44N D2PAK
 
 ## Matériel
 
