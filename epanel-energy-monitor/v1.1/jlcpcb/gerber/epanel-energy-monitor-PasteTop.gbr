@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
-%TF.CreationDate,2023-02-18T21:35:05+01:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0-0)*%
+%TF.CreationDate,2023-02-21T10:25:41+01:00*%
 %TF.ProjectId,epanel-energy-monitor,6570616e-656c-42d6-956e-657267792d6d,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2023-02-18 21:35:05*
+G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-02-21 10:25:41*
 %MOMM*%
 %LPD*%
 G01*
@@ -218,10 +218,10 @@ X193540769Y-92350480D03*
 %TD*%
 D16*
 %TO.C,U1*%
-X104861400Y-52171600D03*
-X104861400Y-54711600D03*
-X114391400Y-54711600D03*
-X114391400Y-52171600D03*
+X104861399Y-52171599D03*
+X104861399Y-54711599D03*
+X114391399Y-54711599D03*
+X114391399Y-52171599D03*
 %TD*%
 D12*
 %TO.C,R83*%
