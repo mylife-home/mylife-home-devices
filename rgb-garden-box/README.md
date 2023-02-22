@@ -20,3 +20,6 @@
 ## Matériel
 
 - Boîtiers : https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/
+- Alims :
+  - 12V/30W : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358946
+  - 24V/20W : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812126
