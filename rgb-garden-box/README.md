@@ -5,7 +5,14 @@
 - 4 spots 24V 0.6W IDTOLight Monte Carlo LO681004ABX
   - pinout : + Black commun
 - 2 spots 12V 10W
-  - tester + souder le cable
+  - TODO:
+    - tester passage cable
+    - dessouder led
+    - design pour embarquer, avec si possible bornier (voir si on a assez de place dessous pour les pins, et dessus) sinon souder directement les cables dessus
+  - common +
+  - Resistances:
+    - Red: 10Ω
+    - Green, Blue: 5.1Ω
 - étanche
 - ethernet
 - tient dans regard
