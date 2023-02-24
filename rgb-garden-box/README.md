@@ -1,4 +1,4 @@
-# RGB box
+# RGB garden box
 
 ## Besoin
 

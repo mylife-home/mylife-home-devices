@@ -1,4 +1,4 @@
-# RGB box
+# RGB spot 10W
 
 ## Besoin
 
