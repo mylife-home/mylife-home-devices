@@ -7,6 +7,7 @@ MyLife Home devices
  - [Bed Smart Plug](bed-smart-plug/README.md) - "Multiprise intelligente" pour mettre en tête de lit
  - [Garden box](garden-box/README.md) - Boîtier de commandes/capteurs dans le jardin
  - [RGB garden box](rgb-garden-box/README.md) - Boîtier de commande spots RGB dans le jardin
+ - [RGB spot 10W](rgb-spot-10w/README.md) - Reprise de spots existant infrarouge pour connexion direct cables RGB
  - [Presence Wifi sensor](presence-wifi-sensor/README.md) - Détecteur de présence Wifi
 
 ## Notes
