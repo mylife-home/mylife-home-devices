@@ -19,7 +19,7 @@
   - IRLZ44N D2PAK
   - résistance de 10k - 100k entre commande et gnd, évite que ça flotte
 - spot 12V 10W:
-   - [Design](../rgb-spot-10w/README.md)
+   - [RGB spot 10W](../rgb-spot-10w/README.md)
 
 ## Matériel
 
