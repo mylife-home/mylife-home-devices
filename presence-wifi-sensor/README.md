@@ -7,6 +7,15 @@
 - capteur de présence pour une pièce
 - capteur de luminosité 
 
+### Emplacements
+
+- escalier
+- WC
+- degmt
+- couloir
+- sdb
+- sdbp
+
 ## Notes
 
 - PIR sensor :
