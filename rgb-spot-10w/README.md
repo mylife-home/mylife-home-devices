@@ -31,3 +31,5 @@ PCB pour remplacer le design IR existant:
 - Resistances:
   - Red: 10Ω => https://jlcpcb.com/partdetail/Yageo-RC2512JK0710RL/C137014
   - Green, Blue: 5.1Ω => https://jlcpcb.com/partdetail/Koa_SpeerElec-RK73BW3ATTE5R1J/C514891
+- Bornier:
+  - https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901102
