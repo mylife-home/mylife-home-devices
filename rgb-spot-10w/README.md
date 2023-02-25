@@ -33,3 +33,18 @@ PCB pour remplacer le design IR existant:
   - Green, Blue: 5.1Ω => https://jlcpcb.com/partdetail/Koa_SpeerElec-RK73BW3ATTE5R1J/C514891
 - Bornier:
   - https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901102
+
+## V1
+
+
+### 3D view
+
+![](v1/pictures/3dview.png)
+
+### Main
+
+![](v1/pictures/schematic.png)
+
+### Images
+
+## Notes
