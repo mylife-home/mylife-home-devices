@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,LED_ARGB,LED RGB 10W,142.94,-92.59,0.0,top
+J1,Screw_Terminal_01x04,RS PRO Terminal Small x4,142.92,-75.04,180.0,top
+R1,5.1Ω/1W,R_2512_6332Metric,160.7,-91.8625,-90.0,top
+R2,5.1Ω/1W,R_2512_6332Metric,142.96,-110.74,0.0,top
+R3,10Ω/1W,R_2512_6332Metric,125.56,-91.44,-90.0,top

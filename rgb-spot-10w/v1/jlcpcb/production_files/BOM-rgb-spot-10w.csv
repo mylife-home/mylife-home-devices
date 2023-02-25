@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+10Ω/1W,R3,R_2512_6332Metric,C137014
+5.1Ω/1W,"R1,R2",R_2512_6332Metric,C514891
+Screw_Terminal_01x04,J1,RS PRO Terminal Small x4,
+LED_ARGB,D1,LED RGB 10W,
