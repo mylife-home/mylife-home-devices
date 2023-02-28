@@ -31,7 +31,7 @@
 
 ### Réglages
 
-- pos1 = 200Ω = 10A
+- pos1 = 220Ω = 10A
 - pos2 = 120Ω = 16A
 - pos3 = 100Ω = 20A
 - pos4 =  62Ω = 32A
@@ -48,6 +48,9 @@
 ### CT Sensor
 
 ![](v1.1/ct_sensor.png)
+
+### Notes:
+- plus de résistances 200Ω en stock, donc remplacement par une 220Ω. L'intensité max pour 10A pass de 10.5 à 9.5
 
 ## V1
 
