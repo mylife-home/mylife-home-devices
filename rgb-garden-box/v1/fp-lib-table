@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "mylife-footprints")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/mylife-footprints.pretty")(options "")(descr ""))
+  (lib (name "rs-online")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/rs-online.pretty")(options "")(descr ""))
+  (lib (name "jlcpcb")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/jlcpcb.pretty")(options "")(descr ""))
+)
