@@ -25,6 +25,6 @@
 
 - Boîtiers : https://fr.rs-online.com/web/c/boitiers-coffrets-et-armoires/boitiers/boitiers-pour-usage-general/
 - Alims :
-  - 5V/1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
-  - 12V/30W : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358946
-  - 24V/20W : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812126
+  - 5V/1A - 37x24.5x18 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+  - 12V/30W - 69.5x39x24 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358946
+  - 24V/20W - 53.8x28.8x23.5 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812126
