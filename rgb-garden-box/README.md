@@ -8,7 +8,7 @@
   - common +
 - étanche
 - ethernet
-- tient dans regard
+- tient dans regard 19x19x19
 
 ## Design
 
