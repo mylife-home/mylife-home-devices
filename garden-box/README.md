@@ -9,8 +9,6 @@
 
 ## Design
 
-### generic
-
 - 1 place pour un switch
 - esp32 poe
 - convertisseur 12v -> 5v
@@ -23,7 +21,7 @@
 - ds 18b20
 - capteur humidité sol avec ADC
 
-#### Materiel
+### Materiel
 
 - boitier :
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/2010161
