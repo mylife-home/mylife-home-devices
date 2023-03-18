@@ -29,3 +29,5 @@
   - 5V/1A - 37x24.5x18 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
   - 12V/30W - 69.5x39x24 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358946
   - 24V/20W - 53.8x28.8x23.5 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812126
+- Borniers : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
+- Relais : Omron G6DN-1A-SL DC5 (general usage) - https://fr.rs-online.com/web/p/relais-de-puissance/2436601 
