@@ -1,0 +1,25 @@
+Comment,Designator,Footprint,LCSC
+1KΩ,"R10,R2,R4,R7",R_0402_1005Metric,C11702
+2N3904,"Q1,Q4",SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR,C18536
+LED,"D1,D3",D_0805_2012Metric,C2297
+10KΩ,"R11,R12,R13,R3,R5,R6,R8,R9",R_0402_1005Metric,C25744
+4.7KΩ,R1,R_0402_1005Metric,C25900
+1N4148,"D2,D4",D_SOD-123,C81598
+IRLZ44N,Q8,TO-220-3_Vertical,
+IRLZ44N,Q7,TO-220-3_Vertical,
+IRLZ44N,Q6,TO-220-3_Vertical,
+IRLZ44N,Q5,TO-220-3_Vertical,
+IRLZ44N,Q3,TO-220-3_Vertical,
+IRLZ44N,Q2,TO-220-3_Vertical,
+G6DN-1A-L_DC5,K1,G6DN-1A-L,
+Screw_Terminal_01x04,J5,TerminalBlock_bornier-4_P5.08mm,
+Screw_Terminal_01x04,J6,TerminalBlock_bornier-4_P5.08mm,
+Mean Well 12V 2.5A (30W),PS1,IRM-30-12,
+G6DN-1A-L_DC5,K2,G6DN-1A-L,
+Conn_01x03_Male,J1,PinHeader_1x03_P2.54mm_Vertical,
+Screw_Terminal_01x04,J4,TerminalBlock_bornier-4_P5.08mm,
+Screw_Terminal_01x02,J3,TerminalBlock_bornier-2_P5.08mm,
+RS PRO 24V 833mA (20W),PS2,RS PRO Alim 5V 2A,
+ESP32-POE,U1,ESP32-POE,
+Alim RS PRO 5V 1A,PS3,Converter_ACDC_MeanWell_IRM-03-xx_THT,
+Conn_01x04_Male,J2,PinHeader_1x04_P2.54mm_Vertical,
