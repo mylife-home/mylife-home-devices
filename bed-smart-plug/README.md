@@ -37,6 +37,10 @@
   - Sorties prises IEC C13 pour avoir un format plus compact ?
   - Sortie USB direct sur la prise pour brancher le switch dessus en ethernet si besoin ?
   - Format prise : https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/interrupteur-et-prise-en-saillie/bloc-5-prises-avec-terre-saillie-blanc-82016676.html ?
+- Télécommande :
+  - Renkforce 1208459
+  - https://amzn.eu/d/fGBrWJP
+  - https://www.conrad.fr/fr/p/renkforce-1208459-sans-fil-telecommande-interieure-1208459.html
 
 ## Observations Prototype-1 epanel-io
 
