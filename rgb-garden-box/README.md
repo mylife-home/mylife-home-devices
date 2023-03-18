@@ -17,6 +17,7 @@
 - grosse alim + relais pour spots
 - Mosfets:
   - IRLZ44N D2PAK
+  - IRLZ44N TO220 https://fr.farnell.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15001&productSeoURL=infineon&partNumber=8651418&storeId=10160
   - résistance de 10k - 100k entre commande et gnd, évite que ça flotte
 - spot 12V 10W:
    - [RGB spot 10W](../rgb-spot-10w/README.md)
