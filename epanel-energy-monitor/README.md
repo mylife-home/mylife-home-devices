@@ -49,6 +49,10 @@
 
 ![](v1.1/ct_sensor.png)
 
+### Images
+
+<img src="v1.1/pictures/board.jpg" width="300">
+
 ### Notes:
 - plus de résistances 200Ω en stock, donc remplacement par une 220Ω. L'intensité max pour 10A pass de 10.5 à 9.5
 

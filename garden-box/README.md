@@ -94,6 +94,11 @@
 
 ![](v1/schematic-relay.png)
 
+### Images
+
+- Portail
+<img src="v1/pictures/portail.jpg" width="300">
+
 ### Bugs
 
 - ne pas utiliser GPIO0 (strapping pin down -> boot en flashing mode) => GPIO14 à la place

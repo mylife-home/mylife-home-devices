@@ -1,4 +1,4 @@
-# RGB spot 10W
+new-in# RGB spot 10W
 
 ## Besoin
 
@@ -36,15 +36,17 @@ PCB pour remplacer le design IR existant:
 
 ## V1
 
-
 ### 3D view
 
-![](v1/pictures/3dview.png)
+![](v1/3dview.png)
 
 ### Main
 
-![](v1/pictures/schematic.png)
+![](v1/schematic.png)
 
 ### Images
+
+<img src="v1/pictures/new1.jpg" width="300">
+<img src="v1/pictures/new2.jpg" width="300">
 
 ## Notes
