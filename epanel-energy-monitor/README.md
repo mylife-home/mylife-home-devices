@@ -26,6 +26,9 @@
   - https://fr.farnell.com/nidec-copal/ss-10-15spe/commut-rotatif-sp5t-0-1a-5vdc/dp/2854806
 - Câble 2x4 : https://www.amazon.fr/sourcing-map-Connecteur-Broche-Femelle/dp/B07H26VF1J
 - Transfo : https://fr.rs-online.com/web/p/transformateurs-pour-circuits-imprimes/7320525
+-  CT Clamp Schneider:
+  - https://www.amazon.fr/Transformateurs-courant-ferm%C3%A9s-80a-Lot/dp/B01G5M1MT4
+  - https://www.se.com/fr/fr/product/EER39200/wiser-energy-lot-de-5-tc-transformateurs-de-courant-ferm%C3%A9s-80a/
 
 ## V1.1
 
@@ -54,6 +57,8 @@
 <img src="v1.1/pictures/board.jpg" width="300">
 <img src="v1.1/pictures/enclosure-bottom.jpg" width="300">
 <img src="v1.1/pictures/enclosure-top.jpg" width="300">
+<img src="v1.1/pictures/installed-overall.jpg" width="300">
+<img src="v1.1/pictures/installed-zoom.jpg" width="300">
 
 ### Notes:
 
