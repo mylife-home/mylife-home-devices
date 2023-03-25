@@ -1,4 +1,4 @@
-new-in# RGB spot 10W
+# RGB spot 10W
 
 ## Besoin
 
