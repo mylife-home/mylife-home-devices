@@ -7,6 +7,8 @@
 - 4 sorties prises
 - Wifi et Ethernet
 - Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
+- Emetteur 868 pour pergola (option)
+- Emetteur 433MHz pour hotte (option)
 
 ### Emplacements
 
@@ -75,6 +77,8 @@
 - prises comme PC
 - fusibles
 - triac dissipateurs
+- pilotage hotte
+- pilotage pergola
 
 ## Notes
 
