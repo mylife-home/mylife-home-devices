@@ -35,6 +35,20 @@
 ## V1
 
 ### Wiring
+
+- DS18B20: GPIO13
+- SEN0308: GPIO36
+- RGB 12V
+  - Relay: GPIO33
+  - R: GPIO14
+  - G: GPIO15
+  - B: GPIO16
+- RGB 24V
+  - Relay: GPIO32
+  - R: GPIO3
+  - G: GPIO4
+  - B: GPIO5
+
 ### 3D view
 
 ![](v1/3dview.png)
