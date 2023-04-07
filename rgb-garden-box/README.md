@@ -31,3 +31,20 @@
   - 24V/20W - 53.8x28.8x23.5 : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812126
 - Borniers : https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/1444286
 - Relais : Omron G6DN-1A-SL DC5 (general usage) - https://fr.rs-online.com/web/p/relais-de-puissance/2436601 
+
+## V1
+
+### Wiring
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
+![](v1/schematic.png)
+
+### Images
+
+<img src="v1/pictures/board.jpg" width="300">
+
+## Notes
