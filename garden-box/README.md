@@ -98,6 +98,10 @@
 
 - Portail
 <img src="v1/pictures/portail.jpg" width="300">
+- Potager
+<img src="v1/pictures/potager.jpg" width="300">
+- Nord-ouest
+<img src="v1/pictures/nord-ouest.jpg" width="300">
 
 ### Bugs
 
