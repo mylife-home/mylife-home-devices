@@ -60,5 +60,6 @@
 ### Images
 
 <img src="v1/pictures/board.jpg" width="300">
+<img src="v1/pictures/garden-terrasse-sud.jpg" width="300">
 
 ## Notes
