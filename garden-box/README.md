@@ -98,12 +98,16 @@
 
 - Portail
 <img src="v1/pictures/portail.jpg" width="300">
+
 - Potager
 <img src="v1/pictures/potager.jpg" width="300">
+
 - Nord-ouest
 <img src="v1/pictures/nord-ouest.jpg" width="300">
+
 - Sud-ouest
 <img src="v1/pictures/sud-ouest.jpg" width="300">
+
   - Problème perçage
 <img src="v1/pictures/sud-ouest-trou.jpg" width="300">
 <img src="v1/pictures/sud-ouest-rebouche-int.jpg" width="300">
