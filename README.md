@@ -4,8 +4,8 @@ MyLife Home devices
  - [ePanel IO](epanel-io/README.md) :white_check_mark: Module de tableau électrique pour interconnecter E/S avec domotique (rpi/esp)
  - [ePanel Energy Monitor](epanel-energy-monitor/README.md) :hourglass: Module de tableau électrique pour mesurer la consommation électrique
  - [ePanel Controller](epanel-controller/README.md) :white_check_mark: Module de tableau électrique pour contrôler IO et Energy Monitor
- - [Garden box](garden-box/README.md) :hourglass: Boîtier de commandes/capteurs dans le jardin
- - [RGB garden box](rgb-garden-box/README.md) :hourglass: Boîtier de commande spots RGB dans le jardin
+ - [Garden box](garden-box/README.md) :white_check_mark: Boîtier de commandes/capteurs dans le jardin
+ - [RGB garden box](rgb-garden-box/README.md) :white_check_mark: Boîtier de commande spots RGB dans le jardin
  - [RGB spot 10W](rgb-spot-10w/README.md) :white_check_mark: Reprise de spots existant infrarouge pour connexion direct cables RGB
  - [Bed Smart Plug](bed-smart-plug/README.md) :question: "Multiprise intelligente" pour mettre en tête de lit
  - [Presence Wifi sensor](presence-wifi-sensor/README.md) :question: Détecteur de présence Wifi
