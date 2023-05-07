@@ -13,9 +13,10 @@
   https://www.tubauto.fr/app/uploads/2018/02/procom7-3-fr.pdf
 
 - Moteur garage:
-  <img src="pictures/all.jpg" width="300">
-  <img src="pictures/board.jpg" width="300">
-  <img src="pictures/connectors.jpg" width="300">
+
+| | | |
+|---|---|---|
+|<img src="pictures/all.jpg" width="300">|<img src="pictures/board.jpg" width="300">|<img src="pictures/connectors.jpg" width="300">|
 
 - Notes:
   - 4 borniers à gauche (comme matériel HiFi)
