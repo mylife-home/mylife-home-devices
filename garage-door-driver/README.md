@@ -6,6 +6,7 @@
 - Wifi
 - alimenté par l'alim de la porte
 - le plus de contrôle possible
+- ajouter un capteur de température
 
 ### Fonctionnement de la porte
 
@@ -37,7 +38,25 @@
 
 ## Design
 
-## Matériel
+- Board:
+  - Wemos D1 mini (ESP8266) 
+  - https://amzn.eu/d/irlLEVS
+- Alim:
+  - connexion au 24v
+  - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934004
+- outputs x2: (ouverture partielle/totale)
+  - 4.8v vers un commun qui semble etre GND, semble parfait pour sortie transistor
+  - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
+  - GPIO 3.3v => R=220ohm
+- inputs x3: (moteur double sens, relais d'option)
+  - 24v
+  - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
+  - 24v => R=2.2kohm
+
+## TODO
+
+- voir la place disponible dans le boitier de la porte
+- faire direct une V1 et iterer dessus si pb
 
 ## V1
 
