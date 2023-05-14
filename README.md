@@ -2,7 +2,7 @@
 MyLife Home devices
 
 - [ePanel IO](epanel-io/README.md) :white_check_mark: Module de tableau électrique pour interconnecter E/S avec domotique (rpi/esp)
-- [ePanel Energy Monitor](epanel-energy-monitor/README.md) :hourglass: Module de tableau électrique pour mesurer la consommation électrique
+- [ePanel Energy Monitor](epanel-energy-monitor/README.md) :white_check_mark: Module de tableau électrique pour mesurer la consommation électrique
 - [ePanel Controller](epanel-controller/README.md) :white_check_mark: Module de tableau électrique pour contrôler IO et Energy Monitor
 - [Garden box](garden-box/README.md) :white_check_mark: Boîtier de commandes/capteurs dans le jardin
 - [RGB garden box](rgb-garden-box/README.md) :white_check_mark: Boîtier de commande spots RGB dans le jardin

@@ -59,6 +59,7 @@
 <img src="v1.1/pictures/enclosure-top.jpg" width="300">
 <img src="v1.1/pictures/installed-overall.jpg" width="300">
 <img src="v1.1/pictures/installed-zoom.jpg" width="300">
+<img src="v1.1/pictures/epanel-connected.jpg" width="300">
 
 ### Notes:
 
