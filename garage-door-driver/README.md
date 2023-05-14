@@ -18,6 +18,7 @@
 | | | |
 |---|---|---|
 |<img src="pictures/all.jpg" width="300">|<img src="pictures/board.jpg" width="300">|<img src="pictures/connectors.jpg" width="300">|
+|<img src="pictures/free-space-inside.jpg" width="300">|<img src="pictures/free-space-above.jpg" width="300">||
 
 - Notes:
   - 4 borniers à gauche (comme matériel HiFi)
