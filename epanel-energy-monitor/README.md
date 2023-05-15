@@ -54,12 +54,11 @@
 
 ### Images
 
-<img src="v1.1/pictures/board.jpg" width="300">
-<img src="v1.1/pictures/enclosure-bottom.jpg" width="300">
-<img src="v1.1/pictures/enclosure-top.jpg" width="300">
-<img src="v1.1/pictures/installed-overall.jpg" width="300">
-<img src="v1.1/pictures/installed-zoom.jpg" width="300">
-<img src="v1.1/pictures/epanel-connected.jpg" width="300">
+| | | |
+|---|---|---|
+|<img src="v1.1/pictures/board.jpg" width="300">|<img src="v1.1/pictures/enclosure-bottom.jpg" width="300">|<img src="v1.1/pictures/enclosure-top.jpg" width="300">|
+|<img src="v1.1/pictures/installed-overall.jpg" width="300">|<img src="v1.1/pictures/installed-zoom.jpg" width="300">||
+|<img src="v1.1/pictures/connected-overall.jpg" width="300">|<img src="v1.1/pictures/connected-zoom.jpg" width="300">||
 
 ### Notes:
 
