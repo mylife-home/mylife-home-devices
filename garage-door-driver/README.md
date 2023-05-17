@@ -45,6 +45,7 @@
 - Alim:
   - connexion au 24v
   - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934004
+  - regarder datasheet pour condensateurs à rajouter
 - outputs x2: (ouverture partielle/totale)
   - 4.8v vers un commun qui semble etre GND, semble parfait pour sortie transistor
   - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
@@ -53,6 +54,18 @@
   - 24v
   - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
   - 24v => R=2.2kohm
+- fixation/layout PCB
+  - PCB avec pin header (1 pin sur 2 pour pas de 5.08)
+  - les pins headers sont serrés dans les 4 borniers à droite
+  - prévoir borniers + fils pour les 2 borniers du milieu
+  - taille:
+    - pin headers vers bord 2.54mm
+    - pin headers vers dégagement 1.5cm
+    - bord droit retrait degradé sur 1 cm
+    - Épaisseur PCB ok des 2 côtés (hauteur/profondeur)
+    - H totale = 5cm
+    - L totale = 9.5cm
+<img src="pictures/paper-template.jpg" width="300">
 
 ## TODO
 
@@ -62,3 +75,5 @@
 ## V1
 
 ## Notes
+
+TODO KiCad import : https://github.com/jerome-labidurie/d1_mini_kicad
