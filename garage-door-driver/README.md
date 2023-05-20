@@ -76,5 +76,3 @@
 ## V1
 
 ## Notes
-
-TODO KiCad import : https://github.com/jerome-labidurie/d1_mini_kicad
