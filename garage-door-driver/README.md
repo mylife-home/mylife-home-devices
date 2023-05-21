@@ -67,12 +67,31 @@
     - L totale = 9.5cm
 <img src="pictures/paper-template.jpg" width="300">
 
-## TODO
+
+## V1
+
+### Wiring
+
+- GPIO14 - D5 : in moteur (active low)
+- GPIO12 - D6 : in moteur (active low)
+- GPIO13 - D7 : in porte fermée (active low)
+- GPIO0 - D3 : out ouverture partielle !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- GPIO2 - D4 : out ouverture totale
+- GPIO3 - RX : DS18B20
+
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
+![](v1/schematic.png)
+
+
+### TODO
 
 - voir la place disponible dans le boitier de la porte
 - faire direct une V1 et iterer dessus si pb
 - LEDs avec silkscreen pour savoir quoi est quoi
-
-## V1
 
 ## Notes
