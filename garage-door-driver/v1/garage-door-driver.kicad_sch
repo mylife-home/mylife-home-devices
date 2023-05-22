@@ -1537,7 +1537,7 @@
   (symbol (lib_id "Isolator:4N35") (at 220.98 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 001e049a-1665-4961-865d-e60a61171c8f)
-    (property "Reference" "U6" (at 220.98 146.05 0)
+    (property "Reference" "U4" (at 220.98 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 220.98 148.59 0)
@@ -1561,7 +1561,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1570,7 +1570,7 @@
   (symbol (lib_id "power:GND") (at 80.01 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08247071-74c3-4220-bedf-4f5ed452b821)
-    (property "Reference" "#PWR026" (at 80.01 154.94 0)
+    (property "Reference" "#PWR06" (at 80.01 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 153.67 0)
@@ -1586,7 +1586,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1595,7 +1595,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 48.26 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09a3b526-1650-4e18-a6a1-452f61c690b8)
-    (property "Reference" "J4" (at 48.26 82.55 0)
+    (property "Reference" "J1" (at 48.26 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Male" (at 48.26 85.3251 0)
@@ -1613,7 +1613,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -1627,7 +1627,7 @@
   (symbol (lib_id "power:+5V") (at 96.52 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a40cba3-2b56-4bec-b929-35bac14e37a6)
-    (property "Reference" "#PWR022" (at 96.52 134.62 0)
+    (property "Reference" "#PWR07" (at 96.52 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.52 127 0)
@@ -1643,7 +1643,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1652,7 +1652,7 @@
   (symbol (lib_id "power:+3V3") (at 180.34 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18d0e971-ecbb-40bf-89a8-6d1e915b8d43)
-    (property "Reference" "#PWR02" (at 180.34 43.18 0)
+    (property "Reference" "#PWR013" (at 180.34 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 180.34 35.7655 0)
@@ -1668,7 +1668,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1677,7 +1677,7 @@
   (symbol (lib_id "Device:R") (at 223.52 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b7815a1-b3f2-4f40-9b13-8b5fce82e168)
-    (property "Reference" "R7" (at 225.298 52.4315 0)
+    (property "Reference" "R8" (at 225.298 52.4315 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10KΩ" (at 225.298 55.2066 0)
@@ -1697,7 +1697,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1706,7 +1706,7 @@
   (symbol (lib_id "Device:R") (at 246.38 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d5b99fb-54d8-492f-a7f6-66da9a948855)
-    (property "Reference" "R11" (at 248.92 73.025 0)
+    (property "Reference" "R10" (at 248.92 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2KΩ" (at 248.92 75.565 0)
@@ -1726,7 +1726,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "power:GND") (at 223.52 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33aea017-1942-442d-9514-db413ed59309)
-    (property "Reference" "#PWR011" (at 223.52 87.63 0)
+    (property "Reference" "#PWR019" (at 223.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 86.36 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
   (symbol (lib_id "Regulator_Switching:R-785.0-1.0") (at 80.01 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35493add-51b8-4529-b8c8-1b08df08ff5f)
-    (property "Reference" "U7" (at 80.01 125.73 0)
+    (property "Reference" "U1" (at 80.01 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R-785.0-1.0" (at 80.01 128.27 0)
@@ -1778,7 +1778,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U7") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1816,7 +1816,7 @@
   (symbol (lib_id "power:+3V3") (at 256.54 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4324fd8b-7b76-4b15-b7f8-dcbf717e38a6)
-    (property "Reference" "#PWR012" (at 256.54 43.18 0)
+    (property "Reference" "#PWR023" (at 256.54 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 256.54 35.7655 0)
@@ -1832,7 +1832,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1841,7 +1841,7 @@
   (symbol (lib_id "Device:LED") (at 256.54 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43b23149-b399-48ce-9d4f-cbe151ab3c3a)
-    (property "Reference" "D3" (at 260.35 48.5774 90)
+    (property "Reference" "D5" (at 260.35 48.5774 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 260.35 51.1174 90)
@@ -1861,7 +1861,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1870,7 +1870,7 @@
   (symbol (lib_id "power:+3.3V") (at 67.31 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47b80d51-ceac-41b9-9c1e-3b83f4d09754)
-    (property "Reference" "#PWR06" (at 67.31 93.98 0)
+    (property "Reference" "#PWR04" (at 67.31 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 67.31 86.5655 0)
@@ -1886,7 +1886,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -1929,7 +1929,7 @@
   (symbol (lib_id "power:GND") (at 62.23 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cc09089-7779-4a32-9a3a-ca41d2e52910)
-    (property "Reference" "#PWR027" (at 62.23 154.94 0)
+    (property "Reference" "#PWR03" (at 62.23 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 153.67 0)
@@ -1945,7 +1945,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1954,7 +1954,7 @@
   (symbol (lib_id "power:GND") (at 285.75 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 553bec96-ac2a-41c9-a102-4a1d8c8dae4d)
-    (property "Reference" "#PWR025" (at 285.75 135.89 0)
+    (property "Reference" "#PWR027" (at 285.75 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 285.75 134.62 0)
@@ -1970,7 +1970,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2008,7 +2008,7 @@
   (symbol (lib_id "power:GND") (at 201.93 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e5b9c0a-0f27-4bc3-a234-ce8af4e19407)
-    (property "Reference" "#PWR016" (at 201.93 168.91 0)
+    (property "Reference" "#PWR015" (at 201.93 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 167.64 0)
@@ -2024,7 +2024,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2033,7 +2033,7 @@
   (symbol (lib_id "Device:R") (at 201.93 151.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6196698c-ea5a-400e-9886-9d30c5400e69)
-    (property "Reference" "R13" (at 203.708 150.2215 0)
+    (property "Reference" "R4" (at 203.708 150.2215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1KΩ" (at 203.708 152.9966 0)
@@ -2053,7 +2053,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R13") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2062,7 +2062,7 @@
   (symbol (lib_id "power:GND") (at 96.52 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6372be51-5244-40c9-a31e-0ac01e93407d)
-    (property "Reference" "#PWR028" (at 96.52 154.94 0)
+    (property "Reference" "#PWR08" (at 96.52 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 153.67 0)
@@ -2078,7 +2078,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2087,7 +2087,7 @@
   (symbol (lib_id "Device:R") (at 256.54 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64c53a25-d15c-4337-af5a-9fa634b015d2)
-    (property "Reference" "R8" (at 258.318 58.7815 0)
+    (property "Reference" "R12" (at 258.318 58.7815 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1KΩ" (at 258.318 61.5566 0)
@@ -2107,7 +2107,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R8") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2116,7 +2116,7 @@
   (symbol (lib_id "power:+5V") (at 148.59 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f6f24b-480c-4ec7-9d2e-a3d4cb41bd9f)
-    (property "Reference" "#PWR021" (at 148.59 76.2 0)
+    (property "Reference" "#PWR09" (at 148.59 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 148.59 68.58 0)
@@ -2132,7 +2132,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2141,7 +2141,7 @@
   (symbol (lib_id "power:+3V3") (at 266.7 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a861c84-faa2-4dc1-bc6b-ce618c414670)
-    (property "Reference" "#PWR013" (at 266.7 43.18 0)
+    (property "Reference" "#PWR025" (at 266.7 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 266.7 35.7655 0)
@@ -2157,7 +2157,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2166,7 +2166,7 @@
   (symbol (lib_id "power:GND") (at 265.43 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c69cea3-c28f-488a-a5aa-d7eeabaa3ed8)
-    (property "Reference" "#PWR020" (at 265.43 168.91 0)
+    (property "Reference" "#PWR024" (at 265.43 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 167.64 0)
@@ -2182,7 +2182,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2191,7 +2191,7 @@
   (symbol (lib_id "power:+3.3V") (at 80.01 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7066aee5-3b5b-4ed2-8317-d0c731332bb8)
-    (property "Reference" "#PWR07" (at 80.01 83.82 0)
+    (property "Reference" "#PWR05" (at 80.01 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 80.01 76.4055 0)
@@ -2207,7 +2207,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -2221,7 +2221,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 307.34 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77b15232-68e5-4047-aeb0-cda7a0f4c1f8)
-    (property "Reference" "J3" (at 306.07 62.23 0)
+    (property "Reference" "J2" (at 306.07 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 306.07 64.77 0)
@@ -2238,7 +2238,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2247,7 +2247,7 @@
   (symbol (lib_id "power:+3V3") (at 213.36 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7abce85d-3514-4e41-9c74-833c06b44f71)
-    (property "Reference" "#PWR09" (at 213.36 43.18 0)
+    (property "Reference" "#PWR016" (at 213.36 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 213.36 35.7655 0)
@@ -2263,7 +2263,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2272,7 +2272,7 @@
   (symbol (lib_id "Device:R") (at 293.37 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cfd3829-ec0d-4647-9935-f3772c73f884)
-    (property "Reference" "R10" (at 293.37 64.77 90)
+    (property "Reference" "R14" (at 293.37 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2KΩ" (at 293.37 67.31 90)
@@ -2292,7 +2292,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2301,7 +2301,7 @@
   (symbol (lib_id "Isolator:4N35") (at 234.95 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80093c26-48ce-430b-9357-b966271ae7d4)
-    (property "Reference" "U3" (at 234.95 64.77 0)
+    (property "Reference" "U5" (at 234.95 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 234.95 67.31 0)
@@ -2325,7 +2325,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2334,7 +2334,7 @@
   (symbol (lib_id "power:GND") (at 238.76 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 809f0d3a-8f6a-4057-bede-968f0307ab3e)
-    (property "Reference" "#PWR017" (at 238.76 168.91 0)
+    (property "Reference" "#PWR021" (at 238.76 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 167.64 0)
@@ -2350,7 +2350,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2359,7 +2359,7 @@
   (symbol (lib_id "Device:LED") (at 201.93 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85e488a8-8b78-4870-9ff7-e3ef6a91fba6)
-    (property "Reference" "D5" (at 205.74 140.0174 90)
+    (property "Reference" "D2" (at 205.74 140.0174 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 205.74 142.5574 90)
@@ -2379,7 +2379,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
   (symbol (lib_id "Isolator:4N35") (at 191.77 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c48eaaf-f82f-4b96-ae3b-4090dc96e04e)
-    (property "Reference" "U2" (at 191.77 64.77 0)
+    (property "Reference" "U3" (at 191.77 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 191.77 67.31 0)
@@ -2441,7 +2441,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2450,7 +2450,7 @@
   (symbol (lib_id "Device:R") (at 213.36 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99c8f9fd-b2da-4352-8e42-2f6d0e1f3921)
-    (property "Reference" "R3" (at 215.9 140.335 0)
+    (property "Reference" "R7" (at 215.9 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220Ω" (at 215.9 142.875 0)
@@ -2470,7 +2470,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2479,7 +2479,7 @@
   (symbol (lib_id "power:+24V") (at 62.23 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b1f1402-fd08-4ed4-95ae-ce871296ccde)
-    (property "Reference" "#PWR023" (at 62.23 133.35 0)
+    (property "Reference" "#PWR02" (at 62.23 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 62.23 125.73 0)
@@ -2495,7 +2495,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
   (symbol (lib_id "Connector:Conn_01x07_Pin") (at 309.88 135.89 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bb8a61c-c910-47a2-914b-8dcb6fe32d56)
-    (property "Reference" "J2" (at 306.07 123.19 0)
+    (property "Reference" "J4" (at 306.07 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x07_Pin" (at 312.42 125.73 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2535,7 +2535,7 @@
   (symbol (lib_id "power:GND") (at 250.19 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d57af0b-a225-4172-b929-c375a600d746)
-    (property "Reference" "#PWR018" (at 250.19 168.91 0)
+    (property "Reference" "#PWR022" (at 250.19 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 167.64 0)
@@ -2551,7 +2551,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2560,7 +2560,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 307.34 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7443103-25e8-4cf7-8db9-4760ec6a1d1e)
-    (property "Reference" "J1" (at 306.07 85.09 0)
+    (property "Reference" "J3" (at 306.07 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 306.07 87.63 0)
@@ -2577,7 +2577,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2586,7 +2586,7 @@
   (symbol (lib_id "Device:R") (at 180.34 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab13297a-1025-42c9-b46f-1f411eef91fe)
-    (property "Reference" "R2" (at 182.118 52.4315 0)
+    (property "Reference" "R3" (at 182.118 52.4315 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10KΩ" (at 182.118 55.2066 0)
@@ -2606,7 +2606,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2615,7 +2615,7 @@
   (symbol (lib_id "MCU_Module:WeMos_D1_mini") (at 151.13 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abd9f013-4b08-46d6-8886-ed484790bf1c)
-    (property "Reference" "U1" (at 153.0859 119.38 0)
+    (property "Reference" "U2" (at 153.0859 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WeMos_D1_mini" (at 153.0859 121.92 0)
@@ -2646,7 +2646,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2655,7 +2655,7 @@
   (symbol (lib_id "Device:R") (at 170.18 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad685da2-dbb9-4c89-be8b-c927f3938bc8)
-    (property "Reference" "R1" (at 171.958 58.7815 0)
+    (property "Reference" "R2" (at 171.958 58.7815 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1KΩ" (at 171.958 61.5566 0)
@@ -2675,7 +2675,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2684,7 +2684,7 @@
   (symbol (lib_id "power:GND") (at 228.6 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0dc2ce2-64bf-48c5-9d09-be0e1548bc31)
-    (property "Reference" "#PWR019" (at 228.6 168.91 0)
+    (property "Reference" "#PWR020" (at 228.6 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 167.64 0)
@@ -2700,7 +2700,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2738,7 +2738,7 @@
   (symbol (lib_id "power:+3V3") (at 153.67 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6742ac3-a061-4d44-8f0a-b9c7db2baf36)
-    (property "Reference" "#PWR03" (at 153.67 76.2 0)
+    (property "Reference" "#PWR011" (at 153.67 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 153.67 68.7855 0)
@@ -2754,7 +2754,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2763,7 +2763,7 @@
   (symbol (lib_id "Isolator:4N35") (at 278.13 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bace1003-d50f-4df9-8923-5d11e2d5f7c8)
-    (property "Reference" "U4" (at 278.13 64.77 0)
+    (property "Reference" "U7" (at 278.13 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 278.13 67.31 0)
@@ -2787,7 +2787,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U4") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -2796,7 +2796,7 @@
   (symbol (lib_id "Device:LED") (at 213.36 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be2a44b5-dea7-4b88-abbe-45e489e73792)
-    (property "Reference" "D2" (at 217.17 48.5774 90)
+    (property "Reference" "D3" (at 217.17 48.5774 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 217.17 51.1174 90)
@@ -2816,7 +2816,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2825,7 +2825,7 @@
   (symbol (lib_id "power:+3V3") (at 223.52 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bed42099-4bae-4fea-b828-00a7692fbd65)
-    (property "Reference" "#PWR010" (at 223.52 43.18 0)
+    (property "Reference" "#PWR018" (at 223.52 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 223.52 35.7655 0)
@@ -2841,7 +2841,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2850,7 +2850,7 @@
   (symbol (lib_id "power:GND") (at 213.36 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf2cab96-501d-4a87-ac17-38bf4ca5494e)
-    (property "Reference" "#PWR015" (at 213.36 168.91 0)
+    (property "Reference" "#PWR017" (at 213.36 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 167.64 0)
@@ -2866,7 +2866,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2875,7 +2875,7 @@
   (symbol (lib_id "power:GND") (at 180.34 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cabb688f-ac52-480f-ae80-44d261c2a25b)
-    (property "Reference" "#PWR08" (at 180.34 87.63 0)
+    (property "Reference" "#PWR014" (at 180.34 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 86.36 0)
@@ -2891,7 +2891,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2900,7 +2900,7 @@
   (symbol (lib_id "Isolator:4N35") (at 257.81 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb1226c2-f71d-48cf-9ecf-4b04305074f7)
-    (property "Reference" "U5" (at 257.81 146.05 0)
+    (property "Reference" "U6" (at 257.81 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 257.81 148.59 0)
@@ -2924,7 +2924,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2933,7 +2933,7 @@
   (symbol (lib_id "Device:R") (at 250.19 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd59c06f-0338-4fc5-98fa-fce2eeb9fb98)
-    (property "Reference" "R14" (at 252.73 140.335 0)
+    (property "Reference" "R11" (at 252.73 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220Ω" (at 252.73 142.875 0)
@@ -2953,7 +2953,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R14") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2962,7 +2962,7 @@
   (symbol (lib_id "power:GND") (at 266.7 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cefd7526-003d-4c74-a3a7-df0760546663)
-    (property "Reference" "#PWR014" (at 266.7 87.63 0)
+    (property "Reference" "#PWR026" (at 266.7 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 86.36 0)
@@ -2978,7 +2978,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2987,7 +2987,7 @@
   (symbol (lib_id "Device:R") (at 203.2 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7dd3dd3-7c01-477b-bb21-24a4a6c006b8)
-    (property "Reference" "R4" (at 205.74 73.025 0)
+    (property "Reference" "R5" (at 205.74 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2KΩ" (at 205.74 75.565 0)
@@ -3007,7 +3007,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3016,7 +3016,7 @@
   (symbol (lib_id "power:+24V") (at 292.1 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e02a1aa3-07c9-4228-9fd4-cdef0a92856b)
-    (property "Reference" "#PWR024" (at 292.1 138.43 0)
+    (property "Reference" "#PWR028" (at 292.1 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 292.1 130.81 0)
@@ -3032,7 +3032,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3041,7 +3041,7 @@
   (symbol (lib_id "Device:R") (at 80.01 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1a61631-106d-438f-983c-01018c55bbb5)
-    (property "Reference" "R5" (at 74.93 88.9 90)
+    (property "Reference" "R1" (at 74.93 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7KΩ" (at 77.47 87.63 90)
@@ -3061,7 +3061,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -3075,7 +3075,7 @@
   (symbol (lib_id "Device:R") (at 238.76 151.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1c8d113-2dd1-4ced-acb8-7768cacbb979)
-    (property "Reference" "R12" (at 240.538 150.2215 0)
+    (property "Reference" "R9" (at 240.538 150.2215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1KΩ" (at 240.538 152.9966 0)
@@ -3095,7 +3095,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R12") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "power:+3V3") (at 170.18 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebf2d680-0f60-485f-8e33-8031c32c5817)
-    (property "Reference" "#PWR01" (at 170.18 43.18 0)
+    (property "Reference" "#PWR012" (at 170.18 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 170.18 35.7655 0)
@@ -3120,7 +3120,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3129,7 +3129,7 @@
   (symbol (lib_id "power:GND") (at 151.13 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa8c40f1-8ac1-408e-9fe9-79d435180d02)
-    (property "Reference" "#PWR04" (at 151.13 132.08 0)
+    (property "Reference" "#PWR010" (at 151.13 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 130.81 0)
@@ -3145,7 +3145,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3154,7 +3154,7 @@
   (symbol (lib_id "Device:R") (at 266.7 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fea2b75a-544f-4eb7-b67c-3194d3d2bede)
-    (property "Reference" "R9" (at 268.478 52.4315 0)
+    (property "Reference" "R13" (at 268.478 52.4315 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10KΩ" (at 268.478 55.2066 0)
@@ -3174,7 +3174,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R9") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3183,7 +3183,7 @@
   (symbol (lib_id "power:GND") (at 62.23 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffad59ba-dda6-4d5c-99fa-53adf592cc3e)
-    (property "Reference" "#PWR05" (at 62.23 105.41 0)
+    (property "Reference" "#PWR01" (at 62.23 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.357 103.4542 0)
@@ -3199,7 +3199,7 @@
     (instances
       (project "garage-door-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "rgb-garden-box"
