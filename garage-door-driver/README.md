@@ -88,10 +88,8 @@
 ![](v1/schematic.png)
 
 
-### TODO
-
-- voir la place disponible dans le boitier de la porte
-- faire direct une V1 et iterer dessus si pb
-- LEDs avec silkscreen pour savoir quoi est quoi
-
 ## Notes
+
+commande : 
+2 borniers petits
+alim

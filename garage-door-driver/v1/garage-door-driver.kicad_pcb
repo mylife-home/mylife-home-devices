@@ -1278,7 +1278,7 @@
     (property "ki_keywords" "connector")
     (path "/9bb8a61c-c910-47a2-914b-8dcb6fe32d56")
     (attr through_hole)
-    (fp_text reference "J4" (at 0 -2.33 90) (layer "F.SilkS")
+    (fp_text reference "J4" (at -3.175 14.859 180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3e28c33-47b7-4b11-98d4-65d61d91729e)
     )
