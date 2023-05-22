@@ -1,0 +1,16 @@
+Comment,Designator,Footprint,LCSC
+2.2KΩ,"R10,R14,R5",R_0603_1608Metric,C176136
+1KΩ,"R12,R2,R4,R6,R9",R_0603_1608Metric,C21190
+220Ω,"R11,R7",R_0603_1608Metric,C22962
+LED,"D1,D2,D3,D4,D5",D_0805_2012Metric,C2297
+10KΩ,"R13,R3,R8",R_0603_1608Metric,C25804
+4.7KΩ,R1,R_0402_1005Metric,C25900
+10μF/50V,C1,C_1206_3216Metric,C417124
+4N35,"U3,U4,U5,U6,U7",DIP-6_W8.89mm_SMDSocket_LongPads,C500385
+22μF/10V,C2,C_0805_2012Metric,C92814
+Conn_01x03_Male,J1,PinHeader_1x03_P2.54mm_Vertical,
+WeMos_D1_mini,U2,WEMOS_D1_mini_light,
+Conn_01x07_Pin,J4,PinHeader_1x07_P2.54mm_Vertical,
+Screw_Terminal_01x02,J2,RS PRO Terminal Small x2,
+R-785.0-1.0,U1,Converter_DCDC_RECOM_R-78E-0.5_THT,
+Screw_Terminal_01x02,J3,RS PRO Terminal Small x2,
