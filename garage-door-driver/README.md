@@ -39,10 +39,10 @@
 
 ## Design
 
-- Board:
+- Board
   - Wemos D1 mini (ESP8266) 
   - https://amzn.eu/d/irlLEVS
-- Alim:
+- Alim
   - connexion au 24v
   - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934004
   - regarder datasheet pour condensateurs à rajouter
@@ -50,7 +50,7 @@
   - 4.8v vers un commun qui semble etre GND, semble parfait pour sortie transistor
   - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
   - GPIO 3.3v => R=220ohm
-- inputs x3: (moteur double sens, relais d'option)
+- inputs x3 (moteur double sens, relais d'option)
   - 24v
   - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
   - 24v => R=2.2kohm
@@ -58,7 +58,7 @@
   - PCB avec pin header (1 pin sur 2 pour pas de 5.08)
   - les pins headers sont serrés dans les 4 borniers à droite
   - prévoir borniers + fils pour les 2 borniers du milieu
-  - taille:
+  - taille
     - pin headers vers bord 2.54mm
     - pin headers vers dégagement 1.5cm
     - bord droit retrait degradé sur 1 cm
