@@ -26,5 +26,9 @@ MyLife Home devices
 - ESP32-POE:
   - NE PAS utiliser GPIO0 si possible (ne pas le mettre DOWN au boot)
   - Attention : Version avec antenne interne est plus grande (pas que l'ESP, toute la board). Le footprint Kicad courant correspond à la version avec antenne externe : 
+- ESP8266 strapping pins:
+  - GPIO0, GPIO1, GPIO2: boot failure if pulled LOW
+  - GPIO15: boot failure if pulled HIGH
+  - GPIO1, GPIO2, GPIO3, GPIO9, GPIO10, GPIO16: pin is high at BOOT
 
 <img src="esp32-poe-sizes.jpg" width="300">
