@@ -46,6 +46,8 @@
   - connexion au 24v
   - https://fr.rs-online.com/web/p/regulateurs-a-decoupage/1934004
   - regarder datasheet pour condensateurs à rajouter
+- Borniers
+  - https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/7901098
 - outputs x2 (ouverture partielle/totale)
   - 4.8v vers un commun qui semble etre GND, semble parfait pour sortie transistor
   - 4n35 (1.3v 10ma) https://fr.farnell.com/vishay/4n35/optocoupleur-phototransistor-5000vrms/dp/1328375
