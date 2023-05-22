@@ -75,8 +75,8 @@
 - GPIO14 - D5 : in moteur (active low)
 - GPIO12 - D6 : in moteur (active low)
 - GPIO13 - D7 : in porte fermée (active low)
-- GPIO0 - D3 : out ouverture partielle !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-- GPIO2 - D4 : out ouverture totale
+- GPIO4 - D2 : out ouverture partielle
+- GPIO5 - D1 : out ouverture totale
 - GPIO3 - RX : DS18B20
 
 ### 3D view
