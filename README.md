@@ -11,7 +11,7 @@ MyLife Home devices
 - [Presence Wifi sensor](presence-wifi-sensor/README.md) :question: Détecteur de présence Wifi
 - RGB indoor box :question: Boîtier de commande spots/ruban leds RGB en intérieur
 - [Garage door driver](garage-door-driver/README.md) :question: Pilote de porte de garage
-- Clim driver :question: Pilote de clim en standalone dans le boitier de clim directement
+- Clim driver :question: Pilote de clim en standalone dans le boitier de clim directement (=> place derriere capot : 70x15x25)
 - Kitchen hood driver :question: Pilote de hôte
 - Pergola driver :question: Pilote de pergola (ZETA 868 ?)
 
