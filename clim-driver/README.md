@@ -10,7 +10,8 @@
 
 ### Info clim
 
-- Clim RDC: Toshiba air conditioner RAS-13BKV-E1
+- RDC: Toshiba air conditioner RAS-13BKV-E1
+- R1: 4x Toshiba air conditioner RAS-05BKV-E
 - place derriere capot : 70x15x25
 
 
