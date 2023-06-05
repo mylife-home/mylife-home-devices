@@ -90,8 +90,6 @@
 ![](v1/schematic.png)
 
 
-## Notes
+### Images
 
-commande : 
-2 borniers petits
-alim
+<img src="v1/pictures/working.jpg" width="300">
