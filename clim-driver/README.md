@@ -13,6 +13,9 @@
 - RDC: Toshiba air conditioner RAS-13BKV-E1
 - R1: 4x Toshiba air conditioner RAS-05BKV-E
 - place derriere capot : 70x15x25
+- place pompe relevage :
+  - https://www.manomano.fr/p/pompe-relevage-climatisation-mini-orange-230v-aspen-3124579
+  - 39x34x80, prévoir sortie cable dans facade 39x34
 
 <img src="pictures/chp-cablage.jpg" width="300">
 
@@ -23,3 +26,12 @@
   - https://www.wemos.cc/en/latest/d1_mini_shield/ir.html
 - Temp : DS18B20U SMT :
   - https://jlcpcb.com/partdetail/94441-DS18B20U_TR/C93246
+- Wemos D1 mini :
+  - https://www.amazon.fr/dp/B093G72SHN
+  - 34x26
+- Alim :
+  - alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+  - 37 x 24.5 x 18
+  - apparemment il n'existe pas plus petit
+- Boitier :
+  - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/9190373
