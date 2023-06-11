@@ -3,9 +3,12 @@
 ## Besoin
 
 - petit/joli boitier
+- fixation sur prise comme veilleuse 
 - batterie ?
 - capteur de présence pour une pièce
 - capteur de luminosité 
+- capteur température 
+- capteur humidité 
 
 ### Emplacements
 
