@@ -24,8 +24,8 @@
 - IR send/recv :
   - https://www.wemos.cc/en/latest/_static/files/sch_ir_v1.0.0.pdf
   - https://www.wemos.cc/en/latest/d1_mini_shield/ir.html
-- Temp : DS18B20U SMT :
-  - https://jlcpcb.com/partdetail/94441-DS18B20U_TR/C93246
+- Temp : DS18B2 :
+  - en dehors du boitier sinon la temp sera faussée avec la chaleur de l'ESP8266
 - Wemos D1 mini :
   - https://www.amazon.fr/dp/B093G72SHN
   - 34x26
