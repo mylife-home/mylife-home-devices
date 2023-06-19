@@ -24,6 +24,8 @@
 - IR send/recv :
   - https://www.wemos.cc/en/latest/_static/files/sch_ir_v1.0.0.pdf
   - https://www.wemos.cc/en/latest/d1_mini_shield/ir.html
+  - Led IR: https://fr.rs-online.com/web/p/leds-infrarouges/6997708
+  - 18ohm @ 3.3v
 - Temp : DS18B2 :
   - en dehors du boitier sinon la temp sera faussée avec la chaleur de l'ESP8266
 - Wemos D1 mini :
@@ -35,3 +37,13 @@
   - apparemment il n'existe pas plus petit
 - Boitier :
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/9190373
+
+## V1
+
+### Wiring
+
+### 3D view
+
+### Main
+
+### Images
