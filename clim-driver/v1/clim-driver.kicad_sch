@@ -1014,6 +1014,7 @@
     )
   )
 
+
   (junction (at 80.01 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 478cd1ac-b552-4c51-8645-255a167ffa69)
   )
@@ -1231,7 +1232,7 @@
   (symbol (lib_id "Device:LED") (at 204.47 63.5 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c1461e6-6872-4125-bc99-eb10a782e8c1)
-    (property "Reference" "D6" (at 200.66 63.8174 90)
+    (property "Reference" "D1" (at 200.66 63.8174 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 200.66 66.3574 90)
@@ -1251,7 +1252,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "D6") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1260,7 +1261,7 @@
   (symbol (lib_id "power:NEUT") (at 43.18 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ce427e1-fafc-4c7d-a913-62b32adf0c05)
-    (property "Reference" "#PWR02" (at 43.18 146.05 0)
+    (property "Reference" "#PWR01" (at 43.18 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "NEUT" (at 43.18 137.16 0)
@@ -1276,7 +1277,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1285,19 +1286,19 @@
   (symbol (lib_id "Device:R") (at 219.71 73.66 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d064465-5bb2-4bd3-888f-33ed59978315)
-    (property "Reference" "R2" (at 217.17 73.025 0)
+    (property "Reference" "R3" (at 217.17 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "18Ω/0.5W" (at 217.17 75.565 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 217.932 73.66 90)
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 217.932 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 219.71 73.66 0)
+    (property "Datasheet" "https://jlcpcb.com/partdetail/Ralec-RTT1218R2FTP/C333138" (at 219.71 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 219.71 73.66 0)
+    (property "LCSC" "C333138" (at 219.71 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9be5cb3c-494c-4382-abb2-e40f898ca344))
@@ -1305,7 +1306,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1314,7 +1315,7 @@
   (symbol (lib_id "power:GND") (at 97.79 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16c1db97-0a68-4c6a-999a-ecdb6fbdfc83)
-    (property "Reference" "#PWR07" (at 97.79 154.94 0)
+    (property "Reference" "#PWR09" (at 97.79 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.917 152.9842 0)
@@ -1330,7 +1331,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1369,7 +1370,7 @@
   (symbol (lib_id "power:+5V") (at 97.79 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38eed9da-967e-4568-9519-283927ddd2aa)
-    (property "Reference" "#PWR06" (at 97.79 147.32 0)
+    (property "Reference" "#PWR08" (at 97.79 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 97.79 138.43 0)
@@ -1385,7 +1386,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1394,7 +1395,7 @@
   (symbol (lib_id "power:+3V3") (at 219.71 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3984dbe1-bfe5-4cbd-94cc-7e6ed9989e1b)
-    (property "Reference" "#PWR012" (at 219.71 57.15 0)
+    (property "Reference" "#PWR015" (at 219.71 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 219.71 49.7355 0)
@@ -1410,7 +1411,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1419,7 +1420,7 @@
   (symbol (lib_id "power:LINE") (at 48.26 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47a976e7-89d1-4fa5-ae6f-2abd55d2b27b)
-    (property "Reference" "#PWR03" (at 48.26 146.05 0)
+    (property "Reference" "#PWR02" (at 48.26 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LINE" (at 48.26 137.16 0)
@@ -1435,7 +1436,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1444,7 +1445,7 @@
   (symbol (lib_id "power:+3.3V") (at 67.31 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47b80d51-ceac-41b9-9c1e-3b83f4d09754)
-    (property "Reference" "#PWR04" (at 67.31 93.98 0)
+    (property "Reference" "#PWR06" (at 67.31 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 67.31 86.5655 0)
@@ -1460,7 +1461,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -1474,7 +1475,7 @@
   (symbol (lib_id "power:LINE") (at 58.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c05f808-9542-4e9e-a283-52f318672a71)
-    (property "Reference" "#PWR032" (at 58.42 59.69 0)
+    (property "Reference" "#PWR04" (at 58.42 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LINE" (at 58.42 50.8 0)
@@ -1490,7 +1491,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1499,7 +1500,7 @@
   (symbol (lib_id "Device:R") (at 204.47 74.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554e0725-b7cc-48e5-89d2-82ae7f3076b2)
-    (property "Reference" "R15" (at 202.692 74.0215 0)
+    (property "Reference" "R2" (at 202.692 74.0215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1KΩ" (at 202.692 76.7966 0)
@@ -1519,7 +1520,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "R15") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1528,7 +1529,7 @@
   (symbol (lib_id "power:+3V3") (at 204.47 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ec3c000-d656-4800-b04a-4306b9ddfed8)
-    (property "Reference" "#PWR08" (at 204.47 58.42 0)
+    (property "Reference" "#PWR014" (at 204.47 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 204.47 51.0055 0)
@@ -1544,7 +1545,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1553,7 +1554,7 @@
   (symbol (lib_id "power:+5V") (at 148.59 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f6f24b-480c-4ec7-9d2e-a3d4cb41bd9f)
-    (property "Reference" "#PWR09" (at 148.59 76.2 0)
+    (property "Reference" "#PWR010" (at 148.59 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 148.59 68.58 0)
@@ -1569,7 +1570,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1578,7 +1579,7 @@
   (symbol (lib_id "power:GND") (at 194.31 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69837d85-5b79-4921-9eb4-ae90f7c9115d)
-    (property "Reference" "#PWR030" (at 194.31 115.57 0)
+    (property "Reference" "#PWR013" (at 194.31 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.183 113.6142 0)
@@ -1594,7 +1595,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1603,7 +1604,7 @@
   (symbol (lib_id "power:+3.3V") (at 80.01 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7066aee5-3b5b-4ed2-8317-d0c731332bb8)
-    (property "Reference" "#PWR05" (at 80.01 83.82 0)
+    (property "Reference" "#PWR07" (at 80.01 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 80.01 76.4055 0)
@@ -1619,7 +1620,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "rgb-garden-box"
@@ -1662,7 +1663,7 @@
   (symbol (lib_id "MCU_Module:WeMos_D1_mini") (at 151.13 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abd9f013-4b08-46d6-8886-ed484790bf1c)
-    (property "Reference" "U2" (at 153.0859 119.38 0)
+    (property "Reference" "U1" (at 153.0859 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WeMos_D1_mini" (at 153.0859 121.92 0)
@@ -1693,7 +1694,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1702,7 +1703,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 68.58 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abfc27ae-eb91-4f53-97c5-da9dee6820db)
-    (property "Reference" "J5" (at 67.31 48.26 0)
+    (property "Reference" "J2" (at 67.31 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 63.5 50.8 0)
@@ -1719,7 +1720,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1728,7 +1729,7 @@
   (symbol (lib_id "power:+3V3") (at 153.67 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6742ac3-a061-4d44-8f0a-b9c7db2baf36)
-    (property "Reference" "#PWR011" (at 153.67 76.2 0)
+    (property "Reference" "#PWR012" (at 153.67 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 153.67 68.7855 0)
@@ -1744,7 +1745,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1753,13 +1754,13 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 233.68 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b93eab93-a7d7-4f91-b5c4-f7710099fd67)
-    (property "Reference" "J2" (at 232.41 52.07 0)
+    (property "Reference" "J3" (at 232.41 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 233.68 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 233.68 60.96 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 233.68 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 60.96 0)
@@ -1770,7 +1771,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1779,7 +1780,7 @@
   (symbol (lib_id "power:NEUT") (at 52.07 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0a05522-498e-48e3-befb-7d4288021dba)
-    (property "Reference" "#PWR031" (at 52.07 59.69 0)
+    (property "Reference" "#PWR03" (at 52.07 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "NEUT" (at 52.07 50.8 0)
@@ -1795,7 +1796,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1838,7 +1839,7 @@
   (symbol (lib_id "power:GND") (at 151.13 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa8c40f1-8ac1-408e-9fe9-79d435180d02)
-    (property "Reference" "#PWR010" (at 151.13 132.08 0)
+    (property "Reference" "#PWR011" (at 151.13 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 130.81 0)
@@ -1854,7 +1855,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1863,7 +1864,7 @@
   (symbol (lib_id "power:GND") (at 62.23 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffad59ba-dda6-4d5c-99fa-53adf592cc3e)
-    (property "Reference" "#PWR01" (at 62.23 105.41 0)
+    (property "Reference" "#PWR05" (at 62.23 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.357 103.4542 0)
@@ -1879,7 +1880,7 @@
     (instances
       (project "clim-driver"
         (path "/9e00edb4-f0f4-46bc-a82d-075ebfd0d3ed"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "rgb-garden-box"

@@ -46,4 +46,6 @@
 
 ### Main
 
+![](v1/schematic.png)
+
 ### Images
