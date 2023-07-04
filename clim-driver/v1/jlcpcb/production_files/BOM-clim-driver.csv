@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+1KΩ,R2,R_0603_1608Metric,C21190
+LED,D1,D_0805_2012Metric,C2297
+4.7KΩ,R1,R_0402_1005Metric,C25900
+BSS138,Q1,SOT-23,C2938375
+18Ω/0.5W,R3,R_1210_3225Metric,C333138
+Conn_01x03_Male,J1,PinHeader_1x03_P2.54mm_Vertical,
+Screw_Terminal_01x02,J2,TerminalBlock_bornier-2_P5.08mm,
+WeMos_D1_mini,U1,WEMOS_D1_mini_light,
+Conn_01x02_Pin,J3,PinHeader_1x02_P2.54mm_Vertical,
+Alim RS PRO 5V 1A,PS1,Converter_ACDC_MeanWell_IRM-03-xx_THT,

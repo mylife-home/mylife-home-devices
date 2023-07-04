@@ -1,0 +1,11 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,LED,D_0805_2012Metric,120.65,-80.645,0.0,top
+J1,Conn_01x03_Male,PinHeader_1x03_P2.54mm_Vertical,120.65,-64.15,180.0,top
+J2,Screw_Terminal_01x02,TerminalBlock_bornier-2_P5.08mm,121.285,-52.07,90.0,top
+J3,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,120.65,-74.3,0.0,top
+PS1,Alim RS PRO 5V 1A,Converter_ACDC_MeanWell_IRM-03-xx_THT,137.6525,-66.04,0.0,top
+Q1,BSS138,SOT-23,101.9025,-72.71,90.0,top
+R1,4.7KΩ,R_0402_1005Metric,109.22,-60.96,90.0,top
+R2,1KΩ,R_0603_1608Metric,107.315,-73.66,0.0,top
+R3,18Ω/0.5W,R_1210_3225Metric,107.315,-70.485,0.0,top
+U1,WeMos_D1_mini,WEMOS_D1_mini_light,103.505,-68.58,180.0,top
