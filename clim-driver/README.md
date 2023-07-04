@@ -44,6 +44,8 @@
 
 ### 3D view
 
+![](v1/3dview.png)
+
 ### Main
 
 ![](v1/schematic.png)
