@@ -24,6 +24,7 @@
 - PIR sensor :
   - ~~HC-SR501~~ (unreliable)
   - EKMB1107112
+  - AM312 Mini Pyroelectric PIR Sensor Module
 - Ultrasound sensor (sonar) :
   - HC-SR04
   - mmWave
