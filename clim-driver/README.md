@@ -51,3 +51,10 @@
 ![](v1/schematic.png)
 
 ### Images
+
+<img src="v1/pictures/board.jpg" width="300">
+<img src="v1/pictures/led.jpg" width="300">
+
+### Notes
+
+- Sertissage Dupont : dénuder sur 5mm et ne sertir que le fil conducteur pas la gaine
