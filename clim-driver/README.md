@@ -37,6 +37,8 @@
   - apparemment il n'existe pas plus petit
 - Boitier :
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/9190373
+  - pas de vis : https://www.amazon.fr/gp/product/B088QJG676
+  - vis : https://fr.rs-online.com/web/p/vis-a-metaux/9141462
 
 ## V1
 
