@@ -57,7 +57,7 @@
 
 <img src="v1/pictures/board.jpg" width="300">
 <img src="v1/pictures/led.jpg" width="300">
-<img src="v1/pictures/prototype-installed" width="300">
+<img src="v1/pictures/prototype-installed.jpg" width="300">
 
 ### Notes
 
