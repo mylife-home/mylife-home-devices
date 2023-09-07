@@ -12,6 +12,7 @@
 
 - RDC: Toshiba air conditioner RAS-13BKV-E1
 - R1: 4x Toshiba air conditioner RAS-05BKV-E
+- Telecommande : Toshiba WH-UA01NE
 - place derriere capot : 70x15x25
 - place pompe relevage :
   - https://www.manomano.fr/p/pompe-relevage-climatisation-mini-orange-230v-aspen-3124579
