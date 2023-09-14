@@ -57,8 +57,17 @@
 
 <img src="v1/pictures/board.jpg" width="300">
 <img src="v1/pictures/led.jpg" width="300">
+<img src="v1/pictures/board-box.jpg" width="300">
 <img src="v1/pictures/prototype-installed.jpg" width="300">
 
 ### Notes
 
 - Sertissage Dupont : dénuder sur 5mm et ne sertir que le fil conducteur pas la gaine
+- Agrandir le trou du boitier à la perceuse à colonne avant de mettre le pas de vis
+- Couleurs cable led
+  - blanc = +
+  - bleu = -
+- Couleurs cable DS18B20
+  - jaune = IN
+  - rouge = 3V3
+  - noir = GND
