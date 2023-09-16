@@ -55,10 +55,10 @@
 
 ### Images
 
-<img src="v1/pictures/board.jpg" width="300">
-<img src="v1/pictures/led.jpg" width="300">
-<img src="v1/pictures/board-box.jpg" width="300">
-<img src="v1/pictures/prototype-installed.jpg" width="300">
+| | | |
+|---|---|---|
+|<img src="v1/pictures/board.jpg" width="300">|<img src="v1/pictures/led.jpg" width="300">|<img src="v1/pictures/prototype-installed.jpg" width="300">|
+|<img src="v1/pictures/board-box1.jpg" width="300">|<img src="v1/pictures/board-box2.jpg" width="300">|<img src="v1/pictures/board-box3.jpg" width="300">|
 
 ### Notes
 
