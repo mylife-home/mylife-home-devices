@@ -87,6 +87,7 @@
 - infrarouge
   - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
 - Schémas
+  - https://www.sonelec-musique.com/electronique_realisations_relais_statique_001.html
   - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
   - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
   - http://www.farnell.com/datasheets/97984.pdf (bottom)
