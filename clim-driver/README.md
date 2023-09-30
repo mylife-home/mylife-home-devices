@@ -66,14 +66,15 @@ _(pas d'image)_
 
 #### CH2
 
-<img src="v1/pictures/ch2-open1.jpg" width="300">
-<img src="v1/pictures/ch2-open2.jpg" width="300">
-<img src="v1/pictures/ch2-open3.jpg" width="300">
+| | | |
+|---|---|---|
+|<img src="v1/pictures/ch2-open1.jpg" width="300">|<img src="v1/pictures/ch2-open2.jpg" width="300">|<img src="v1/pictures/ch2-open3.jpg" width="300">|
 
 #### CH3
 
-<img src="v1/pictures/ch3-installed.jpg" width="300">
-<img src="v1/pictures/ch3-elec.jpg" width="300">
+| | | |
+|---|---|---|
+|<img src="v1/pictures/ch3-installed.jpg" width="300">|<img src="v1/pictures/ch3-elec.jpg" width="300">||
 
 #### CHP
 
@@ -81,7 +82,9 @@ _(pas d'image)_
 
 #### RDC
 
-<img src="v1/pictures/rdc-open.jpg" width="300">
+| | | |
+|---|---|---|
+|<img src="v1/pictures/rdc-open.jpg" width="300">|||
 
 ### Notes
 
