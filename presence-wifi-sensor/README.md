@@ -29,5 +29,7 @@
   - HC-SR04
   - mmWave
   - HLK-LD1115H - Sen0395 (cher) -> https://amzn.eu/d/9S0WEwP
+ 
+- shelly motion 2 ??
 
 ## Links
