@@ -6,43 +6,45 @@
 - Capteur température
 - 4 sorties prises
 - Wifi et Ethernet
-- Emetteur IR pour piloter clim (au bout d'un câble comme capteur temperature)
-- Emetteur 868 pour pergola (option)
-- Emetteur 433MHz pour hotte (option)
 
 ### Emplacements
 
 - chambre parents
 - chambre Eléonore
 - chambre Éloïse
-- chambre d'amis
-- rdc derrière TV
+- chambre d'amis ?
+- rdc derrière TV ?
 - bibliothèque pour lampe pot de fleurs + température ?
-
----
-- 1 par clim + capteur température par pièce
-- 1 par lit
-- 1 télécommande 433 par chambre + 1 RDC
 
 ## Choix techniques
 
-- ESP semble suffisant pour le projet (avec shield ethernet si besoin)
+- ESP32 ethernet ou wifi
 - SSR pour éviter claquement relais
   - BT136 (4A max)
   - Dissipateurs ?
   - Fusible 5x20 à souder
-- Prise comme alim de PC, plus facile à mettre en oeuvre
-- Capteur température : ds18b20
-- utiliser jack pour IR et capteur temp
-- capteur temp : avoir un capteur intégré et un capteur avec Jack?
-- Idées :
-  - Sorties prises IEC C13 pour avoir un format plus compact ?
-  - Sortie USB direct sur la prise pour brancher le switch dessus en ethernet si besoin ?
-  - Format prise : https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/interrupteur-et-prise-en-saillie/bloc-5-prises-avec-terre-saillie-blanc-82016676.html ?
-- Télécommande :
+- Entree Prise alim IEC C14
+- Sorties prises IEC C13 pour avoir un format plus compact
+- Capteur température :
+  - DS18b20
+  - avec Jack
+  - possible souder jack a la main sinon
+  - capteur integré inutile (mesure la temperature de l'esp/des triac pas de la piece)
+- Télécommande 433MHz:
   - Renkforce 1208459
   - https://amzn.eu/d/fGBrWJP
   - https://www.conrad.fr/fr/p/renkforce-1208459-sans-fil-telecommande-interieure-1208459.html
+
+## Design
+
+- Board : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
+- Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+- DS18B20 avec Jack : https://amzn.eu/d/hBWke13
+- Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
+- ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
+- ?? Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
+- ?? Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
+- ?? Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
 
 ## Observations Prototype-1 epanel-io
 
@@ -70,22 +72,14 @@
     - __https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html__
 - 433MHz receiver
   - binding avec telecommandes
-- ds18b20 + jack pinout
-- Led IR
+- ds18b20
   - jack pinout
-  - binding avec clim
-- prises comme PC
+- prises C13/C14
 - fusibles
 - triac dissipateurs
-- pilotage hotte
-- pilotage pergola
 
 ## Notes
 
-- Ethernet ESPhome :
-  - https://esphome.io/components/ethernet.html
-- infrarouge
-  - https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster
 - Schémas
   - https://www.sonelec-musique.com/electronique_realisations_relais_statique_001.html
   - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
@@ -99,35 +93,3 @@
   - Dessiner des mouting holes
 - triacs
   - comparaison specs : https://www.esr.co.uk/components/products/frame-triacs.htm
-
-## Matériel
-
-- Déjà en stock
-  - fil électrique 1.5mm²
-- Alim ESP : https://fr.rs-online.com/web/p/alimentations-a-decoupage/9058755/
-- ESP32 : ESP32-POE-ISO-EA https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware
-- Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
-- Prise comme alim de PC => C14 :
-  - montage CI : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/
-  - voir si montage a cosses ?
-- LED IR avec rallonge : https://www.amazon.fr/dp/B01MT59LFO
-- ds18b20 + jack ??
-- Composants:
-  - C 50nF : https://fr.rs-online.com/web/p/condensateurs-polyethylene-naphtalate-pen/1649855/
-  - C 10nF : https://fr.rs-online.com/web/p/condensateurs-polyester/6224779/
-  - Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
-  - Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
-  - Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
-
-## Ancien matériel
-
-- 4-Channel Solid State Relay : https://www.amazon.fr/dp/B01E6KUMTI
-- Alim ESP : https://www.amazon.fr/dp/B07V7GHK51 (ou HLK 5M05)
-- Récepteur 433mhz
-- Resistances 100k : https://www.amazon.fr/dp/B016TG4QKS
-- Prise pour alim comme PC : https://www.amazon.fr/dp/B07BN7G65F
-- Cosses pour prises PC : https://www.amazon.fr/dp/B01FHAM1M2
-- Boîtier
-  - si assez de place : https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456006
-  - Sinon  https://www.leroymerlin.fr/v3/p/produits/bloc-4-prises-avec-terre-mosaic-blanc-legrand-e1401456005
-- Prises : https://www.leroymerlin.fr/v3/p/produits/quadruple-prise-avec-terre-mosaic-legrand-blanc-e41326
