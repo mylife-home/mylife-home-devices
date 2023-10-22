@@ -15,3 +15,4 @@
 - https://github.com/rstrouse/ESPSomfy-RTS
 - https://pushstack.wordpress.com/somfy-rts-protocol/
 - https://github.com/dmslabsbr/esphome-somfy
+- https://github.com/Nickduino/Pi-Somfy
