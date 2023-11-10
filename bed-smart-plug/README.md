@@ -4,7 +4,7 @@
 
 - Récepteur 433mhz (pour télécommande)
 - Capteur température
-- 4 sorties prises
+- 4 sorties prises entre 5W et 200W
 - Wifi et Ethernet
 
 ### Emplacements
@@ -69,7 +69,7 @@
     - http://www.sper.hr/eng/solid_state_relay_scheme.htm
     - https://fr.rs-online.com/web/p/triac/7142577
     - http://wiring.org.co/learning/basics/lightbulb.html
-    - __https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html__
+    - **https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html**
 - 433MHz receiver
   - binding avec telecommandes
 - ds18b20
@@ -81,6 +81,7 @@
 ## Notes
 
 - Schémas
+  - **https://innovatorsguru.com/switching-ac-load-using-triac/**
   - https://www.sonelec-musique.com/electronique_realisations_relais_statique_001.html
   - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
   - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
