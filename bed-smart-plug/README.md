@@ -71,6 +71,7 @@
 - 433MHz receiver
   - binding avec telecommandes
 - ds18b20
+  - https://www.amazon.fr/dp/B075FYYLLV/
   - jack pinout: voir quelles broches sur chaque prise matchent + selectionner le pinout qu'on veut.
 - fusibles
 TODO
