@@ -39,7 +39,8 @@
 
 - Board : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 - Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
-- DS18B20 avec Jack : https://amzn.eu/d/hBWke13
+- Jack DS18B20 :
+  - https://fr.rs-online.com/web/p/connecteurs-jacks/5051299
 - Récepteur 433MHz : (modulation ASK) AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
   + Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
@@ -70,9 +71,10 @@
 - 433MHz receiver
   - binding avec telecommandes
 - ds18b20
-  - jack pinout
-- prises C13/C14
+  - jack pinout: voir quelles broches sur chaque prise matchent + selectionner le pinout qu'on veut.
 - fusibles
+TODO
+- prises C13/C14
 - boitier avec sortie RJ45 + jack + fixations C13/C14
 
 ## Notes
