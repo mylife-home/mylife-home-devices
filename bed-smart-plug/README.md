@@ -21,7 +21,7 @@
 - ESP32 ethernet ou wifi
 - SSR pour éviter claquement relais
   - BT136 (4A max)
-  - Dissipateurs ?
+  - Dissipateurs
   - Fusible 5x20 à souder
 - Entree Prise alim IEC C14
 - Sorties prises IEC C13 pour avoir un format plus compact
@@ -41,6 +41,8 @@
 - Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
 - DS18B20 avec Jack : https://amzn.eu/d/hBWke13
 - Récepteur 433MHz : AM-RX9-433P https://fr.rs-online.com/web/p/modules-rf/8607236/
+- Triacs : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
+  + heatsink
 - ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
 - ?? Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
 - ?? Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
@@ -56,41 +58,34 @@
 
 ### Objectifs
 
-- Triac: snubbers/bruit/fuite
-  - spot 10w
-  - guirlande boules
-  - lampe incandescence train
-  - lampe bureau
-  - lampe chevet
-  - alim a decoupage
-  - test BT136-600E
-    - https://www.farnell.com/datasheets/97984.pdf (fig. 8)
-  - test BTA08-600TWRG (snubberless)
-    - http://www.sper.hr/eng/solid_state_relay_scheme.htm
-    - https://fr.rs-online.com/web/p/triac/7142577
-    - http://wiring.org.co/learning/basics/lightbulb.html
-    - **https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html**
+- Triac: 
+  - dissipateurs
+  - snubbers/bruit/fuite
+    - spot 10w
+    - guirlande boules
+    - lampe incandescence train
+    - lampe bureau
+    - lampe chevet
+    - alim a decoupage
 - 433MHz receiver
   - binding avec telecommandes
 - ds18b20
   - jack pinout
 - prises C13/C14
 - fusibles
-- triac dissipateurs
 
 ## Notes
 
 - Schémas
   - **https://innovatorsguru.com/switching-ac-load-using-triac/**
+  - https://www.sonelec-musique.com/electronique_realisations_interfaces_230v_001.html
+  - http://www.sper.hr/eng/solid_state_relay_scheme.htm
+  - https://fr.rs-online.com/web/p/triac/7142577
+  - http://wiring.org.co/learning/basics/lightbulb.html
   - https://www.sonelec-musique.com/electronique_realisations_relais_statique_001.html
   - https://electronics.stackexchange.com/questions/531528/relay-circuit-with-moc3021-and-bt136
   - https://electronics.stackexchange.com/questions/488518/triac-switch-circuit-using-moc3021-and-bt136
-  - http://www.farnell.com/datasheets/97984.pdf (bottom)
-  - R 39ohm => 0,02496mW
-  - R 360ohm => (very low)
-  - R 470ohm => 7,52mW
-  - C: 400V
+  - http://www.farnell.com/datasheets/97984.pdf (fig. 8)
   - Attention a garder le port USB accessible
-  - Dessiner des mouting holes
 - triacs
   - comparaison specs : https://www.esr.co.uk/components/products/frame-triacs.htm
