@@ -79,8 +79,8 @@
 - ds18b20
   - jack pinout: voir quelles broches sur chaque prise matchent + selectionner le pinout qu'on veut.
 - fusibles
+
 TODO
-- prises C13/C14
 - boitier avec sortie RJ45 + jack + fixations C13/C14
 
 ## Notes
