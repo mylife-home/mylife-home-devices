@@ -73,6 +73,7 @@
   - jack pinout
 - prises C13/C14
 - fusibles
+- boitier avec sortie RJ45 + jack + fixations C13/C14
 
 ## Notes
 
