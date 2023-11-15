@@ -1,3 +1,6 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/../../libraries/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
   (lib (name "mylife-symbols")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/mylife-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Wemos D1 mini")(type "Legacy")(uri "${KIPRJMOD}/../../libraries/wemos_mini.lib")(options "")(descr ""))
 )
