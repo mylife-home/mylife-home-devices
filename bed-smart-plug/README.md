@@ -41,13 +41,12 @@
 - Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
 - DS18B20 avec Jack : https://amzn.eu/d/hBWke13
 - Récepteur 433MHz : (modulation ASK) AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279
-- Triacs : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
-  + heatsink
-- ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
-- ?? Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
+- Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
+  + Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   + Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - ?? Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
+- ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
 
 ## Observations Prototype-1 epanel-io
 
