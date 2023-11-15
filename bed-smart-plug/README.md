@@ -47,7 +47,13 @@
   + Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   + Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
-- ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
+- Prises :
+  - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
+  - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
+  - (cf datasheet pour le montage)
+  - branchements par cosses 4.8x0.8
+  - cosses : https://fr.rs-online.com/web/p/cosses-faston/0534749
+  - cable souple 1.5mm2 : https://www.amazon.fr/dp/B01FHJJY96 (bleu)
 
 ## Observations Prototype-1 epanel-io
 
