@@ -1776,7 +1776,7 @@
     (uuid f650ec28-6afa-4b70-abcc-890862f45ef1)
   )
 
-  (label "TODO: heatsink + jack pinout + fusibles" (at 25.4 21.59 0) (fields_autoplaced)
+  (label "TODO: heatsink + jack pinout" (at 25.4 21.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 28d607dc-496e-4e91-9109-0999b2534a0b)
   )

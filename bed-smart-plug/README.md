@@ -45,7 +45,8 @@
   + heatsink
 - ?? Prise entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/2615840/ ? (montage ci ?)
 - ?? Dissipateurs : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
-- ?? Porte fusible : https://fr.rs-online.com/web/p/porte-fusible-pour-ci/1739698/
+- Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
+  + Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - ?? Connecteur Jack LED IR : https://fr.rs-online.com/web/p/connecteurs-jacks/9131011/
 
 ## Observations Prototype-1 epanel-io
