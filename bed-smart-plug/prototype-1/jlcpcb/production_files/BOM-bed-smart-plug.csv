@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,LCSC
+10nF/400V,C2,C_0805_2012Metric,C106840
+MOC3021M,U3,SMDIP-6_W9.53mm,C108500
+220Ω,"R2,R3",R_0603_1608Metric,C22962
+LED,D1,D_0805_2012Metric,C2297
+4.7KΩ,R1,R_0402_1005Metric,C25900
+360Ω/0.5W,R4,R_1210_3225Metric,C2759574
+47nF/400V,C1,C_1206_3216Metric,C309031
+39Ω/0.5W,R6,R_1210_3225Metric,C422307
+3.5mm headphone jack,J3,Jack_3.5mm_PJ320D_Horizontal,C521460
+470Ω/0.5W,R5,R_1210_3225Metric,C830186
+Conn_01x02_Male,J2,PinHeader_1x04_P2.54mm_Vertical,
+Prises,J9,TerminalBlock_bornier-2_P5.08mm,
+Triac snubber,J8,PinHeader_1x02_P2.54mm_Vertical,
+AM-RX12A-433P,U2,AMRX12A433P,
+Opto snubber 2,J6,PinHeader_1x02_P2.54mm_Vertical,
+Antenna,AE1,PinHeader_1x01_P2.54mm_Vertical,
+Heatsink,HS1,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,
+DS18b20,J1,PinHeader_1x03_P2.54mm_Vertical,
+Alim RS PRO 5V 1A,PS1,Converter_ACDC_MeanWell_IRM-03-xx_THT,
+ESP32-POE,U1,ESP32-POE,
+BT136-600E,Q1,TO-220-3_Vertical,
+Opto snubber,J5,PinHeader_1x03_P2.54mm_Vertical,
+3A,F1,Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,
+Triac gate protection,J4,PinHeader_1x02_P2.54mm_Vertical,
+Main,J7,TerminalBlock_bornier-2_P5.08mm,

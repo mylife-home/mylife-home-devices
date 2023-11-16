@@ -1,0 +1,27 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+AE1,Antenna,PinHeader_1x01_P2.54mm_Vertical,62.865,-116.84,0.0,top
+C1,47nF/400V,C_1206_3216Metric,39.37,-79.375,90.0,top
+C2,10nF/400V,C_0805_2012Metric,52.1925,-76.835,180.0,top
+D1,LED,D_0805_2012Metric,63.8325,-104.14,0.0,top
+F1,3A,Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,86.54,-66.04,180.0,top
+HS1,Heatsink,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,50.8,-57.15,0.0,top
+J1,DS18b20,PinHeader_1x03_P2.54mm_Vertical,107.965,-71.12,-90.0,top
+J2,Conn_01x02_Male,PinHeader_1x04_P2.54mm_Vertical,109.21,-60.96,90.0,top
+J3,3.5mm headphone jack,Jack_3.5mm_PJ320D_Horizontal,109.22,-47.955,-90.0,top
+J4,Triac gate protection,PinHeader_1x02_P2.54mm_Vertical,64.77,-83.19,0.0,top
+J5,Opto snubber,PinHeader_1x03_P2.54mm_Vertical,39.37,-88.28,180.0,top
+J6,Opto snubber 2,PinHeader_1x02_P2.54mm_Vertical,43.815,-89.52,180.0,top
+J7,Main,TerminalBlock_bornier-2_P5.08mm,92.71,-48.26,180.0,top
+J8,Triac snubber,PinHeader_1x02_P2.54mm_Vertical,45.5275,-74.29,180.0,top
+J9,Prises,TerminalBlock_bornier-2_P5.08mm,77.47,-48.26,180.0,top
+PS1,Alim RS PRO 5V 1A,Converter_ACDC_MeanWell_IRM-03-xx_THT,93.98,-93.98,90.0,top
+Q1,BT136-600E,TO-220-3_Vertical,50.8,-60.49,0.0,top
+R1,4.7KΩ,R_0402_1005Metric,106.17,-66.04,180.0,top
+R2,220Ω,R_0603_1608Metric,69.025,-104.14,180.0,top
+R3,220Ω,R_0603_1608Metric,69.025,-100.33,0.0,top
+R4,360Ω/0.5W,R_1210_3225Metric,59.69,-83.185,90.0,top
+R5,470Ω/0.5W,R_1210_3225Metric,41.275,-99.045,0.0,top
+R6,39Ω/0.5W,R_1210_3225Metric,52.5125,-73.025,0.0,top
+U1,ESP32-POE,ESP32-POE,137.15,-85.0945,180.0,top
+U2,AM-RX12A-433P,AMRX12A433P,93.98,-116.84,0.0,top
+U3,MOC3021M,SMDIP-6_W9.53mm,53.34,-101.6,0.0,top
