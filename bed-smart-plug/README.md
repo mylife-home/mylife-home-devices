@@ -42,7 +42,11 @@
 - Jack DS18B20 :
   - https://www.amazon.fr/dp/B075FYYLLV/
   - https://fr.rs-online.com/web/p/connecteurs-jacks/5051299
-- Récepteur 433MHz : (modulation ASK) AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279
+- Récepteur 433MHz : (modulation ASK)
+  - ~~ AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279 ~~ (frais de gestion trop chers)
+  - QAM-RX10-433 https://fr.rs-online.com/web/p/modules-rf/1258208
+  - pinout compatible
+  - normalement 5V, tester en broadboard avec alim 5V + pont diviseur sur les data pour passer a 3.3V
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
   + Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
@@ -82,12 +86,12 @@
 
 ### Materiel
 
-- Triac x1
-- Dissipateur x1
-- Alim x1
-- Porte fusible x1
-- Fusible x1
-- Jack x1
+- OK Triac x1
+- OK Dissipateur x1
+- OK Alim x1
+- OK Porte fusible x1
+- OK Fusible x1
+- OK Jack x1
 - Recepteur 433MHz
 
 TODO
