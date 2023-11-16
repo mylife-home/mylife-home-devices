@@ -80,6 +80,16 @@
   - jack pinout: voir quelles broches sur chaque prise matchent + selectionner le pinout qu'on veut.
 - fusibles
 
+### Materiel
+
+- Triac x1
+- Dissipateur x1
+- Alim x1
+- Porte fusible x1
+- Fusible x1
+- Jack x1
+- Recepteur 433MHz
+
 TODO
 - boitier avec sortie RJ45 + jack + fixations C13/C14
 
