@@ -107,3 +107,8 @@ TODO
   - Attention a garder le port USB accessible
 - triacs
   - comparaison specs : https://www.esr.co.uk/components/products/frame-triacs.htm
+- boitier
+  - fusion 360
+  - https://www.thingiverse.com/thing:3700953 (esp32-poe box case, pour la taille + le socket)
+  - https://www.printables.com/model/476196-esp32poe-box-v12 (esp-poe box case, pour le maintien du boitier + la taille + le socket)
+  - https://www.thingiverse.com/thing:410003 (rapsberry-pi box case, pour les vis + inspiration)
