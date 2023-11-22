@@ -6,6 +6,11 @@
 - Capteur température
 - 4 sorties prises entre 5W et 200W
 - Wifi et Ethernet
+- Boitier :
+  - peut etre relativement large/long, mais plat
+  - avec les prises sur un côté
+  - comme un switch
+  - comme ca on peut le mettre sous un meuble, ou derriere un meuble debout
 
 ### Emplacements
 
