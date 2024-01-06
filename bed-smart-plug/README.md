@@ -162,8 +162,8 @@ TODO
 ```
   - Valeurs (le repeat est très rapproché) : 
   
-  _Config télécommande : 1 = ON, 5 = ON_
-
+  _Config télécommande grise : 1 = ON, 5 = ON_
+  
 | Action | code télécommande | code ABCD | ?? | on/off |
 |---|---|---|---|---|
 | A on   | 00 01 01 01 00 | 00 01 01 01 | 01 | 00 01 |
@@ -174,6 +174,9 @@ TODO
 | C off  | 00 01 01 01 00 | 01 01 00 01 | 01 | 01 00 |
 | D on   | 00 01 01 01 00 | 01 01 01 00 | 01 | 00 01 |
 | D off  | 00 01 01 01 00 | 01 01 01 00 | 01 | 01 00 |
+
+  _Config télécommande grise : 1 = ON, 2 = ON_
+  => Code télécommande : 00 00 01 01 01, le reste semble correspondre
 
 ## Notes
 
