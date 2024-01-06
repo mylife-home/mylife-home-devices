@@ -146,7 +146,31 @@ TODO
 
 - Récepteur 433mhz
   - Les 2 pins data sont reliés ensemble 
-
+  - Connecter au 5V, et mettre un point diviseur :
+    - R1 = 10k (entre output recepteur et input ESP)
+    - R2 = 2x 10k en série (entre input ESP et GND)
+  - Config dump : 
+```yaml
+    remote_receiver:
+      pin: GPIO36
+      dump:
+      - rc_switch
+      tolerance: 50%
+      filter: 250us
+      idle: 4ms
+      buffer_size: 2kb
+```
+  - Valeurs (le repeat est très rapproché) : 
+| Action | code télécommande | code ABCD | ?? | on/off |
+|---|---|---|---|---|
+| A on   | 00 01 01 01 00 | 00 01 01 01 | 01 | 00 01 |
+| A off  | 00 01 01 01 00 | 00 01 01 01 | 01 | 01 00 |
+| B on   | 00 01 01 01 00 | 01 00 01 01 | 01 | 00 01 |
+| B off  | 00 01 01 01 00 | 01 00 01 01 | 01 | 01 00 |
+| C on   | 00 01 01 01 00 | 01 01 00 01 | 01 | 00 01 |
+| C off  | 00 01 01 01 00 | 01 01 00 01 | 01 | 01 00 |
+| D on   | 00 01 01 01 00 | 01 01 01 00 | 01 | 00 01 |
+| D off  | 00 01 01 01 00 | 01 01 01 00 | 01 | 01 00 |
 
 ## Notes
 
