@@ -92,6 +92,10 @@
 TODO
 - boitier avec sortie RJ45 + jack + fixations C13/C14
 
+### Schematic
+
+ - [Schematic](prototype-1/schematic.png)
+
 ### Observations
 
 - Radiateur :
