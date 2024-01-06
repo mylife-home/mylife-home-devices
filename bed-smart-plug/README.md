@@ -79,7 +79,6 @@
   - snubbers/bruit/fuite
     - spot 10w
     - guirlande boules
-    - lampe incandescence train
     - lampe bureau
     - lampe chevet
     - alim a decoupage
@@ -104,9 +103,45 @@ TODO
 
 ### Observations
 
-- Radiateur :
-  - Rapprocher radiateur et triac de 0.5 - 1 mm
-  - Fixation radiateur/triac : écrou M3 + reprendre vis M3 anti-deserrage garden-box
+- Dissipateur :
+  - Rapprocher dissipateur et triac de 0.5 - 1 mm
+  - Fixation dissipateur/triac : écrou M3 + reprendre vis M3 anti-deserrage garden-box
+- Fusibles : OK
+- Triac :
+  - spot 10w :
+    - triac snubber => fuite (KO)
+    - opto snubber => fuite (KO)
+    - sans snubber => pas de bruit (OK)
+  - Perceuse à colonne :
+    - puissance : 1.6A au démarrage puis 0.8
+    - Avec/Sans snubber : pas de bruit mais la perceuse fait elle du bruit
+    - apres 5 mins dissipateur + triac froids 
+  - Lampe chevet Éloïse
+    - puissance : 26.5ma
+    - Avec snubber : KO bruit quand off
+    - Sans snubber : OK sans bruit
+  - Guirlande Éloïse
+    - Avec snubber : KO clignote
+    - Sans snubber : OK sans bruit
+    - puissance très instable semble avec des pics a 600ma puis revient a 0ma (problème multimètre ?)
+  - Lampe bureau
+    - puissance semble 25ma (problème multimètre ?)
+    - Avec snubber : KO bruit quand off
+    - Sans snubber : OK sans bruit
+  - Lampe chevet Eléonore
+    - puissance 1.5a???? (problème multimètre ?) -> Ampoule à incandescence 40W
+    - Avec snubber : OK sans bruit
+    - Sans snubber : OK sans bruit
+- Prise jack
+  (de gauche à droite)
+  - 1 : corps
+  - 2 : pin penché 
+  - 3 : base pin central
+  - 4 : extrémité pin central
+  Attention : bien enfoncer la prise
+- Récepteur 433mhz
+  - Les 2 pins data sont reliés ensemble 
+
 
 ## Notes
 
