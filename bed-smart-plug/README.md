@@ -92,6 +92,12 @@
 TODO
 - boitier avec sortie RJ45 + jack + fixations C13/C14
 
+### Observations
+
+- Radiateur :
+  - Rapprocher radiateur et triac de 0.5 - 1 mm
+  - Fixation radiateur/triac : écrou M3 + reprendre vis M3 anti-deserrage garden-box
+
 ## Notes
 
 - Schémas
