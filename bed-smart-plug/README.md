@@ -161,6 +161,8 @@ TODO
       buffer_size: 2kb
 ```
   - Valeurs (le repeat est très rapproché) : 
+  
+  _Config télécommande : 1 = ON, 5 = ON_
 
 | Action | code télécommande | code ABCD | ?? | on/off |
 |---|---|---|---|---|
