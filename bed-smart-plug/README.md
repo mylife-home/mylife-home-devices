@@ -176,8 +176,12 @@ TODO
 | D off  | 00 01 01 01 00 | 01 01 01 00 | 01 | 01 00 |
 
   _Config télécommande grise : 1 = ON, 2 = ON_
-  
-  => Code télécommande : 00 00 01 01 01, le reste semble correspondre
+
+  => Code télécommande : `00 00 01 01 01`, le reste semble correspondre
+
+  - Avec récepteur dans salon :
+    - Fontionne depuis CH1
+    - Fonctionne depuis CHP
 
 ## Notes
 
