@@ -132,13 +132,18 @@ TODO
     - puissance 1.5a???? (problème multimètre ?) -> Ampoule à incandescence 40W
     - Avec snubber : OK sans bruit
     - Sans snubber : OK sans bruit
-- Prise jack
-  (de gauche à droite)
+- Prise jack 
+  
+  <img src="pictures/jack-pinout.jpg" width="300">
+  
+  (de gauche à droite) 
   - 1 : corps
   - 2 : pin penché 
   - 3 : base pin central
   - 4 : extrémité pin central
+
   Attention : bien enfoncer la prise
+
 - Récepteur 433mhz
   - Les 2 pins data sont reliés ensemble 
 
