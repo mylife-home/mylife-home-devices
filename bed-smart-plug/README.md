@@ -161,6 +161,7 @@ TODO
       buffer_size: 2kb
 ```
   - Valeurs (le repeat est très rapproché) : 
+    - `Received RCSwitch Raw: protocol=1 data='...'`
   
   _Config télécommande grise : 1 = ON, 5 = ON_
   
