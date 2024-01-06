@@ -94,7 +94,13 @@ TODO
 
 ### Schematic
 
- - [Schematic](prototype-1/schematic.png)
+- [Schematic](prototype-1/schematic.png)
+
+### Pinout
+
+- GPIO02 : Triac
+- GPIO13 : DS18B20
+- GPIO36 : Récepteur 433MHz
 
 ### Observations
 
