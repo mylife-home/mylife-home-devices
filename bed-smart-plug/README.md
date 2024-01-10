@@ -53,9 +53,11 @@
   - pinout compatible
   - normalement 5V, tester en broadboard avec alim 5V + pont diviseur sur les data pour passer a 3.3V
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
-  + Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/
+  - ~~ Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/ ~~
+  - moins haut, même base : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
+
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
-  + Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
+  - Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - Prises :
   - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
@@ -87,9 +89,6 @@
 - ds18b20
   - jack pinout: voir quelles broches sur chaque prise matchent + selectionner le pinout qu'on veut.
 - fusibles
-
-TODO
-- boitier avec sortie RJ45 + jack + fixations C13/C14
 
 ### Schematic
 
@@ -183,6 +182,15 @@ TODO
   - Avec récepteur dans salon :
     - Fontionne depuis CH1
     - Fonctionne depuis CHP
+
+## Prototype-2
+
+### Objectifs
+
+- boitier 
+- sortie RJ45
+- sortie prise jack
+- fixations C13/C14
 
 ## Notes
 
