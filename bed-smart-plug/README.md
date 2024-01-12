@@ -64,6 +64,8 @@
 - Prises :
   - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
+  - sortie C13 x 4 : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
+    - dessouder une barre ou la couper (phase), laisser les 2 autres
   - (cf datasheet pour le montage)
   - branchements par cosses 4.8x0.8
   - cosses : https://fr.rs-online.com/web/p/cosses-faston/0534749
@@ -199,6 +201,9 @@ commander:
 boitier: https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
 nouveau dissipateur: https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
 prises C13/C14 => voir si on peut trouver 1 entree/4 sorties ensemble mais sans connexions, ou sinon couper les connexions (que les phases)
+  - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
+  - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
+  - sortie C13 x 4 : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
 
 ## Notes
 
