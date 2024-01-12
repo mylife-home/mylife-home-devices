@@ -55,9 +55,12 @@
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
   - ~~ Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/ ~~
   - moins haut, même base : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
-
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   - Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
+- Boitier :
+  - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
+  - noir comme les connecteurs C13/C14
+  - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
 - Prises :
   - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
@@ -191,6 +194,11 @@
 - sortie RJ45
 - sortie prise jack
 - fixations C13/C14
+
+commander:
+boitier: https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
+nouveau dissipateur: https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
+prises C13/C14 => voir si on peut trouver 1 entree/4 sorties ensemble mais sans connexions, ou sinon couper les connexions (que les phases)
 
 ## Notes
 
