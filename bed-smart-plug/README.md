@@ -55,6 +55,8 @@
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
   - ~~ Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/ ~~
   - moins haut, même base : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
+  - vis M3 : même que garden box : https://fr.rs-online.com/web/p/vis-a-rondelle-indesserrable/0279149
+  - écrous M3 : https://fr.rs-online.com/web/p/ecrous-hexagonaux/0560293
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   - Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - Boitier :
