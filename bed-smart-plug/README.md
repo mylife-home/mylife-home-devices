@@ -198,6 +198,7 @@
 - sortie RJ45
 - sortie prise jack
 - fixations C13/C14
+- tester nouveau dissipateur
 
 ## Notes
 
