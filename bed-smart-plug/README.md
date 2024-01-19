@@ -68,6 +68,8 @@
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
   - sortie C13 x 4 : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
     - dessouder une barre ou la couper (phase), laisser les 2 autres
+  - ~~ 1 entrée 4 sorties : https://fr.rs-online.com/web/p/connecteurs-iec/3135474 ~~
+    - semble indisponible
   - (cf datasheet pour le montage)
   - branchements par cosses 4.8x0.8
   - cosses : https://fr.rs-online.com/web/p/cosses-faston/0534749
