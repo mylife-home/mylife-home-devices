@@ -148,7 +148,7 @@
     - Sans snubber : OK sans bruit
 - Prise jack 
   
-  <img src="pictures/jack-pinout.jpg" width="300">
+  <img src="pictures/proto1/jack-pinout.jpg" width="300">
   
   (de gauche à droite) 
   - 1 : corps
@@ -219,8 +219,31 @@
   - aérations ?
 - Multiprise C13 x4 : séparation des phases OK
 
-  <img src="pictures/multiprise-c13-bottom.jpg" width="300">
-  <img src="pictures/multiprise-c13-side.jpg" width="300">
+  <img src="pictures/proto2/multiprise-c13-bottom.jpg" width="300">
+  <img src="pictures/proto2/multiprise-c13-side.jpg" width="300">
+
+- Perçage boitier pour multiprise C13x4
+  - Tracer au cutter + règle métallique
+  - Le gros :
+    - Découpage disque Dremel vitesse 5 + coins avec perceuse a colonne plus gros forêt placo (faire coins en premier)
+  - la finition :
+    - tubes ponceuse Dremel, vitesse 2.5
+    - gros tube pour partie plate + coins arrondis
+    - petit tube pour coin moins arrondis (cf forme des prises)
+    - lime pour égaliser
+  - Passage des clips (le boitier est trop épais)
+    - Entamer l'épaisseur avec gros tube
+    - Installation de la prise : pousser les clips vers l'extérieur depuis l'intérieur des prises
+
+  <img src="pictures/proto2/outils-percage.jpg" width="300">
+  <img src="pictures/proto2/percage-fini.jpg" width="300">
+  <img src="pictures/proto2/prise-installee.jpg" width="300">
+
+  - Tests:
+    - branchement/debranchement prise OK
+    - on peut manoeuvrer les clips depuis l'intérieur des prises pour démonter la multiprise après installation
+    - vue de haut, empreinte des prises sur le CI = 110x30
+
 
 TODO: acheter prise C14 a clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
 
