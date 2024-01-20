@@ -10,7 +10,7 @@ MyLife Home devices
 - [Garage door driver](garage-door-driver/README.md) :white_check_mark: Pilote de porte de garage
 - [Clim driver](clim-driver/README.md) :white_check_mark: Pilote de clim
 - [Gate driver](gate-driver/README.md) :question: Pilote de portail
-- [Bed Smart Plug](bed-smart-plug/README.md) :question: "Multiprise intelligente" pour mettre en tête de lit
+- [Bed Smart Plug](bed-smart-plug/README.md) :hourglass: "Multiprise intelligente" pour mettre en tête de lit
 - [Presence Wifi sensor](presence-wifi-sensor/README.md) :question: Détecteur de présence Wifi
 - RGB indoor box :question: Boîtier de commande spots/ruban leds RGB en intérieur
 - Kitchen hood driver :question: Pilote de hôte
