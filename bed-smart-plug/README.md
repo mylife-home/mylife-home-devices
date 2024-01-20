@@ -24,6 +24,7 @@
 ## Choix techniques
 
 - ESP32 ethernet ou wifi
+  - prévoir des trous sur le PCB pour fixer l'esp avec un serre flex entre son header et son module ESP, sur l'inscription "ESP32-PoE"
 - SSR pour éviter claquement relais
   - BT136 (4A max)
   - Dissipateurs
@@ -220,6 +221,13 @@
 
   <img src="pictures/multiprise-c13-bottom.jpg" width="300">
   <img src="pictures/multiprise-c13-side.jpg" width="300">
+
+TODO: acheter prise C14 a clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
+
+Alim + RJ45 sur le côté
+Prises + jack sur l'autre côté 
+
+Tester perçage + faire ci avec uniquement empreinte esp (+ jack?)
 
 ## Notes
 
