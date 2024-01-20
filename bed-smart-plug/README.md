@@ -60,20 +60,25 @@
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   - Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - Boitier :
-  - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
-  - noir comme les connecteurs C13/C14
-  - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
+  - ~~ https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494 ~~
+    - noir comme les connecteurs C13/C14
+    - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
 - Prises :
   - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
-  - sortie C13 x 4 : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
+  - sortie C13 x 4 à clip : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
     - dessouder une barre ou la couper (phase), laisser les 2 autres
+    - montage :
+    
+    <img src="pictures/mounting-c13x4.gif" width="350">
+
+  - entrée C14 à clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
+    - montage :
+    
+    <img src="pictures/mounting-c14.gif" width="150">
+
   - ~~ 1 entrée 4 sorties : https://fr.rs-online.com/web/p/connecteurs-iec/3135474 ~~
     - semble indisponible
-  - (cf datasheet pour le montage)
-  - branchements par cosses 4.8x0.8
-  - cosses : https://fr.rs-online.com/web/p/cosses-faston/0534749
-  - cable souple 1.5mm2 : https://www.amazon.fr/dp/B01FHJJY96 (bleu)
 
 ## Observations Prototype-1 epanel-io
 
