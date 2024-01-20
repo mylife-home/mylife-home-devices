@@ -202,6 +202,20 @@
 - fixations C13/C14
 - tester nouveau dissipateur
 
+### Observations
+
+- Dissipateur + écrou de fixation OK
+- Boîtier :
+  - pas assez long (on ne peut pas mettre toutes les prises + ESP)
+  - pas assez large (ESP ne tient pas en largeur)
+  - hauteur OK mais prise C14 avec vis sur les côtés ne tient pas en hauteur : voir pour prendre une encastrable comme la multiprise C13
+  - aluminium pour ne pas se déformer avec les trous ?
+  - aérations ?
+- Multiprise C13 x4 : séparation des phases OK
+
+  <img src="pictures/multiprise-c13-bottom.jpg" width="300">
+  <img src="pictures/multiprise-c13-side.jpg" width="300">
+
 ## Notes
 
 - Schémas
@@ -217,7 +231,7 @@
   - Attention a garder le port USB accessible
 - triacs
   - comparaison specs : https://www.esr.co.uk/components/products/frame-triacs.htm
-- boitier
+- boitier à imprimer
   - fusion 360
   - https://www.thingiverse.com/thing:3700953 (esp32-poe box case, pour la taille + le socket)
   - https://www.printables.com/model/476196-esp32poe-box-v12 (esp-poe box case, pour le maintien du boitier + la taille + le socket)
