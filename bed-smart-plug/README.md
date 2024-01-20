@@ -61,7 +61,7 @@
 - Porte fusible : https://fr.rs-online.com/web/p/porte-fusibles/1769047
   - Fusible : https://fr.rs-online.com/web/p/fusibles-cartouches/6686007
 - Boitier :
-  - ~~ https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494 ~~
+  - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
     - noir comme les connecteurs C13/C14
     - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
 - Prises :
@@ -217,6 +217,7 @@
   - hauteur OK mais prise C14 avec vis sur les côtés ne tient pas en hauteur : voir pour prendre une encastrable comme la multiprise C13
   - aluminium pour ne pas se déformer avec les trous ?
   - aérations ?
+  - **aluminium trop cher, autres boitiers mauvaise taille. On garde celui là mais en mettant l'alime/jack/rj45 sur un côté**
 - Multiprise C13 x4 : séparation des phases OK
 
   <img src="pictures/proto2/multiprise-c13-bottom.jpg" width="300">
