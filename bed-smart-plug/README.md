@@ -237,7 +237,8 @@
 
   <img src="pictures/proto2/outils-percage.jpg" width="300">
   <img src="pictures/proto2/percage-fini.jpg" width="300">
-  <img src="pictures/proto2/prise-installee.jpg" width="300">
+  <img src="pictures/proto2/prise-installee-side.jpg" width="300">
+  <img src="pictures/proto2/prise-installee-top.jpg" width="300">
 
   - Tests:
     - branchement/debranchement prise OK
