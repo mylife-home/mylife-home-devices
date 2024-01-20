@@ -270,6 +270,8 @@ pinout jack :
   - GND sur le corps
   - DATA 2 milieux reliés ensemble
 
+tester visser PCB avec vis gardenbox
+
 ## Notes
 
 - Schémas
