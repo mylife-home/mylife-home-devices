@@ -73,7 +73,7 @@
     
     <img src="pictures/mounting-c13x4.gif" width="350">
 
-  - entrée C14 à clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
+  - entrée C13 à clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
     - montage :
     
     <img src="pictures/mounting-c14.gif" width="150">
