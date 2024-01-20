@@ -261,6 +261,12 @@ Alim + RJ45 sur le côté
 Prises + jack sur l'autre côté 
 
 Faire PCB avec uniquement empreinte esp (+ jack?)
++ dessiner empreinte triac + dissipateur pour valider écartement
+
+pinout jack :
+  - VCC au bout,
+  - GND sur le corps
+  - DATA 2 milieux reliés ensemble
 
 ## Notes
 
