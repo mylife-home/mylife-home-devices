@@ -244,13 +244,23 @@
     - on peut manoeuvrer les clips depuis l'intérieur des prises pour démonter la multiprise après installation
     - vue de haut, empreinte des prises sur le CI = 110x30
 
+## Proto 3
 
-TODO: acheter prise C14 a clip : https://fr.rs-online.com/web/p/connecteurs-iec/0481623
+### Objectifs
+
+- Taille CI dans boitier
+- Emplacement ESP32 pour sortie RJ45
+- Emplacement Jack pour sortie boitier
+- Est-ce que le PCB peut passer sous les prises ?
+
+TODO: 
+
+Recevoir C13 à clip
 
 Alim + RJ45 sur le côté
 Prises + jack sur l'autre côté 
 
-Tester perçage + faire ci avec uniquement empreinte esp (+ jack?)
+Faire PCB avec uniquement empreinte esp (+ jack?)
 
 ## Notes
 
