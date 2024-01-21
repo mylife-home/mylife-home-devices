@@ -272,6 +272,15 @@ TODO:
 Recevoir C13 à clip
 Recevoir et tester vis autotareudeuse
 
+Prix : 
+- build :  19.20
+- envoi :  19.00
+- douane : 7.64
+Total :    45.85
+
+Faire une v1 et regarder son prix
+Si peu d'ecart, commander V1 quite à la rater
+
 
 ## Notes
 
