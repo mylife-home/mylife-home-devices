@@ -97,7 +97,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp 57599db1-74ba-4fc7-8136-1a98cf6b383e)
-    (at 159.385 54.61)
+    (at 168.656 54.864)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 9994f112-0c22-4407-a2de-8375726b512a)
@@ -111,7 +111,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp 595c591d-5835-4620-ae10-446abf3a71bd)
-    (at 197.875 56.025)
+    (at 207.146 56.279)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 2cadba9a-57f3-4862-a221-c2dd34f21b36)
@@ -125,7 +125,7 @@
 
   (footprint "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" (layer "F.Cu")
     (tstamp 737fc684-6faf-44fc-b606-2533e358e8d7)
-    (at 95.25 64.77 90)
+    (at 104.521 65.024 90)
     (descr "Heatsink, 35mm x 13mm, 2x Fixation 2,5mm Drill, Soldering, Fischer SK104-STC-STIC,")
     (tags "Heatsink fischer TO-220")
     (property "Sheetfile" "bed-smart-plug.kicad_sch")
@@ -357,7 +357,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp ac3ff705-31f3-427b-a707-f5bc537d57f9)
-    (at 83.125 56.025)
+    (at 92.396 56.279)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp a0a7fcf6-974e-4307-b11a-c672f44859ff)
@@ -371,7 +371,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp af7b501c-e164-43f4-8a75-6667855bd6d5)
-    (at 197.875 110.275)
+    (at 207.146 110.529)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 71dddaee-b4ac-4362-9682-667212c9c7e9)
@@ -385,7 +385,7 @@
 
   (footprint "mylife-footprints:ESP32-POE" (layer "F.Cu")
     (tstamp c124f288-ad60-40d1-9fa3-8e8b6013e3b3)
-    (at 175.765 68.54 90)
+    (at 185.036 68.794 90)
     (property "Sheetfile" "bed-smart-plug.kicad_sch")
     (property "Sheetname" "")
     (path "/e9dc7661-a02d-458c-8eb0-2b730755d2e1")
@@ -472,7 +472,7 @@
 
   (footprint "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" (layer "F.Cu")
     (tstamp c7ad4942-5a5c-461c-aa3d-ef0149e337eb)
-    (at 206.553 87.63 180)
+    (at 215.459 77.724 180)
     (descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)")
     (tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
     (property "LCSC" "C521460")
@@ -564,7 +564,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp d29a9cd7-2d0e-40b7-9da7-679338cf01f0)
-    (at 98.735 67.31 90)
+    (at 108.006 67.564 90)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "bed-smart-plug.kicad_sch")
@@ -636,7 +636,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp eedd5af3-f18b-44d1-a05c-36447a2e4c86)
-    (at 83.125 110.275)
+    (at 92.396 110.529)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 80b00674-cb01-480c-91c3-83e58d2ca18a)
@@ -650,7 +650,7 @@
 
   (footprint "" (layer "F.Cu")
     (tstamp f2a2f8ee-9b73-41ac-85ea-3713db4184dd)
-    (at 159.385 82.55)
+    (at 168.656 82.804)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 82429c1f-fc1b-497d-9398-824dad2ccfa8)
@@ -659,24 +659,37 @@
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 17c0db9b-7f0d-4a74-9336-52b515af3506)
     )
-    (pad "1" thru_hole circle (at 0 0) (size 8 8) (drill 5) (layers "*.Cu" "*.Mask") (tstamp 29294d56-41f1-4ba6-be62-297226dcdbdf))
+    (pad "1" thru_hole circle (at 0 0) (size 8 8) (drill 5) (layers "*.Cu" "*.Mask") (tstamp cc3c464d-a0f0-4a67-bf8d-3a5e9b84701d))
   )
 
-  (gr_circle (center 213 120.65) (end 217.5 120.65)
+  (gr_rect (start 77.271 90.904) (end 187.271 120.904)
+    (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp 5e42b57e-66bc-4378-a3c3-0148e6af08fe))
+  (gr_circle (center 222.271 120.904) (end 226.771 120.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 18a4f5f8-4fee-4b06-b12c-8147c90756bc))
-  (gr_circle (center 68 120.65) (end 72.5 120.65)
+  (gr_circle (center 77.271 120.904) (end 81.771 120.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 34268e21-39bf-425e-b005-ed5917dcb805))
-  (gr_rect (start 68 45.65) (end 213 120.65)
+  (gr_rect (start 77.271 45.904) (end 222.271 120.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 4bf9e2b3-2087-4ee8-8d71-0b3b39ee3929))
-  (gr_circle (center 213 45.65) (end 217.5 45.65)
+  (gr_circle (center 222.271 45.904) (end 226.771 45.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 9f874078-e19f-44d1-b8b9-f88d6b20dfa4))
-  (gr_circle (center 68 45.65) (end 72.5 45.65)
+  (gr_circle (center 77.271 45.904) (end 81.771 45.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp d18768aa-1be8-4249-872b-6b19cd933eb1))
 
   (group "" (id aa676b0e-43df-40bd-a189-b9438bbf0dca)
     (members
       737fc684-6faf-44fc-b606-2533e358e8d7
       d29a9cd7-2d0e-40b7-9da7-679338cf01f0
+    )
+  )
+  (group "" (id d873e063-1830-4c9e-87b8-e724d0f76482)
+    (members
+      c124f288-ad60-40d1-9fa3-8e8b6013e3b3
+    )
+  )
+  (group "" (id 8dfabb76-7ca3-4096-acee-d093274d5469)
+    (members
+      4bf9e2b3-2087-4ee8-8d71-0b3b39ee3929
+      5e42b57e-66bc-4378-a3c3-0148e6af08fe
     )
   )
 )

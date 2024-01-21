@@ -272,10 +272,6 @@ TODO:
 Recevoir C13 à clip
 Recevoir et tester vis autotareudeuse
 
-PCB :
-- Dessiner la ligne 110x30
-- Voir sur proto1 si on peu mettre hack sous esp32 -> Oui
-
 
 ## Notes
 
