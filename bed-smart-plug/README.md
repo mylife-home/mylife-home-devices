@@ -259,22 +259,23 @@
 - Emplacement Jack pour sortie boitier
 - Est-ce que le PCB peut passer sous les prises ?
 
-TODO: 
-
-Recevoir C13 à clip
-
 Alim + RJ45 sur le côté
 Prises + jack sur l'autre côté 
-
-Faire PCB avec uniquement empreinte esp (+ jack?)
-+ dessiner empreinte triac + dissipateur pour valider écartement
 
 pinout jack :
   - VCC au bout,
   - GND sur le corps
   - DATA 2 milieux reliés ensemble
 
-tester visser PCB avec vis gardenbox
+TODO: 
+
+Recevoir C13 à clip
+Recevoir et tester vis autotareudeuse
+
+PCB :
+- Dessiner la ligne 110x30
+- Voir sur proto1 si on peu mettre hack sous esp32 -> Oui
+
 
 ## Notes
 
