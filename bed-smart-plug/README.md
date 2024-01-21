@@ -263,9 +263,9 @@ Alim + RJ45 sur le côté
 Prises + jack sur l'autre côté 
 
 pinout jack :
-  - VCC au bout,
-  - GND sur le corps
-  - DATA 2 milieux reliés ensemble
+  - VCC au bout => 4
+  - GND sur le corps => 1
+  - DATA 2 milieux reliés ensemble => 2-3
 
 TODO: 
 
@@ -281,6 +281,9 @@ Total :    45.85
 Faire une v1 et regarder son prix
 Si peu d'ecart, commander V1 quite à la rater
 
+## V1
+
+Schematic OK
 
 ## Notes
 
