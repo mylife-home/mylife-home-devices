@@ -665,15 +665,15 @@
   (gr_rect (start 77.271 90.904) (end 187.271 120.904)
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp 5e42b57e-66bc-4378-a3c3-0148e6af08fe))
   (gr_circle (center 222.271 120.904) (end 226.771 120.904)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 18a4f5f8-4fee-4b06-b12c-8147c90756bc))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Edge.Cuts") (tstamp 18a4f5f8-4fee-4b06-b12c-8147c90756bc))
   (gr_circle (center 77.271 120.904) (end 81.771 120.904)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 34268e21-39bf-425e-b005-ed5917dcb805))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Edge.Cuts") (tstamp 34268e21-39bf-425e-b005-ed5917dcb805))
   (gr_rect (start 77.271 45.904) (end 222.271 120.904)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 4bf9e2b3-2087-4ee8-8d71-0b3b39ee3929))
   (gr_circle (center 222.271 45.904) (end 226.771 45.904)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 9f874078-e19f-44d1-b8b9-f88d6b20dfa4))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Edge.Cuts") (tstamp 9f874078-e19f-44d1-b8b9-f88d6b20dfa4))
   (gr_circle (center 77.271 45.904) (end 81.771 45.904)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp d18768aa-1be8-4249-872b-6b19cd933eb1))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Edge.Cuts") (tstamp d18768aa-1be8-4249-872b-6b19cd933eb1))
 
   (group "" (id aa676b0e-43df-40bd-a189-b9438bbf0dca)
     (members
@@ -686,10 +686,13 @@
       c124f288-ad60-40d1-9fa3-8e8b6013e3b3
     )
   )
-  (group "" (id 8dfabb76-7ca3-4096-acee-d093274d5469)
+  (group "" (id 46ad2dc2-f29f-48e6-8d92-ec9640e11ae7)
     (members
+      18a4f5f8-4fee-4b06-b12c-8147c90756bc
+      34268e21-39bf-425e-b005-ed5917dcb805
       4bf9e2b3-2087-4ee8-8d71-0b3b39ee3929
-      5e42b57e-66bc-4378-a3c3-0148e6af08fe
+      9f874078-e19f-44d1-b8b9-f88d6b20dfa4
+      d18768aa-1be8-4249-872b-6b19cd933eb1
     )
   )
 )
