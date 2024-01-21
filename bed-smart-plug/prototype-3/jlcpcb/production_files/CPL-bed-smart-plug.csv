@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-HS1,Heatsink,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,104.521,-65.024,90.0,top
-J3,3.5mm headphone jack,Jack_3.5mm_PJ320D_Horizontal,215.459,-77.724,180.0,top
-Q1,BT136-600E,TO-220-3_Vertical,107.061,-65.024,90.0,top
-U1,ESP32-POE,ESP32-POE,181.3515,-68.824,90.0,top
+HS1,Heatsink,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,103.55,-77.82,90.0,top
+J3,3.5mm headphone jack,Jack_3.5mm_PJ320D_Horizontal,214.488,-90.52,180.0,top
+Q1,BT136-600E,TO-220-3_Vertical,106.09,-77.82,90.0,top
+U1,ESP32-POE,ESP32-POE,180.3805,-81.62,90.0,top
