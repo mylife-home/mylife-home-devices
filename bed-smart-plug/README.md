@@ -158,6 +158,9 @@
   - 4 : extrémité pin central
 
   Attention : bien enfoncer la prise
+  - On peut mettre la prise sous l'ESP
+
+  <img src="pictures/proto1/jack-under-esp.jpg" width="300">
 
 - Récepteur 433mhz
   - Les 2 pins data sont reliés ensemble 
