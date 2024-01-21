@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+3.5mm headphone jack,J3,Jack_3.5mm_PJ320D_Horizontal,C521460
+Heatsink,HS1,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,
+ESP32-POE,U1,ESP32-POE,
+BT136-600E,Q1,TO-220-3_Vertical,
