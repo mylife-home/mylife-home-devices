@@ -64,6 +64,7 @@
   - https://fr.rs-online.com/web/p/boitiers-pour-usage-general/8180494
     - noir comme les connecteurs C13/C14
     - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
+  - Vis de fixation PCB : https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831202
 - Prises :
   - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
   - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
