@@ -249,6 +249,7 @@
     - branchement/debranchement prise OK
     - on peut manoeuvrer les clips depuis l'intérieur des prises pour démonter la multiprise après installation
     - vue de haut, empreinte des prises sur le CI = 110x30
+- Vis de fixation PCB OK
 
 ## Proto 3
 
@@ -256,23 +257,18 @@
 
 - Taille CI dans boitier
 - Emplacement ESP32 pour sortie RJ45
-- Emplacement Jack pour sortie boitier
+- Emplacement Jack pour sortie boitier -> elle doit passer sous RJ45
 - Est-ce que le PCB peut passer sous les prises ?
-
-Alim + RJ45 sur le côté
-Prises + jack sur l'autre côté 
+  -> oui sous prise alim (plus petite que sorties)
+  -> essayer de mettre prise alim a côté de prises sorties
+  -> faire un PCB qui ne passe pas sous prises sorties (inutile)
 
 pinout jack :
   - VCC au bout => 4
   - GND sur le corps => 1
   - DATA 2 milieux reliés ensemble => 2-3
 
-TODO: 
-
-Recevoir C13 à clip
-Recevoir et tester vis autotareudeuse
-
-Prix : 
+Prix proto : 
 - build :  19.20
 - envoi :  19.00
 - douane : 7.64
