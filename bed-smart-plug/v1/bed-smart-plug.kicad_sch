@@ -99,88 +99,11 @@
         )
       )
     )
-    (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
+    (symbol "Connector:Screw_Terminal_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "screw terminal" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Screw_Terminal_01x02_1_1"
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center 0 -2.54) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.5334 -2.2098)
-            (xy 0.3302 -3.048)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.5334 0.3302)
-            (xy 0.3302 -0.508)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.3556 -2.032)
-            (xy 0.508 -2.8702)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.3556 0.508)
-            (xy 0.508 -0.3302)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Screw_Terminal_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Screw_Terminal_01x04" (at 0 -7.62 0)
+      (property "Value" "Screw_Terminal_01x06" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -192,22 +115,34 @@
       (property "ki_keywords" "screw terminal" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Screw_Terminal_01x04_1_1"
-        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
+      (symbol "Screw_Terminal_01x06_1_1"
+        (rectangle (start -1.27 6.35) (end 1.27 -8.89)
           (stroke (width 0.254) (type default))
           (fill (type background))
+        )
+        (circle (center 0 -7.62) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
         )
         (circle (center 0 -5.08) (radius 0.635)
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
         (circle (center 0 -2.54) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 -7.2898)
+            (xy 0.3302 -8.128)
+          )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
@@ -245,6 +180,22 @@
         )
         (polyline
           (pts
+            (xy -0.5334 5.4102)
+            (xy 0.3302 4.572)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 -7.112)
+            (xy 0.508 -7.9502)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
             (xy -0.3556 -4.572)
             (xy 0.508 -5.4102)
           )
@@ -275,6 +226,14 @@
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy -0.3556 5.588)
+            (xy 0.508 4.7498)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
         (circle (center 0 0) (radius 0.635)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -283,21 +242,33 @@
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
+        (circle (center 0 5.08) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 5.08 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 0 0) (length 3.81)
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+        (pin passive line (at -5.08 0 0) (length 3.81)
           (name "Pin_3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
           (name "Pin_4" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -7.62 0) (length 3.81)
+          (name "Pin_6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1451,10 +1422,6 @@
     (stroke (width 0) (type default))
     (uuid 1be147a3-150d-422a-9633-6d4c59cc5a9d)
   )
-  (wire (pts (xy 133.35 184.15) (xy 130.81 184.15))
-    (stroke (width 0) (type default))
-    (uuid 2035ea48-3ef5-4d7f-8c3c-50981b30c89a)
-  )
   (wire (pts (xy 191.77 40.64) (xy 191.77 43.18))
     (stroke (width 0) (type default))
     (uuid 20726915-4acd-44e8-a867-175d9b5cbeea)
@@ -1659,10 +1626,6 @@
     (stroke (width 0) (type default))
     (uuid 79bff3b4-6099-4c90-905f-86bb87c38fe2)
   )
-  (wire (pts (xy 133.35 186.69) (xy 130.81 186.69))
-    (stroke (width 0) (type default))
-    (uuid 7a2f50f6-0c99-4e8d-9c2a-8f2f961d2e6d)
-  )
   (wire (pts (xy 158.75 74.93) (xy 157.48 74.93))
     (stroke (width 0) (type default))
     (uuid 7b5fc3d7-67ab-4218-8653-6c1d9fcc6c99)
@@ -1791,6 +1754,10 @@
     (stroke (width 0) (type default))
     (uuid af1e78e9-f030-4892-91d7-ee0488eabd52)
   )
+  (wire (pts (xy 257.81 92.71) (xy 255.27 92.71))
+    (stroke (width 0) (type default))
+    (uuid b461dd65-ded1-41e4-a10f-c954b587ef6b)
+  )
   (wire (pts (xy 97.79 142.24) (xy 93.98 142.24))
     (stroke (width 0) (type default))
     (uuid b6a99032-7873-4d2b-967a-6b572cad9797)
@@ -1850,6 +1817,10 @@
   (wire (pts (xy 210.82 69.85) (xy 210.82 100.33))
     (stroke (width 0) (type default))
     (uuid cbc4767e-70a9-4917-940a-aa1e72f01d30)
+  )
+  (wire (pts (xy 257.81 90.17) (xy 255.27 90.17))
+    (stroke (width 0) (type default))
+    (uuid cbd4adda-ee9d-47c1-b594-819e32af8bca)
   )
   (wire (pts (xy 62.23 187.96) (xy 62.23 181.61))
     (stroke (width 0) (type default))
@@ -2077,7 +2048,7 @@
   (symbol (lib_id "power:GND") (at 157.48 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060a962c6)
-    (property "Reference" "#PWR010" (at 157.48 54.61 0)
+    (property "Reference" "#PWR018" (at 157.48 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.607 52.6542 0)
@@ -2093,7 +2064,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2102,7 +2073,7 @@
   (symbol (lib_id "power:GND") (at 144.78 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060b36b9f)
-    (property "Reference" "#PWR09" (at 144.78 64.77 0)
+    (property "Reference" "#PWR014" (at 144.78 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.907 62.8142 0)
@@ -2118,7 +2089,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2127,7 +2098,7 @@
   (symbol (lib_id "power:LINE") (at 251.46 20.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c676e6)
-    (property "Reference" "#PWR018" (at 247.65 20.32 0)
+    (property "Reference" "#PWR022" (at 247.65 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LINE" (at 254.7112 20.7518 90)
@@ -2143,57 +2114,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:LINE") (at 130.81 184.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000060c768e1)
-    (property "Reference" "#PWR015" (at 134.62 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "LINE" (at 127.5588 183.6928 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 130.81 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 130.81 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2ce62814-1fd7-4b41-b5b1-ec2bd852795c))
-    (instances
-      (project "bed-smart-plug"
-        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:NEUT") (at 130.81 186.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000060c8a62f)
-    (property "Reference" "#PWR016" (at 134.62 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "NEUT" (at 127.5588 186.2328 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 130.81 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 130.81 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid db5e182a-ea8b-4395-9250-d49918e57eb2))
-    (instances
-      (project "bed-smart-plug"
-        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2234,7 +2155,7 @@
   (symbol (lib_id "power:GND") (at 67.31 154.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f84b37)
-    (property "Reference" "#PWR08" (at 67.31 161.29 0)
+    (property "Reference" "#PWR09" (at 67.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.183 159.3342 0)
@@ -2250,7 +2171,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2259,7 +2180,7 @@
   (symbol (lib_id "power:+3.3V") (at 67.31 138.43 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f8e40f)
-    (property "Reference" "#PWR07" (at 67.31 142.24 0)
+    (property "Reference" "#PWR08" (at 67.31 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 66.929 134.0358 0)
@@ -2275,7 +2196,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2284,7 +2205,7 @@
   (symbol (lib_id "power:GND") (at 144.78 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06250ae8-3ad2-4356-bb2c-50ab59620094)
-    (property "Reference" "#PWR026" (at 144.78 154.94 0)
+    (property "Reference" "#PWR017" (at 144.78 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.907 152.9842 0)
@@ -2300,7 +2221,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2358,7 +2279,7 @@
   (symbol (lib_id "power:GND") (at 144.78 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16f55a64-b2cb-41d1-bc70-116f34c4c0e6)
-    (property "Reference" "#PWR01" (at 144.78 93.98 0)
+    (property "Reference" "#PWR015" (at 144.78 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.907 92.0242 0)
@@ -2374,7 +2295,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2383,7 +2304,7 @@
   (symbol (lib_id "power:+3.3V") (at 55.88 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 187210e3-8f5d-4869-91f2-78410e464ee6)
-    (property "Reference" "#PWR06" (at 55.88 105.41 0)
+    (property "Reference" "#PWR04" (at 55.88 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 55.88 97.9955 0)
@@ -2399,7 +2320,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "garden-box"
@@ -2465,7 +2386,7 @@
   (symbol (lib_id "power:LINE") (at 67.31 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fed6dd1-17fe-40ef-946b-962000c74a88)
-    (property "Reference" "#PWR012" (at 67.31 185.42 0)
+    (property "Reference" "#PWR010" (at 67.31 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LINE" (at 67.31 176.53 0)
@@ -2481,7 +2402,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "clim-driver"
@@ -2495,7 +2416,7 @@
   (symbol (lib_id "power:GND") (at 157.48 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a5035d8-ecde-4691-91d4-675862876fac)
-    (property "Reference" "#PWR024" (at 157.48 114.3 0)
+    (property "Reference" "#PWR020" (at 157.48 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.607 112.3442 0)
@@ -2511,7 +2432,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2520,7 +2441,7 @@
   (symbol (lib_id "power:GND") (at 157.48 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31357e5d-c619-44f8-9674-3abf9c183ff1)
-    (property "Reference" "#PWR027" (at 157.48 144.78 0)
+    (property "Reference" "#PWR021" (at 157.48 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.607 142.8242 0)
@@ -2536,7 +2457,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2578,7 +2499,7 @@
   (symbol (lib_id "Device:R") (at 152.4 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d86d559-7e09-40bc-a023-e769b8226034)
-    (property "Reference" "R12" (at 152.4 95.0722 90)
+    (property "Reference" "R11" (at 152.4 95.0722 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220Ω" (at 152.4 97.3836 90)
@@ -2598,7 +2519,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "prototype"
@@ -2609,10 +2530,35 @@
     )
   )
 
+  (symbol (lib_id "power:LINE") (at 255.27 90.17 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5252e3ae-33d6-4998-a535-14279469128b)
+    (property "Reference" "#PWR023" (at 259.08 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "LINE" (at 252.0188 89.7128 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 255.27 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 255.27 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1a10b3b7-d2ad-4c86-aaa7-69f5aaf8ee72))
+    (instances
+      (project "bed-smart-plug"
+        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 157.48 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57750b55-9320-49d0-818c-4c06b12462c3)
-    (property "Reference" "#PWR02" (at 157.48 83.82 0)
+    (property "Reference" "#PWR019" (at 157.48 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.607 81.8642 0)
@@ -2628,7 +2574,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2637,7 +2583,7 @@
   (symbol (lib_id "Device:R") (at 116.84 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57dae4bc-e1ea-470b-ac4c-c6cbfe60b0e3)
-    (property "Reference" "R6" (at 113.03 137.16 0)
+    (property "Reference" "R3" (at 113.03 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10KΩ" (at 113.03 139.7 0)
@@ -2657,7 +2603,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "prototype"
@@ -2737,7 +2683,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 639d575f-8800-49ac-a6b0-a64cf9d74d10)
-    (property "Reference" "#PWR013" (at 116.84 186.69 0)
+    (property "Reference" "#PWR012" (at 116.84 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 116.84 177.8 0)
@@ -2753,7 +2699,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "clim-driver"
@@ -2767,7 +2713,7 @@
   (symbol (lib_id "power:+3.3V") (at 59.69 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6527add8-43a4-41df-84ad-f2406f840c0c)
-    (property "Reference" "#PWR04" (at 59.69 55.88 0)
+    (property "Reference" "#PWR05" (at 59.69 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 59.69 48.4655 0)
@@ -2783,12 +2729,42 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "garden-box"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Screw_Terminal_01x06") (at 262.89 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 66534f27-8767-474e-85cc-3ec026e203da)
+    (property "Reference" "J2" (at 265.43 95.885 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Main + Sorties" (at 265.43 98.425 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-6_P5.08mm" (at 262.89 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 262.89 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ddf9580-4eff-4949-be55-79fc79a419b9))
+    (pin "2" (uuid 939f39ba-3764-48d1-93be-8f3f82c8a7aa))
+    (pin "3" (uuid 8bcd7be8-7137-48ed-b699-210d4eb8309a))
+    (pin "4" (uuid aa464317-be48-4b01-b348-9c119d2bf2e3))
+    (pin "5" (uuid 2ce0d4d1-f143-43dd-99dc-4449f55358f8))
+    (pin "6" (uuid 56fb6b98-d54c-41d5-a868-fc6f4c503cd1))
+    (instances
+      (project "bed-smart-plug"
+        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2841,32 +2817,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a16e5b04-0bbd-4b95-8920-0af52178cf5c"
           (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 138.43 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6da4e687-c2bd-4c9c-88df-874662c30276)
-    (property "Reference" "J7" (at 140.462 184.3532 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Main" (at 140.462 186.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (at 138.43 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 56ed16ae-7047-4acc-b2ab-37a376101565))
-    (pin "2" (uuid f083dcac-4c0c-440a-b2be-61861232e993))
-    (instances
-      (project "bed-smart-plug"
-        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "J7") (unit 1)
         )
       )
     )
@@ -2927,7 +2877,7 @@
   (symbol (lib_id "Device:R") (at 152.4 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75268c69-c8dc-479c-98af-da5970e72636)
-    (property "Reference" "R9" (at 152.4 64.5922 90)
+    (property "Reference" "R10" (at 152.4 64.5922 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220Ω" (at 152.4 66.9036 90)
@@ -2947,7 +2897,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "prototype"
@@ -2961,7 +2911,7 @@
   (symbol (lib_id "power:GND") (at 50.8 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7dd0e15e-c345-4b75-8648-f0d3af364d7f)
-    (property "Reference" "#PWR020" (at 50.8 137.16 0)
+    (property "Reference" "#PWR02" (at 50.8 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.927 135.2042 0)
@@ -2977,7 +2927,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "garden-box"
@@ -3075,7 +3025,7 @@
   (symbol (lib_id "Mechanical:Heatsink") (at 191.77 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99cd6afd-919f-46d7-9caf-bbd2e03dbb4d)
-    (property "Reference" "HS3" (at 195.3768 121.3866 0)
+    (property "Reference" "HS2" (at 195.3768 121.3866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Heatsink (shared by 2 triacs)" (at 195.3768 123.698 0)
@@ -3090,7 +3040,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "HS3") (unit 1)
+          (reference "HS2") (unit 1)
         )
       )
     )
@@ -3158,7 +3108,7 @@
   (symbol (lib_id "Device:R") (at 152.4 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab5ebb94-8219-4081-95bb-6ccbc2ede713)
-    (property "Reference" "R3" (at 152.4 35.3822 90)
+    (property "Reference" "R9" (at 152.4 35.3822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220Ω" (at 152.4 37.6936 90)
@@ -3178,7 +3128,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R3") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "prototype"
@@ -3192,7 +3142,7 @@
   (symbol (lib_id "Device:R") (at 181.61 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac60b567-3c1c-4c4d-8dd9-e98becebc799)
-    (property "Reference" "R4" (at 181.61 35.3822 90)
+    (property "Reference" "R13" (at 181.61 35.3822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "360Ω/0.5W" (at 181.61 37.6936 90)
@@ -3212,7 +3162,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R4") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "prototype"
@@ -3253,7 +3203,7 @@
   (symbol (lib_id "Device:R") (at 152.4 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ace4223f-c8dd-4b32-bfba-07928db3022c)
-    (property "Reference" "R15" (at 152.4 125.5522 90)
+    (property "Reference" "R12" (at 152.4 125.5522 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220Ω" (at 152.4 127.8636 90)
@@ -3273,7 +3223,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R15") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "prototype"
@@ -3287,7 +3237,7 @@
   (symbol (lib_id "power:GND") (at 116.84 161.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5f09a10-ca87-4058-b7a9-851a1ad49f53)
-    (property "Reference" "#PWR019" (at 116.84 167.64 0)
+    (property "Reference" "#PWR011" (at 116.84 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.713 165.6842 0)
@@ -3303,7 +3253,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3312,7 +3262,7 @@
   (symbol (lib_id "Connector:AudioJack4") (at 35.56 115.57 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bac7ef52-a622-462c-a264-9bff4b1b6b77)
-    (property "Reference" "J2" (at 34.29 120.65 0)
+    (property "Reference" "J1" (at 34.29 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3.5mm headphone jack" (at 39.37 106.68 0)
@@ -3334,7 +3284,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "v1"
@@ -3382,7 +3332,7 @@
   (symbol (lib_id "power:GND") (at 116.84 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0768256-b3d8-4c58-a964-45b2b4e4aadc)
-    (property "Reference" "#PWR014" (at 116.84 194.31 0)
+    (property "Reference" "#PWR013" (at 116.84 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.967 192.3542 0)
@@ -3398,7 +3348,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "clim-driver"
@@ -3412,7 +3362,7 @@
   (symbol (lib_id "Device:R") (at 144.78 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c53cc243-0a97-41c9-a1c6-78d48bcc4887)
-    (property "Reference" "R2" (at 140.97 44.45 0)
+    (property "Reference" "R5" (at 140.97 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330Ω" (at 140.97 46.99 0)
@@ -3432,7 +3382,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "prototype"
@@ -3446,7 +3396,7 @@
   (symbol (lib_id "Device:R") (at 144.78 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c624648b-b3b4-4d8b-823c-d67e0418731e)
-    (property "Reference" "R11" (at 140.97 104.14 0)
+    (property "Reference" "R7" (at 140.97 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330Ω" (at 140.97 106.68 0)
@@ -3466,7 +3416,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "prototype"
@@ -3480,7 +3430,7 @@
   (symbol (lib_id "power:+3.3V") (at 43.18 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c97a8f0c-e4ac-412f-b91c-104f77a23416)
-    (property "Reference" "#PWR021" (at 43.18 110.49 0)
+    (property "Reference" "#PWR01" (at 43.18 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 43.18 103.0755 0)
@@ -3496,7 +3446,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "garden-box"
@@ -3544,7 +3494,7 @@
   (symbol (lib_id "Device:R") (at 181.61 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cddab7fe-99ac-461c-9ed3-2472ed2802b0)
-    (property "Reference" "R10" (at 181.61 64.5922 90)
+    (property "Reference" "R14" (at 181.61 64.5922 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "360Ω/0.5W" (at 181.61 66.9036 90)
@@ -3564,7 +3514,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "prototype"
@@ -3575,10 +3525,35 @@
     )
   )
 
+  (symbol (lib_id "power:NEUT") (at 255.27 92.71 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d1fa9178-71cf-43f8-bda2-fdd3dbe6b6bd)
+    (property "Reference" "#PWR024" (at 259.08 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "NEUT" (at 252.0188 92.2528 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 255.27 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 255.27 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid deb5887e-0ede-4ded-a03c-f938966c490b))
+    (instances
+      (project "bed-smart-plug"
+        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 181.61 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d283a37f-7aa7-407c-9dfa-2711e9cd76c4)
-    (property "Reference" "R13" (at 181.61 95.0722 90)
+    (property "Reference" "R15" (at 181.61 95.0722 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "360Ω/0.5W" (at 181.61 97.3836 90)
@@ -3598,7 +3573,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "prototype"
@@ -3612,7 +3587,7 @@
   (symbol (lib_id "power:+5V") (at 64.77 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4be32f1-a40d-4437-8c66-3312fa5a26b2)
-    (property "Reference" "#PWR05" (at 64.77 55.88 0)
+    (property "Reference" "#PWR07" (at 64.77 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.77 48.4655 0)
@@ -3628,7 +3603,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "garden-box"
@@ -3642,7 +3617,7 @@
   (symbol (lib_id "power:NEUT") (at 62.23 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4c78bae-8d5d-487e-9f78-0536c32dfb9f)
-    (property "Reference" "#PWR011" (at 62.23 185.42 0)
+    (property "Reference" "#PWR06" (at 62.23 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "NEUT" (at 62.23 176.53 0)
@@ -3658,7 +3633,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "clim-driver"
@@ -3672,7 +3647,7 @@
   (symbol (lib_id "Device:R") (at 144.78 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df8f8460-26d4-4823-b7a7-dffffb5986d8)
-    (property "Reference" "R8" (at 140.97 73.66 0)
+    (property "Reference" "R6" (at 140.97 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330Ω" (at 140.97 76.2 0)
@@ -3692,7 +3667,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "prototype"
@@ -3706,7 +3681,7 @@
   (symbol (lib_id "power:GND") (at 144.78 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfd5105b-8481-4925-a51c-4fd098c945bc)
-    (property "Reference" "#PWR023" (at 144.78 124.46 0)
+    (property "Reference" "#PWR016" (at 144.78 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.907 122.5042 0)
@@ -3722,7 +3697,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3783,7 +3758,7 @@
   (symbol (lib_id "Device:R") (at 106.68 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e619b3e5-488e-488a-a86a-9984725311fe)
-    (property "Reference" "R5" (at 102.87 138.43 0)
+    (property "Reference" "R2" (at 102.87 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10KΩ" (at 102.87 140.97 0)
@@ -3803,7 +3778,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R5") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "prototype"
@@ -3817,7 +3792,7 @@
   (symbol (lib_id "Device:R") (at 144.78 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea5cf0d9-7040-4684-bb35-dd8cd85c7e75)
-    (property "Reference" "R14" (at 140.97 134.62 0)
+    (property "Reference" "R8" (at 140.97 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330Ω" (at 140.97 137.16 0)
@@ -3837,7 +3812,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R14") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "prototype"
@@ -3848,38 +3823,10 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x04") (at 262.89 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f168a3fe-1553-4f35-82c0-43d58b2283e6)
-    (property "Reference" "J5" (at 265.43 98.425 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Sorties" (at 265.43 100.965 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 262.89 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 262.89 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8457e79-3f6d-450b-a54d-9d2fc56724f5))
-    (pin "2" (uuid c07d399c-5fb2-4b7f-8585-eeb10f2c085f))
-    (pin "3" (uuid 29b3ad75-6ec9-4eb6-b374-4ed83f7b12fc))
-    (pin "4" (uuid 72558cac-57d9-4e21-96d0-88928f7bfd3a))
-    (instances
-      (project "bed-smart-plug"
-        (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 116.84 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f975e22f-f8ad-447d-8f13-2f1f01292eb7)
-    (property "Reference" "R7" (at 113.03 149.86 0)
+    (property "Reference" "R4" (at 113.03 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10KΩ" (at 113.03 152.4 0)
@@ -3899,7 +3846,7 @@
     (instances
       (project "bed-smart-plug"
         (path "/099096e4-8c2a-4d84-a16f-06b4b6330e7a"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "prototype"
