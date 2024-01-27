@@ -263,23 +263,24 @@
   -> essayer de mettre prise alim a côté de prises sorties
   -> faire un PCB qui ne passe pas sous prises sorties (inutile)
 
-pinout jack :
-  - VCC au bout => 4
-  - GND sur le corps => 1
-  - DATA 2 milieux reliés ensemble => 2-3
+Abandonné car gros cher vs V1
 
 Prix proto : 
-- build :  19.20
-- envoi :  19.00
-- douane : 7.64
-Total :    45.85
+- build : 19.20
+- total : ~45eur
 
-Faire une v1 et regarder son prix
-Si peu d'ecart, commander V1 quite à la rater
+Prix v1 :
+- build : 43.06
+- total : ~70eur
 
 ## V1
 
-Schematic OK
+- Pinout jack :
+  - VCC au bout => 4
+  - GND sur le corps => 1
+  - DATA 2 milieux reliés ensemble => 2-3
+- Fusible devrait tenir
+- Borniers OK en hauteur, on verra s'ils tiennent car ils sont gros sinon il faudra en mettre des plus petits
 
 ## Notes
 
