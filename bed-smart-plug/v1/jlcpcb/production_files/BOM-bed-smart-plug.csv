@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,LCSC
+MOC3021M,"U3,U4,U5,U6",SMDIP-6_W9.53mm,C108500
+220Ω,"R10,R11,R12,R9",R_0603_1608Metric,C22962
+LED,"D1,D2,D3,D4",D_0805_2012Metric,C2297
+4.7KΩ,R1,R_0402_1005Metric,C25900
+360Ω/0.5W,"R13,R14,R15,R16",R_1210_3225Metric,C2759574
+330Ω,"R5,R6,R7,R8",R_0603_1608Metric,C2918523
+10KΩ,"R2,R3,R4",R_0603_1608Metric,C4226066
+3.5mm headphone jack,J1,Jack_3.5mm_PJ320D_Horizontal,C521460
+Heatsink (shared by 2 triacs),HS1,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,
+3A,F1,Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,
+BT136-600E,Q3,TO-220-3_Vertical,
+Antenna,AE1,PinHeader_1x01_P2.54mm_Vertical,
+ESP32-POE,U1,ESP32-POE,
+BT136-600E,Q4,TO-220-3_Vertical,
+QAM-RX10-433,U2,AMRX12A433P,
+Alim RS PRO 5V 1A,PS1,Converter_ACDC_MeanWell_IRM-03-xx_THT,
+Main + Sorties,J2,TerminalBlock_bornier-6_P5.08mm,
+Heatsink (shared by 2 triacs),HS2,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,
+BT136-600E,Q2,TO-220-3_Vertical,
+BT136-600E,Q1,TO-220-3_Vertical,
