@@ -282,6 +282,18 @@ Prix v1 :
 - Fusible devrait tenir
 - Borniers OK en hauteur, on verra s'ils tiennent car ils sont gros sinon il faudra en mettre des plus petits
 
+### Observations
+
+- Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
+- encoches angles PCB trop petits
+  => deplacer le dissipateur de gauche
+- Trous serre flex ESP OK
+- A TESTER : sortie RJ45
+- A TESTER : sortie Jack
+- A TESTER : place prise vs fusible
+- A TESTER : taille PCB ? (raboter les coins pour tester)
+- A TESTER : borniers vs ESP
+
 ## Notes
 
 - Schémas
