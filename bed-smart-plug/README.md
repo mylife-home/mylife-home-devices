@@ -293,6 +293,10 @@ Prix v1 :
 - A TESTER : place prise vs fusible
 - A TESTER : taille PCB ? (raboter les coins pour tester)
 - A TESTER : borniers vs ESP
+- Placement trous Vis PCB OK. 
+- A TESTER : visser PCB pour voir si les vis sont OK
+- Note : Découper avec cône, éventuellement guide en métal trous pour prise
+- Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
 
 ## Notes
 
