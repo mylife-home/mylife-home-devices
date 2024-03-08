@@ -296,6 +296,7 @@ Prix v1 :
   - Petit OK
 - Fusible passe sous prise, attention peu de place
 - A TESTER : sortie RJ45
+- A TESTER : empreinte prise au dessus du fusible
 - Notes :
   - Découper avec cône, éventuellement guide en métal trous pour prise
   - Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
