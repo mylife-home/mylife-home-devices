@@ -294,8 +294,8 @@ Prix v1 :
 - Borniers
   - Gros OK mais trop pret du bord de 2mm
   - Petit OK
+- Fusible passe sous prise, attention peu de place
 - A TESTER : sortie RJ45
-- A TESTER : place prise vs fusible
 - Notes :
   - Découper avec cône, éventuellement guide en métal trous pour prise
   - Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
