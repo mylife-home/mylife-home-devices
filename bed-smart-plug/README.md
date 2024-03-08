@@ -273,7 +273,7 @@ Prix v1 :
 - build : 43.06
 - total : ~70eur
 
-## V1
+## V1 (KO)
 
 - Pinout jack :
   - VCC au bout => 4
@@ -300,6 +300,8 @@ Prix v1 :
 - Notes :
   - Découper avec cône, éventuellement guide en métal trous pour prise
   - Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
+
+  <img src="pictures/v1/pcb-in-box.jpg" width="300">
 
 ## Notes
 
