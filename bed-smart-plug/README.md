@@ -288,15 +288,17 @@ Prix v1 :
 - encoches angles PCB trop petits
   => deplacer le dissipateur de gauche
 - Trous serre flex ESP OK
+- Taille PCB OK, refaire les coins un carré de 10mm de côté
+- Vis PCB OK (attention le taraudage use le trou, on ne peut pas visser/devisser 50x)
+- Sortie Jack OK, améliorer le placement (faire un gabarit en carton)
+- Borniers
+  - Gros OK mais trop pret du bord de 2mm
+  - Petit OK
 - A TESTER : sortie RJ45
-- A TESTER : sortie Jack
 - A TESTER : place prise vs fusible
-- A TESTER : taille PCB ? (raboter les coins pour tester)
-- A TESTER : borniers vs ESP
-- Placement trous Vis PCB OK. 
-- A TESTER : visser PCB pour voir si les vis sont OK
-- Note : Découper avec cône, éventuellement guide en métal trous pour prise
-- Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
+- Notes :
+  - Découper avec cône, éventuellement guide en métal trous pour prise
+  - Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
 
 ## Notes
 
