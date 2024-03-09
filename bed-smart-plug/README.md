@@ -285,10 +285,10 @@ Prix v1 :
 ### Observations
 
 - Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
-- encoches angles PCB trop petits
+- encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
   => deplacer le dissipateur de gauche
 - Trous serre flex ESP OK
-- Taille PCB OK, refaire les coins un carré de 10mm de côté
+- Taille PCB OK
 - Vis PCB OK (attention le taraudage use le trou, on ne peut pas visser/devisser 50x)
 - Sortie Jack OK, améliorer le placement (faire un gabarit en carton)
 - Borniers
@@ -297,8 +297,8 @@ Prix v1 :
 - Fusible passe sous prise, attention peu de place
 - Sortie RJ45 OK
 - Prise alim OK
+- A TESTER : pouvoir enlever/remettre l'ESP quand la carte est vissée (souder les pins pour l'ESP)
 - Notes :
-  - TODO : faire un gabarit en image (mspaint peut avoir une unité en cm qui sort correctement à l'imprimante) des 2 facades à percer
   - Utiliser avant dernier forêt placo pour faire les trous des angles
   - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
   - utiliser toute petite raboteuse métallique pour les finitions
@@ -309,6 +309,21 @@ Prix v1 :
   <img src="pictures/v1/alim-ext.jpg" width="300">
   <img src="pictures/v1/alim-int.jpg" width="300">
   <img src="pictures/v1/fusible-vs-prise.jpg" width="300">
+
+## V1.1
+
+PCB :
+- encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
+=> deplacer le dissipateur de gauche (peut depasser un peu du PCB sur le bas)
+- Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
+
+TODO : 
+- faire un gabarit en image (mspaint peut avoir une unité en cm qui sort correctement à l'imprimante) des 2 facades à percer
+
+- Notes :
+  - Utiliser avant dernier forêt placo pour faire les trous des angles
+  - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
+  - utiliser toute petite raboteuse métallique pour les finitions
 
 ## Notes
 
