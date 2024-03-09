@@ -285,7 +285,7 @@ Prix v1 :
 ### Observations
 
 - Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
-- encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
+- Encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
   => deplacer le dissipateur de gauche
 - Trous serre flex ESP OK
 - Taille PCB OK
