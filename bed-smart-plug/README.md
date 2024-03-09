@@ -297,7 +297,7 @@ Prix v1 :
 - Fusible passe sous prise, attention peu de place
 - Sortie RJ45 OK
 - Prise alim OK
-- A TESTER : pouvoir enlever/remettre l'ESP quand la carte est vissée (souder les pins pour l'ESP)
+- On peut mettre/enlever l'ESPESP quand la carte est vissée (le serre-flex semble même superflu, on peut le laisser quand même par sécurité)
 - Notes :
   - Utiliser avant dernier forêt placo pour faire les trous des angles
   - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
