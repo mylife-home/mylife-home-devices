@@ -295,13 +295,20 @@ Prix v1 :
   - Gros OK mais trop pret du bord de 2mm
   - Petit OK
 - Fusible passe sous prise, attention peu de place
-- A TESTER : sortie RJ45
-- A TESTER : empreinte prise au dessus du fusible
+- Sortie RJ45 OK
+- Prise alim OK
 - Notes :
-  - Découper avec cône, éventuellement guide en métal trous pour prise
-  - Faire un gabarit en carton pour façade avec prise RJ45 et jack (et prises ?)
+  - TODO : faire un gabarit en image (mspaint peut avoir une unité en cm qui sort correctement à l'imprimante) des 2 facades à percer
+  - Utiliser avant dernier forêt placo pour faire les trous des angles
+  - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
+  - utiliser toute petite raboteuse métallique pour les finitions
 
   <img src="pictures/v1/pcb-in-box.jpg" width="300">
+  <img src="pictures/v1/rj45-ext.jpg" width="300">
+  <img src="pictures/v1/rj45-int.jpg" width="300">
+  <img src="pictures/v1/alim-ext.jpg" width="300">
+  <img src="pictures/v1/alim-int.jpg" width="300">
+  <img src="pictures/v1/fusible-vs-prise.jpg" width="300">
 
 ## Notes
 
