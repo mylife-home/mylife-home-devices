@@ -312,6 +312,17 @@ Prix v1 :
 
 ## V1.1
 
+### Wiring
+
+### 3D view
+
+![](v1.1/3dview.png)
+
+### Main
+
+![](v1.1/schematic.png)
+
+
 PCB :
 - encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
 => deplacer le dissipateur de gauche (peut depasser un peu du PCB sur le bas)
