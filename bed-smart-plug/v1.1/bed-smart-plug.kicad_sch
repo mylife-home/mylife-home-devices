@@ -2027,7 +2027,7 @@
     (property "Value" "QAM-RX10-433" (at 83.82 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "mylife-footprints:AMRX12A433P" (at 83.82 138.43 0)
+    (property "Footprint" "mylife-footprints:QAM-RX10-433" (at 83.82 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.rs-online.com/f6fb/0900766b8158bd57.pdf" (at 83.82 138.43 0)
