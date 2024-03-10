@@ -1,0 +1,37 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,LED,D_0805_2012Metric,149.54,-91.93,90.0,top
+D2,LED,D_0805_2012Metric,153.35,-91.93,90.0,top
+D3,LED,D_0805_2012Metric,157.16,-91.93,90.0,top
+D4,LED,D_0805_2012Metric,160.97,-91.93,90.0,top
+F1,3A,Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,195.26,-103.18,90.0,top
+HS1,Heatsink (shared by 2 triacs),Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,86.295,-79.52,-90.0,top
+HS2,Heatsink (shared by 2 triacs),Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,104.3,-79.46,-90.0,top
+J1,3.5mm headphone jack,Jack_3.5mm_PJ320D_Horizontal,217.588,-82.92,180.0,top
+J2,Main + Sorties,TerminalBlock_bornier-6_P5.08mm,152.48,-55.5,0.0,top
+PS1,Alim RS PRO 5V 1A,Converter_ACDC_MeanWell_IRM-03-xx_THT,123.9475,-74.06,0.0,top
+Q1,BT136-600E,TO-220-3_Vertical,83.755,-79.52,-90.0,top
+Q2,BT136-600E,TO-220-3_Vertical,88.8,-79.51,90.0,top
+Q3,BT136-600E,TO-220-3_Vertical,101.76,-79.46,-90.0,top
+Q4,BT136-600E,TO-220-3_Vertical,106.805,-79.45,90.0,top
+R1,4.7KΩ,R_0402_1005Metric,208.4,-83.55,90.0,top
+R2,10KΩ,R_0603_1608Metric,199.07,-66.53,0.0,top
+R3,10KΩ,R_0603_1608Metric,199.07,-69.07,0.0,top
+R4,10KΩ,R_0603_1608Metric,199.07,-71.61,0.0,top
+R5,330Ω,R_0603_1608Metric,149.54,-88.12,-90.0,top
+R6,330Ω,R_0603_1608Metric,153.35,-88.12,-90.0,top
+R7,330Ω,R_0603_1608Metric,157.16,-88.12,-90.0,top
+R8,330Ω,R_0603_1608Metric,160.97,-88.12,-90.0,top
+R9,220Ω,R_0603_1608Metric,150.81,-79.865,0.0,top
+R10,220Ω,R_0603_1608Metric,163.51,-79.865,0.0,top
+R11,220Ω,R_0603_1608Metric,176.21,-79.865,0.0,top
+R12,220Ω,R_0603_1608Metric,188.91,-79.865,0.0,top
+R13,360Ω/0.5W,R_1210_3225Metric,145.73,-69.705,90.0,top
+R14,360Ω/0.5W,R_1210_3225Metric,158.43,-69.705,90.0,top
+R15,360Ω/0.5W,R_1210_3225Metric,171.13,-69.705,90.0,top
+R16,360Ω/0.5W,R_1210_3225Metric,183.83,-69.705,90.0,top
+U1,ESP32-POE,ESP32-POE,183.4805,-74.02,90.0,top
+U2,QAM-RX10-433,QAM-RX10-433,194.86,-54.61,0.0,top
+U3,MOC3021M,SMDIP-6_W9.53mm,152.08,-72.88,90.0,top
+U4,MOC3021M,SMDIP-6_W9.53mm,164.78,-72.88,90.0,top
+U5,MOC3021M,SMDIP-6_W9.53mm,177.48,-72.88,90.0,top
+U6,MOC3021M,SMDIP-6_W9.53mm,190.18,-72.88,90.0,top
