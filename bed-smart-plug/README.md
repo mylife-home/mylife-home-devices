@@ -321,11 +321,6 @@ Prix v1 :
 ![](v1.1/schematic.png)
 
 
-PCB :
-- encoches angles PCB trop petits, refaire les coins un carré de 10mm de côté
-=> deplacer le dissipateur de gauche (peut depasser un peu du PCB sur le bas)
-- Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
-
 TODO : 
 - faire un gabarit en image (mspaint peut avoir une unité en cm qui sort correctement à l'imprimante) des 2 facades à percer
 
