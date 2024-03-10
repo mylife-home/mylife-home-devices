@@ -275,13 +275,6 @@ Prix v1 :
 
 ## V1 (KO)
 
-- Pinout jack :
-  - VCC au bout => 4
-  - GND sur le corps => 1
-  - DATA 2 milieux reliés ensemble => 2-3
-- Fusible devrait tenir
-- Borniers OK en hauteur, on verra s'ils tiennent car ils sont gros sinon il faudra en mettre des plus petits
-
 ### Observations
 
 - Pinout Récepteur 433MHz mauvais : trou pas au bon endroit (decaler vers le bas) + trous trop petits (reprendre ceux de l'ESP)
@@ -314,11 +307,16 @@ Prix v1 :
 
 ### Wiring
 
+- Pinout jack :
+  - VCC au bout => 4
+  - GND sur le corps => 1
+  - DATA 2 milieux reliés ensemble => 2-3
+
 ### 3D view
 
 ![](v1.1/3dview.png)
 
-### Main
+### Schematic
 
 ![](v1.1/schematic.png)
 
