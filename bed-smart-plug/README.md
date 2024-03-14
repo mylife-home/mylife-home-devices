@@ -321,20 +321,28 @@ Prix v1 :
 ![](v1.1/schematic.png)
 
 
-### Gabarits
+### Perçage facades
+
+#### Gabarits
 
 - Entrées
 
-<img src="input-side.png" width="300">
+<img src="side-templates/input-side.png" width="300">
 
 - Sorties
 
-<img src="output-side.png" width="300">
+<img src="side-templates/output-side.png" width="300">
 
-- Notes :
-  - Utiliser avant dernier forêt placo pour faire les trous des angles
-  - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
-  - utiliser toute petite raboteuse métallique pour les finitions
+- A imprimer
+
+<img src="side-templates/print-template.png" width="300">
+
+
+#### Notes
+
+- Utiliser avant dernier forêt placo pour faire les trous des angles
+- Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
+- utiliser toute petite raboteuse métallique pour les finitions
 
 ## Notes
 
