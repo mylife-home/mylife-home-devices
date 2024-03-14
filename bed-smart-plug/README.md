@@ -321,8 +321,15 @@ Prix v1 :
 ![](v1.1/schematic.png)
 
 
-TODO : 
-- faire un gabarit en image (mspaint peut avoir une unité en cm qui sort correctement à l'imprimante) des 2 facades à percer
+### Gabarits
+
+- Entrées
+
+<img src="input-side.jpg" width="300">
+
+- Sorties
+
+<img src="output-side.jpg" width="300">
 
 - Notes :
   - Utiliser avant dernier forêt placo pour faire les trous des angles
