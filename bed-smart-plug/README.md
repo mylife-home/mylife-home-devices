@@ -49,7 +49,7 @@
   - https://www.amazon.fr/dp/B075FYYLLV/
   - https://fr.rs-online.com/web/p/connecteurs-jacks/5051299
 - Récepteur 433MHz : (modulation ASK)
-  - ~~ AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279 ~~ (frais de gestion trop chers)
+  - ~~AM-RX12A-433P https://fr.farnell.com/rf-solutions/am-rx12a-433p/recepteur-module-rf-433-92-110dbm/dp/2759279~~ (frais de gestion trop chers)
   - QAM-RX10-433 https://fr.rs-online.com/web/p/modules-rf/1258208
   - pinout compatible
   - normalement 5V, tester en broadboard avec alim 5V + pont diviseur sur les data pour passer a 3.3V
