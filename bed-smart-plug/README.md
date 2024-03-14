@@ -325,11 +325,11 @@ Prix v1 :
 
 - Entrées
 
-<img src="input-side.jpg" width="300">
+<img src="input-side.png" width="300">
 
 - Sorties
 
-<img src="output-side.jpg" width="300">
+<img src="output-side.png" width="300">
 
 - Notes :
   - Utiliser avant dernier forêt placo pour faire les trous des angles
