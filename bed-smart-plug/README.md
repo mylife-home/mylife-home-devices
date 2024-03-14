@@ -54,7 +54,7 @@
   - pinout compatible
   - normalement 5V, tester en broadboard avec alim 5V + pont diviseur sur les data pour passer a 3.3V
 - Triac : BT136-600E https://fr.rs-online.com/web/p/triac/7271120
-  - ~~ Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/ ~~
+  - ~~Dissipateur https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898101/~~
   - moins haut, même base : https://fr.rs-online.com/web/p/dissipateurs-de-chaleur/1898094
   - vis M3 : même que garden box : https://fr.rs-online.com/web/p/vis-a-rondelle-indesserrable/0279149
   - écrous M3 : https://fr.rs-online.com/web/p/ecrous-hexagonaux/0560293
@@ -66,10 +66,10 @@
     - les facades laterales sont d'un seul tenant: le couvercle est "plat", plus facile pour percer les facades.
   - Vis de fixation PCB : https://fr.rs-online.com/web/p/vis-autotaraudeuses/4831202
 - Prises :
-  - entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207
-  - sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193
+  - ~~entree C14 : https://fr.rs-online.com/web/p/connecteurs-iec/8117207~~
+  - ~~sortie C13 : https://fr.rs-online.com/web/p/connecteurs-iec/8117193~~
   - sortie C13 x 4 à clip : https://fr.rs-online.com/web/p/connecteurs-iec/2318101
-    - dessouder une barre ou la couper (phase), laisser les 2 autres
+    - couper une barre (phase), laisser les 2 autres
     - montage :
     
     <img src="pictures/mounting-c13x4.gif" width="350">
@@ -79,7 +79,7 @@
     
     <img src="pictures/mounting-c14.gif" width="150">
 
-  - ~~ 1 entrée 4 sorties : https://fr.rs-online.com/web/p/connecteurs-iec/3135474 ~~
+  - ~~1 entrée 4 sorties : https://fr.rs-online.com/web/p/connecteurs-iec/3135474~~
     - semble indisponible
 
 ## Observations Prototype-1 epanel-io
