@@ -33,6 +33,16 @@
 
 <img src="v1/pictures/tableau.jpg" width="300">
 
+## Debug UART
+
+_GPIO3 est utilisé par l'UART_
+
+- Reflasher config ESP :
+  - interrupt pin GPIO16 (inutilisé). Cela rend les inputs inutilisables.
+  - base.yaml: logger -> baud_rate: 115200
+- Débrancher la connexion vers picos, et relier avec des dupont tous les pin sauf celui du milieu (interrupt pin)
+- Brancher micro usb low profile sur l'ESP
+
 ## Notes
 
 - Alimentation : 
