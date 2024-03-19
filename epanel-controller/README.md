@@ -43,6 +43,76 @@ _GPIO3 est utilisé par l'UART_
 - Débrancher la connexion vers picos, et relier avec des dupont tous les pin sauf celui du milieu (interrupt pin)
 - Brancher micro usb low profile sur l'ESP
 
+### Logs
+
+2024.03.18 - plantage au boot
+
+```
+E (26932) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (26932) task_wdt:  - loopTask (CPU 1)
+E (26932) task_wdt: Tasks currently running:
+E (26932) task_wdt: CPU 0: IDLE
+E (26932) task_wdt: CPU 1: IDLE
+E (26932) task_wdt: Aborting.
+
+abort() was called at PC 0x400f78f0 on core 0
+
+
+Backtrace:0x40083ba5:0x3ffbe8ac |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+```
+
+2024.03.18 - plantage quand trop d'ordres
+
+```
+E (108994) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (108994) task_wdt:  - async_tcp (CPU 1)
+E (108994) task_wdt: Tasks currently running:
+E (108994) task_wdt: CPU 0: IDLE
+E (108994) task_wdt: CPU 1: IDLE
+E (108994) task_wdt: Aborting.
+
+abort() was called at PC 0x400f78f0 on core 0
+
+
+Backtrace:0x40083ba5:0x3ffbe8ac |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+```
+
 ## Notes
 
 - Alimentation : 
