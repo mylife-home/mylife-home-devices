@@ -82,6 +82,8 @@
   - ~~1 entrée 4 sorties : https://fr.rs-online.com/web/p/connecteurs-iec/3135474~~
     - semble indisponible
 
+  - Prise C14 pour câbles : https://amzn.eu/d/47d2yMY
+
 ## Observations Prototype-1 epanel-io
 
 - cf [epanel-io/README.md#observations](../epanel-io/README.md#observations) - Triac
@@ -337,12 +339,17 @@ Prix v1 :
 
 <img src="side-templates/print-template.png" width="300">
 
-
 #### Notes
 
 - Utiliser avant dernier forêt placo pour faire les trous des angles
 - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
 - utiliser toute petite raboteuse métallique pour les finitions
+
+### Images
+
+<img src="pictures/v1.1/rabotage-radiateur.jpg" width="300">
+<img src="pictures/v1.1/inside-wiring.jpg" width="300">
+<img src="pictures/v1.1/inside-full.jpg" width="300">
 
 ## Notes
 
