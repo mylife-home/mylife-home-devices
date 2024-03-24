@@ -310,9 +310,9 @@ Prix v1 :
 ### Wiring
 
 - Pinout jack :
-  - VCC au bout => 4
-  - GND sur le corps => 1
-  - DATA 2 milieux reliés ensemble => 2-3
+  - Rouage : VCC : bout => 4
+  - Noir : GND : sur le corps => 1
+  - Jaune : DATA : tige sur le côté => 2-3
 
 ### 3D view
 
@@ -344,6 +344,17 @@ Prix v1 :
 - Utiliser avant dernier forêt placo pour faire les trous des angles
 - Puis utiliser gros puis petite raboteuse granuleuse de Dremel pour les bords droits
 - utiliser toute petite raboteuse métallique pour les finitions
+- Utiliser plus gros forêt pour la prise jack (le corps de la prise doit passer dedans)
+
+### Correctifs
+
+- mauvaise tension alimentation récepteur 433MHz
+
+<img src="pictures/v1.1/todo.jpg" width="300">
+
+  - limer piste alimentation récepteur 433MHz
+  - ponter alimentation sur 5V ESP
+
 
 ### Images
 
