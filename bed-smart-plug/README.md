@@ -314,6 +314,8 @@ Prix v1 :
   - Noir : GND : sur le corps => 1
   - Jaune : DATA : tige sur le côté => 2-3
 
+<img src="pictures/v1.1/jack-pinout.jpg" width="300">
+
 ### 3D view
 
 ![](v1.1/3dview.png)
@@ -350,7 +352,7 @@ Prix v1 :
 
 - mauvaise tension alimentation récepteur 433MHz
 
-<img src="pictures/v1.1/todo.jpg" width="300">
+<img src="pictures/v1.1/correctif-alim-433.jpg" width="300">
 
   - limer piste alimentation récepteur 433MHz
   - ponter alimentation sur 5V ESP
@@ -361,6 +363,7 @@ Prix v1 :
 <img src="pictures/v1.1/rabotage-radiateur.jpg" width="300">
 <img src="pictures/v1.1/inside-wiring.jpg" width="300">
 <img src="pictures/v1.1/inside-full.jpg" width="300">
+<img src="pictures/v1.1/jack-percage.jpg" width="300">
 
 ## Notes
 
