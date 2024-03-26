@@ -364,6 +364,7 @@ Prix v1 :
 <img src="pictures/v1.1/inside-wiring.jpg" width="300">
 <img src="pictures/v1.1/inside-full.jpg" width="300">
 <img src="pictures/v1.1/jack-percage.jpg" width="300">
+<img src="pictures/v1.1/fini.jpg" width="300">
 
 ## Notes
 
