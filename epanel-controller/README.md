@@ -32,6 +32,7 @@
 ### Images
 
 <img src="v1/pictures/tableau.jpg" width="300">
+<img src="v1/pictures/tableau-opened.jpg" width="300">
 
 ## Debug UART
 
