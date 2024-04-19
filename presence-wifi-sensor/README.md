@@ -32,4 +32,7 @@
  
 - shelly motion 2 ??
 
+- DHT20 : temp + humidité
+- ?? : light
+
 ## Links
