@@ -12,6 +12,7 @@ MyLife Home devices
 - [Gate driver](gate-driver/README.md) :question: Pilote de portail
 - [Bed Smart Plug](bed-smart-plug/README.md) :white_check_mark: "Multiprise intelligente" pour mettre en tête de lit
 - [Presence Wifi sensor](presence-wifi-sensor/README.md) :question: Détecteur de présence Wifi
+- [RGB LED inverter](rgb-led-inverter/README.md) :question: common anode -> common cathode
 - RGB indoor box :question: Boîtier de commande spots/ruban leds RGB en intérieur
 - Kitchen hood driver :question: Pilote de hôte
 - Pergola driver :question: Pilote de pergola (ZETA 868 ?)
