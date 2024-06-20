@@ -6,6 +6,8 @@
   - Driver : commun (noir) = vcc
   - LEDs : commun (noir) = gnd
   - 5V, résistances directement sur chaque LED
+  - => transformer common anode en common cathode
+- Boitier fermé correctement pour aller dans le spa
 - Si possible fonctionner en 12V aussi pour être générique
 
 ## Notes
