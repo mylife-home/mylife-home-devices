@@ -13,3 +13,4 @@
 ## Notes
 
 https://www.instructables.com/Connect-Common-Anode-RGB-LEDs-to-Common-Ground-RG/
+https://electronics.stackexchange.com/questions/353218/p-channel-mosfet-switch
