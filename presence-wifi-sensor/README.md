@@ -31,6 +31,7 @@
   - HLK-LD1115H - Sen0395 (cher) -> https://amzn.eu/d/9S0WEwP
  
 - shelly motion 2 ??
+- aquar FP2 ??
 
 - DHT20 : temp + humidité
 - ?? : light
