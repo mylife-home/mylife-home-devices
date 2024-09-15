@@ -28,7 +28,9 @@
 - Ultrasound sensor (sonar) :
   - HC-SR04
   - mmWave
-  - HLK-LD1115H - Sen0395 (cher) -> https://amzn.eu/d/9S0WEwP
+  - HLK-LD1115H - Sen0395 (cher)
+    - https://amzn.eu/d/9S0WEwP
+    - https://wiki.dfrobot.com/mmWave_Radar_Human_Presence_Detection_SKU_SEN0395
  
 - shelly motion 2 ??
 - aquara FP2 ??
