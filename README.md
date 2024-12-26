@@ -17,6 +17,7 @@ MyLife Home devices
 - Kitchen hood driver :question: Pilote de hôte
 - Pergola driver :question: Pilote de pergola (ZETA 868 ?)
 - [Fairy lights](fairy-lights/README.md): :hourglass: guirlande de noël
+- [Heat driver](heat-driver/README.md): :question: pilote de radiateur
 
 ## Notes
 - Tutorial KiCad: https://www.youtube.com/playlist?list=PLuQznwVAhY2WA4CIf3_aB_e8hRCSbQuUp
