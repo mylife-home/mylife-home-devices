@@ -14,7 +14,7 @@
   - ( https://www.adafruit.com/product/4917 )
 - Contrôleur :
   - WeMos D1 mini, sur gpio3 pour DMA
-  - config esphome dma
+  - config esphome dma -> GPIO3 - RX
 - Alimentation :
   - Puissance guirlande : Alim 5V 6A -> 60ma / led
   - alim 6A (69.5x39x24) : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358945
