@@ -38,3 +38,5 @@
 - `-` -> fil de l'autre côté 
 
 <img src="pictures/fairy-lights-pinout.jpg" width="300">
+
+## V1
