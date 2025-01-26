@@ -40,3 +40,13 @@
 <img src="pictures/fairy-lights-pinout.jpg" width="300">
 
 ## V1
+
+### Wiring
+
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
+![](v1/schematic.png)
