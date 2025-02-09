@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+Screw_Terminal_01x03,J4,TerminalBlock_bornier-3_P5.08mm,
+10KΩ,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,
+Heatsink,HS1,Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm,
+WeMos_D1_mini,U1,WEMOS_D1_mini_light,
+IRLZ44N,Q1,TO-220-3_Vertical,
+Screw_Terminal_01x02,J2,TerminalBlock_bornier-2_P5.08mm,
