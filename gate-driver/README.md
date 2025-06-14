@@ -3,12 +3,11 @@
 ## Besoin
 - piloter le portail
 - le plus de contrôle possible
-- intégrer dans garden box
+- boitier separé dans garage à côté deu moteur de porte
 
 ## Design
 
-- Ajouter une carte intermédiaire entre l'esp et la carte garden box. forwarder tous les pins utilisés par garden box
-
+- carte avec d1 mini, fs1000a et boîtier comme clim
 
 ## Notes
 
