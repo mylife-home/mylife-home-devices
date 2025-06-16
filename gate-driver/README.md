@@ -9,6 +9,20 @@
 
 - Carte avec WeMos D1 mini, fs1000a et boîtier comme clim
 
+## Material
+
+TODO
+
+## V1
+
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
+![](v1/schematic.png)
+
 ## Notes
 
 - https://github.com/rstrouse/ESPSomfy-RTS
