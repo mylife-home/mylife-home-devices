@@ -18,6 +18,11 @@
   - vis : https://fr.rs-online.com/web/p/vis-a-metaux/9141462
 - Wemos D1 mini :
   - https://www.amazon.fr/dp/B093G72SHN
+- Emetteur :
+  - FS100A
+  - Oscillateur 433.42MHz
+  - changer l'oscillateur : https://github.com/Nickduino/Pi-Somfy
+  
 
 ## V1
 
