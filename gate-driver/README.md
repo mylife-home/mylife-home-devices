@@ -30,6 +30,8 @@
 
 ![](v1/3dview.png)
 
+_Note: mettre des pins male pour le FS100A_
+
 ### Main
 
 ![](v1/schematic.png)
