@@ -7,7 +7,7 @@
 
 ## Design
 
-- carte avec d1 mini, fs1000a et boîtier comme clim
+- Carte avec WeMos D1 mini, fs1000a et boîtier comme clim
 
 ## Notes
 
