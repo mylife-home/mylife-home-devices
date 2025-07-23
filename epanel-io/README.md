@@ -39,6 +39,28 @@
 - Connexion i2c + power
 - master controler olimex esp32 dans le tableau electrique
 
+## V1.1
+
+### Materiel :
+
+- Boitier aéré :
+  - CNMB/6V/2 https://fr.rs-online.com/web/p/boitiers-rail-din/7495913
+  - CNMB/6V/KIT https://fr.rs-online.com/web/p/boitiers-rail-din/7495840
+
+### Observations V1 19 Juillet 2025
+
+**Très chauds :**
+- R2 - R3
+- U2
+
+**Chauds (tout le haut) :**
+- U4 R7 et toute la ligne
+- R36 diode 1N4007 et toute la ligne
+
+<img src="v1/pictures/heat-2025-top.jpg" width="300">
+<img src="v1/pictures/heat-2025-bottom.jpg" width="300">
+
+
 ## V1
 
 _Mise en service : 8 OCT 2022_
