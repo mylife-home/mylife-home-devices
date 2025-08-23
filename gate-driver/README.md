@@ -4,7 +4,7 @@
 
 - piloter le portail
 - le plus de contrôle possible
-- boitier separé dans garage à côté deu moteur de porte
+- boitier separé dans garage à côté du moteur de porte
 
 ## Design
 
@@ -45,6 +45,11 @@ _Note: mettre des pins male pour le FS100A_
 
 - Sur la sérigraphie, GNC et VCC est inversés
 - Trou fait à la perceuse puis lime ronde
+- Apparairage :
+  - l'émetteur doit être proche du portail
+  - mettre le portail en mode appairage (ouvert, etc)
+  - Actionner "ouverture" de l'émetteur
+  - on peut essayer de poser une télécommande différente sur la cible
 
 ---
 
