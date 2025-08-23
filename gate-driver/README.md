@@ -34,7 +34,19 @@ _Note: mettre des pins male pour le FS100A_
 
 ![](v1/schematic.png)
 
+### Images
+
+| | | |
+|---|---|---|
+|<img src="v1/pictures/inside-top.jpg" width="300">|<img src="v1/pictures/inside-side.jpg" width="300">||
+|<img src="v1/pictures/box-hole.jpg" width="300">|<img src="v1/pictures/box-side.jpg" width="300">|<img src="v1/pictures/box-hole.jpg" width="300">|
+
 ## Notes
+
+- Sur la sérigraphie, GNC et VCC est inversés
+- Trou fait à la perceuse puis lime ronde
+
+---
 
 - https://github.com/rstrouse/ESPSomfy-RTS
 - https://pushstack.wordpress.com/somfy-rts-protocol/
