@@ -26,6 +26,29 @@
 - IRLZ44N pour switch l'alim (sans heatsink), sortie esp direct sur Din LEDs : https://fr.rs-online.com/web/p/transistors-mosfet/5410086 541-0086
 - Boitier : https://fr.rs-online.com/web/p/boitiers-pour-usage-general/9190373 - 919-0373
 
+## V1
+
+### Wiring
+
+- `+` -> fil avec points noirs
+- `D` -> fil du milieu
+- `-` -> fil de l'autre côté 
+
+### 3D view
+
+![](v1/3dview.png)
+
+### Main
+
+![](v1/schematic.png)
+
+### Images
+
+<img src="v1/pictures/all.jpg" width="300">
+<img src="v1/pictures/board.jpg" width="300">
+<img src="v1/pictures/box.jpg" width="300">
+
+
 ## Prototype 1
 
 - Sur breadboard
@@ -38,15 +61,3 @@
 - `-` -> fil de l'autre côté 
 
 <img src="pictures/fairy-lights-pinout.jpg" width="300">
-
-## V1
-
-### Wiring
-
-### 3D view
-
-![](v1/3dview.png)
-
-### Main
-
-![](v1/schematic.png)
