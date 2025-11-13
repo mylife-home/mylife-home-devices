@@ -44,7 +44,9 @@
 ## Design
 
 - Board : ESP32-POE https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
-- Alim 220v -> 5V 1A : https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200
+- Alim 220v -> 5V 1A : 
+  - ~~https://fr.rs-online.com/web/p/alimentations-a-decoupage/1812200~~ (n'existe plus)
+  - https://fr.rs-online.com/web/p/alimentations-a-decoupage/1359226
 - Jack DS18B20 :
   - https://www.amazon.fr/dp/B075FYYLLV/
   - https://fr.rs-online.com/web/p/connecteurs-jacks/5051299
