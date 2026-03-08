@@ -62,3 +62,16 @@ _Note: mettre des pins male pour le FS100A_
 - https://github.com/Legion2/Somfy_Remote_Lib
 - appairage: https://forum.eedomus.com/viewtopic.php?f=14&t=2058
 - rfxcom : http://www.rfxcom.com/epages/78165469.mobile/en_GB/?ObjectPath=/Shops/78165469/Products/14103&Locale=en_GB
+
+## Appairage Freevia 600
+
+- Amener une rallonge + un ordi au moteur, brancher le boitier gate driver
+- Ouvrir le capot du moteur
+- Appuyer sur le bouton 2 sec pour que la lumiere rouge s'allume
+- Poser le boitier gate driver dessus sur la tranche (cf photo)
+- Actionner la commande STOP. La led "radio" s'allume pendant 1 sec, puis s'éteint -> le boitier est appairé
+
+<img src="v1/pictures/pairing.jpg" width="300">
+
+- Si la led "radio" clignotte 2-3 fois, c'est que le signal est detecté mais l'appairage n'a pas marché
+- Si la led "radio" ne s'allume pas, pas de signal.
