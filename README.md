@@ -15,7 +15,7 @@ MyLife Home devices
 - [RGB LED inverter](rgb-led-inverter/README.md) :no_entry: common anode -> common cathode
 - RGB indoor box :question: Boîtier de commande spots/ruban leds RGB en intérieur
 - Kitchen hood driver :question: Pilote de hôte
-- Pergola driver :question: Pilote de pergola (ZETA 868 ?)
+- [Pergola driver](pergola-driver/README.md) :question: Pilote de pergola
 - [Fairy lights](fairy-lights/README.md): :hourglass: guirlande de noël
 - [Heater driver](heater-driver/README.md): :question: pilote de radiateur
 - [Deco light](deco-light/README.md): :question: Lumière de décoration
