@@ -16,7 +16,7 @@ MyLife Home devices
 - RGB indoor box :question: Boîtier de commande spots/ruban leds RGB en intérieur
 - Kitchen hood driver :question: Pilote de hôte
 - [Pergola driver](pergola-driver/README.md) :question: Pilote de pergola
-- [Fairy lights](fairy-lights/README.md): :hourglass: guirlande de noël
+- [Fairy lights](fairy-lights/README.md): :white_check_mark: guirlande de noël
 - [Heater driver](heater-driver/README.md): :question: pilote de radiateur
 - [Deco light](deco-light/README.md): :question: Lumière de décoration
 
