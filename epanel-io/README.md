@@ -47,6 +47,8 @@
   - CNMB/6V/2 https://fr.rs-online.com/web/p/boitiers-rail-din/7495913
   - CNMB/6V/KIT https://fr.rs-online.com/web/p/boitiers-rail-din/7495840
 
+TODO: borniers amovibles
+
 ### Observations V1 19 Juillet 2025 sur V1
 
 **Très chauds :**
