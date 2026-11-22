@@ -46,8 +46,11 @@
 - Boitier aéré :
   - CNMB/6V/2 https://fr.rs-online.com/web/p/boitiers-rail-din/7495913
   - CNMB/6V/KIT https://fr.rs-online.com/web/p/boitiers-rail-din/7495840
-
-TODO: borniers amovibles
+- Borniers enfichables :
+  - Bornier 3 voies : https://fr.farnell.com/phoenix-contact/1792252/fiche-male-90deg-ci-3v-5-08mm/dp/3705456
+  - Base 3 voies : https://fr.farnell.com/en-FR/phoenix-contact/mstb-2-5-3-g-5-08/terminal-block-header-3pos-r-a/dp/2671262
+  - Bornier 5 voies : https://fr.farnell.com/phoenix-contact/1792278/fiche-male-90deg-ci-5v-5-08mm/dp/3705470
+  - Base 5 voies : https://fr.farnell.com/phoenix-contact/1759046/bornier-header-5-voies-90-traversant/dp/2671264
 
 ### Observations V1 19 Juillet 2025 sur V1
 
